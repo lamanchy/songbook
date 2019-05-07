@@ -101,8 +101,15 @@ poznat z akordů / přirozené struktury textu
 
 #### zápis akordů
 
+Dvě nejdůležitější pravidla:
+
+!!! první znak je vždy jeden z: CDEFGABH
+
+!!! vedle akrdů může být počet opakování (3x, 5x), ale NIC jiného
+
+jinak:
+
 ```
-první znak je vždy jeden z: CDEFGABH !!!
 A - dur
 Am - mol
 A# - ais dur
@@ -149,4 +156,4 @@ o dvě mezery dál než poslední `l`)
 - Například druhé `C` zní přesně se znakem `r`
 
 Mnohé z písniček jsou mnohem přímočarejší, i tak prosím pozor na správné
-umístění akordů. 
+umístění akordů

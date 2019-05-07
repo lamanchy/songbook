@@ -14,6 +14,7 @@ class SongText(object):
 
             if line.is_text_line():
                 line.replace("  ", " ")
+                line.remove_funny_ending()
 
             lines[i] = line
 

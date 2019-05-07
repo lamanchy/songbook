@@ -34,3 +34,8 @@ class Line(object):
         while text != text.replace(old, new):
             text = text.replace(old, new)
         return text
+
+    def remove_funny_ending(self):
+        while self.text[-1] in ",.-!?":
+            self.text = self.text[:-1]
+            self.rstrip()
