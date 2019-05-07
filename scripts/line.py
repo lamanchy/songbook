@@ -39,3 +39,8 @@ class Line(object):
         while self.text[-1] in ",.-!?":
             self.text = self.text[:-1]
             self.rstrip()
+
+    def fix_interpunction(self):
+        self.replace(".", ",")
+        self.replace(",,", ",")
+        self.text = re.sub(r",(?=\S)", ", ", self.text)
