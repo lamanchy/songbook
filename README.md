@@ -118,6 +118,8 @@ Ab - as dur
 Abm - as mol
 Asus - asus
 Adim - adim
+Amaj
+Amaj7
 A9
 A9# - a se zvýšenou devítkou...
 H je H a B je B, Bb je A

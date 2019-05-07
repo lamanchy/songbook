@@ -6,9 +6,10 @@ class Line(object):
         self.text = text
 
     def is_empty(self):
-        return len(self.text) == 0
+        return len(self.text.strip()) == 0
 
     def is_chord_line(self):
+        if self.is_empty(): return False
         not_empty_parts = [part for part in self.text.split(" ") if len(part) > 0]
         return all([self.is_chord(part) or self.is_extra(part) for part in not_empty_parts])
 
@@ -44,8 +45,10 @@ class Line(object):
             self.rstrip()
 
     def fix_interpunction(self):
-        self.replace(".", ",")
+        for c in ".!?":
+            self.replace(c, ",")
         self.replace(",,", ",")
+        self.text = re.sub(r",(?![\s\w])", "", self.text)
         self.text = re.sub(r",(?=\S)", ", ", self.text)
 
     def upper_first_letter(self):

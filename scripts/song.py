@@ -13,11 +13,6 @@ class Song(object):
         self.file_name = file_name
         self.text = self.load_text()
 
-        if self.text.text != self.text.parsed_text():
-            self.text.text = self.text.parsed_text()
-            with open(self.path, "w", encoding="UTF-8") as f:
-                f.write(self.text.text)
-
     @classmethod
     def load_songs(cls):
         return [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
@@ -78,7 +73,15 @@ class Song(object):
 
     def load_text(self):
         with open(self.path, "r", encoding="UTF-8") as f:
-            return SongText(f.read())
+            text = SongText(f.read())
+
+        while text.text != text.parsed_text():
+            text.text = text.parsed_text()
+            with open(self.path, "w", encoding="UTF-8") as f:
+                f.write(text.text)
+
+        return text
+
 
     def validate_name(self, name, its_name):
         if len(name) == 0:
