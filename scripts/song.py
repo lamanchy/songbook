@@ -41,17 +41,7 @@ class Song(object):
         new_file_name = title + self.separator + author + self.extension
 
         if self.__file_name != new_file_name:
-            with open(os.path.join(SONGS_DIR, self.__file_name), "r") as f:
-                with open(os.path.join(SONGS_DIR, "tmp"), "w+") as out:
-                    out.write(f.read())
-
-            os.remove(os.path.join(SONGS_DIR, self.__file_name))
-
-            with open(os.path.join(SONGS_DIR, "tmp"), "r") as f:
-                with open(os.path.join(SONGS_DIR, new_file_name), "w+") as out:
-                    out.write(f.read())
-
-            os.remove(os.path.join(SONGS_DIR, "tmp"))
+            os.rename(os.path.join(SONGS_DIR, self.__file_name), os.path.join(SONGS_DIR, new_file_name))
             self.__file_name = new_file_name
 
     def set_file_name(self, title, author):
