@@ -1,15 +1,26 @@
 import os
 
-from scripts.settings import SONGS_DIR
+from scripts.settings import BASE_DIR
+from scripts.song_text import SongText
 
 
 class Song(object):
     extension = ".txt"
     separator = " - "
+    SONGS_DIR = os.path.join(BASE_DIR, "songs")
 
     def __init__(self, file_name: str):
-        self.__file_name = None
         self.file_name = file_name
+        self.text = self.load_text()
+
+        if self.text.text != self.text.parsed_text():
+            self.text.text = self.text.parsed_text()
+            with open(self.path, "w", encoding="UTF-8") as f:
+                f.write(self.text.text)
+
+    @classmethod
+    def load_songs(cls):
+        return [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
 
     @property
     def file_name(self):
@@ -17,59 +28,64 @@ class Song(object):
 
     @file_name.setter
     def file_name(self, value):
-        if not value.endswith(self.extension):
-            raise ValueError(f"{value} does not end with extension {self.extension}")
+        self.__file_name = value
 
-        name = self.remove_extension(value)
+        self.validate_file_name()
+
+        self.validate_name(self.title, "title")
+        self.validate_name(self.author, "author")
+
+    def validate_file_name(self):
+        if not os.path.isfile(self.path):
+            raise FileNotFoundError(f"{self.path} is not valid song name, file does not exists")
+
+        if not self.file_name.endswith(self.extension):
+            raise ValueError(f"{self.file_name} does not end with extension {self.extension}")
+
+        name = self.remove_extension()
         if name.count(self.separator) != 1:
-            raise ValueError(f"{value} contains {name.count(self.separator)} separators, there should be only"
-                             f"one '{self.separator}'")
-
-        title, author = name.split(self.separator)
-
-        if len(title) == 0: raise ValueError(f"title of {value} is empty")
-        if len(author) == 0: raise ValueError(f"author of {value} is empty")
-
-        if self.__file_name is None:
-            self.__file_name = value
-
-        title = title.strip()
-        author = author.strip()
-        title = title[0].upper() + title[1:]
-        author = author[0].upper() + author[1:]
-
-        new_file_name = title + self.separator + author + self.extension
-
-        if self.__file_name != new_file_name:
-            os.rename(os.path.join(SONGS_DIR, self.__file_name), os.path.join(SONGS_DIR, new_file_name))
-            self.__file_name = new_file_name
+            raise ValueError(f"{self.file_name} contains {name.count(self.separator)} separators, "
+                             f"there should be only one '{self.separator}'")
 
     def set_file_name(self, title, author):
         self.file_name = title + self.separator + author + self.extension
 
     @property
     def title(self):
-        return self.file_name[:-len(self.extension)].split(self.separator)[0]
+        return self.parse_title_and_author()[0]
 
     @title.setter
     def title(self, value):
-        self.file_name = value + self.separator + self.author + self.extension
+        self.set_file_name(value, self.author)
 
     @property
     def author(self):
-        return self.file_name[:-len(self.extension)].split(self.separator)[1]
+        return self.parse_title_and_author()[1]
 
     @author.setter
     def author(self, value):
-        self.file_name = self.title + self.separator + value + self.extension
+        self.set_file_name(self.title, value)
 
     @property
     def path(self):
-        return os.path.join(SONGS_DIR, self.file_name)
+        return os.path.join(self.SONGS_DIR, self.file_name)
 
-    def load(self):
-        if not os.path.isfile(self.path):
-            raise FileNotFoundError(f"{self.path} is not valid song name, it does not exists")
+    def parse_title_and_author(self):
+        return self.remove_extension().split(self.separator)
 
-    def remove_extension(self, file_name):
-        return file_name[:-len(self.extension)]
+    def remove_extension(self):
+        return self.file_name[:-len(self.extension)]
+
+    def load_text(self):
+        with open(self.path, "r", encoding="UTF-8") as f:
+            return SongText(f.read())
+
+    def validate_name(self, name, its_name):
+        if len(name) == 0:
+            raise ValueError(f"{its_name} of {self.file_name} is empty")
+        if name != name.strip():
+            raise ValueError(f"there cannot be any spaces around {its_name} '{name}' in {self.file_name}")
+        if not name[0].isupper():
+            raise ValueError(f"first letter of {its_name} {name} must be uppercase")
+        if "  " in name:
+            raise ValueError(f"{its_name} {name} cannot contain two spaces next to each other")
