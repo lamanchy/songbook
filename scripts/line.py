@@ -26,6 +26,9 @@ class Line(object):
     def rstrip(self):
         self.text = self.text.rstrip()
 
+    def lstrip(self):
+        self.text = self.text.lstrip()
+
     def replace(self, old, new):
         self.text = self.replace_all(self.text, old, new)
 
@@ -44,3 +47,6 @@ class Line(object):
         self.replace(".", ",")
         self.replace(",,", ",")
         self.text = re.sub(r",(?=\S)", ", ", self.text)
+
+    def upper_first_letter(self):
+        self.text = self.text[0].upper() + self.text[1:]
