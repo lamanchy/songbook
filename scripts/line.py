@@ -57,4 +57,7 @@ class Line(object):
         self.text = re.sub(r",(?=\S)", ", ", self.text)
 
     def upper_first_letter(self):
-        self.text = self.text[0].upper() + self.text[1:]
+        for i, c in enumerate(self.text):
+            if c != ' ':
+                self.text = self.text[:i] + self.text[i].upper() + self.text[i + 1:]
+                break
