@@ -1,5 +1,4 @@
-import re
-from typing import List
+from scripts.line import Line
 
 
 class SongText(object):
@@ -8,13 +7,18 @@ class SongText(object):
         self.parsed_text()
 
     def parsed_text(self):
-        # rstrp all lines
-        lines = self.text.split("\n")
-        lines = [line.rstrip() for line in lines]
+        lines = [Line(line) for line in self.text.split("\n")]
 
-        # max two empty lines
-        lines = "\n".join(lines)
-        while lines != lines.replace(3 * "\n", 2 * "\n"):
-            lines = lines.replace(3 * "\n", 2 * "\n")
+        for i, line in enumerate(lines):
+            line.rstrip()
 
+            if line.is_text_line():
+                line.replace("  ", " ")
+
+            lines[i] = line
+
+        lines = "\n".join([line.text for line in lines])
+
+        lines = Line.replace_all(lines, "\n\n\n", "\n\n")
         return lines
+

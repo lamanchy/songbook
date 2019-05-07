@@ -102,6 +102,7 @@ poznat z akordů / přirozené struktury textu
 #### zápis akordů
 
 ```
+první znak je vždy jeden z: CDEFGABH !!!
 A - dur
 Am - mol
 A# - ais dur
