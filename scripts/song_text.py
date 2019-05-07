@@ -25,8 +25,6 @@ class SongText(object):
             # if line.is_chord_line() and i + 1 != len(lines):
             #     if lines[i+1].is_chord_line():
 
-
-
             lines[i] = line
 
         lines = "\n".join([line.text for line in lines])

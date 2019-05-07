@@ -48,6 +48,8 @@ class Line(object):
         for c in ".!?":
             self.replace(c, ",")
         self.replace(",,", ",")
+        self.text = re.sub(r"^,", "", self.text)
+        self.text = re.sub(r" ,", ",", self.text)
         self.text = re.sub(r",(?![\s\w])", "", self.text)
         self.text = re.sub(r",(?=\S)", ", ", self.text)
 
