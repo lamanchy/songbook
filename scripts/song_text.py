@@ -17,7 +17,7 @@ class SongText(object):
                 line.replace("  ", " ")
                 line.remove_funny_ending()
                 line.fix_interpunction()
-                if i > 0 and not lines[i - 1].is_chord_line():
+                if i > 0 and not lines[i - 1].justifies_next_spaced():
                     line.lstrip()
 
                 line.upper_first_letter()

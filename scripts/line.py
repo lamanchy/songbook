@@ -16,6 +16,9 @@ class Line(object):
     def is_text_line(self):
         return not self.is_empty() and not self.is_chord_line()
 
+    def justifies_next_spaced(self):
+        return self.is_chord_line() and self.text[0] != " "
+
     @staticmethod
     def is_chord(chars):
         return chars[0] in "CDEFGABH"
