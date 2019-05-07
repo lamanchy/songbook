@@ -61,3 +61,32 @@ class Line(object):
             if c != ' ':
                 self.text = self.text[:i] + self.text[i].upper() + self.text[i + 1:]
                 break
+
+    def format_chord_naming(self):
+        pass
+
+    def format_chord_position(self, next_line):
+        start_index = 0
+
+        if next_line is not None and not next_line.is_empty():
+            start_index = len(next_line.text) - 1
+
+            while True:
+                if start_index >= len(self.text):
+                    return
+
+                if self.text[start_index] == " ":
+                    break
+
+                start_index += 1
+
+        to_squeeze = self.text[start_index:]
+
+        to_squeeze = Line.replace_all(to_squeeze, "  ", " ")
+        to_squeeze = to_squeeze.strip()
+
+        if start_index != 0:
+            to_squeeze = " " + to_squeeze
+            start_index += 1
+
+        self.text = self.text[:start_index] + to_squeeze
