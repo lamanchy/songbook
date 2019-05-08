@@ -63,6 +63,9 @@ class Line(object):
                 break
 
     def format_chord_naming(self):
+        # sus4 - sus
+        # rm add
+        #
         pass
 
     def format_chord_position(self, next_line):

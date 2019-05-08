@@ -107,24 +107,57 @@ Dvě nejdůležitější pravidla:
 
 !!! vedle akrdů může být počet opakování (3x, 5x), ale NIC jiného
 
-jinak:
+všechny tvary akordů:
 
 ```
-A - dur
-Am - mol
-A# - ais dur
-As - as dur
-Ab - as dur
-Abm - as mol
-Asus - asus
-Adim - adim
-Amaj
-Amaj7
-A9
-A9# - a se zvýšenou devítkou...
-H je H a B je B, Bb je A
-A/C - a s tónem C v basu
-AC/DC - to je kapela, ne akord
+Akord začíná primou, tón je jeden z: cdefgabh
+C je dur, c je moll
+Za primou může být:
+    křížek: # is (tedy například F# Fis)
+    béčko b s es (tedy například Eb Es Des)
+
+durový akort může být kormě velikosti písmene označen:
+dur, maj, △ (toto má přednost před velikostí písmene, tedy c△ bude C ne Cm
+
+molový akord může být označen:
+m, min, mol
+
+preferovaný zápis (a zápis, na který jsou akordy převáděny) je:
+C, Cm, Cb Cbm, C#, C#m
+
+Další možné tvary akordů:
+(vždy: název - alerernativní názvy - tóny daného akordu
+C CMaj C△ Cdur, C - E - G
+Cm Cmin, C - Eb - G
+C7, C - E - G - Bb
+Cm7, C - Eb - G - Bb
+Cmaj7, C - E - G - B
+Cminmaj CmM7, C - Eb - G - B
+C6, C - E - G - A
+Cm6 Cmin6, C - Eb - G - A
+C6add9 C6/9, C - E - G - A - D
+C5 Cno3, C - G
+C9, C - E - G - Bb - D
+Cm9 Cmin9, C - Eb - G - Bb - D
+Cmaj9, C - E - G - B - D
+C11, C - E - G - Bb - D - F
+Cm11, C - Eb - G - Bb - D - F
+C13, C - E - G - Bb - D - F - A
+Cm13, C - Eb - G - Bb - D - F - A
+Cadd9 Cadd2, C - E - G - D
+C7b5 C7-5, C - E - Gb - Bb
+Caug7 C7+5 C7#5, C - E - G# - Bb
+Csus4, C - F - G
+Csus2, C - D - G
+Cdim C°, C - Eb - Gb
+Cdim7 C°7, C - Eb - Gb - A
+Cm7b5 Cø, C - Eb - Gb - Bb
+Caug C+ C(#5), C - E - G#
+
+za akordem může být /BASS, třeba D/F#
+
+Pozor, řídíme se českou notací, tedy: A B H C, ne A Bb B C
+Bb je transformováno na A, stejně jako třeba H# na C
 ```
 
 #### umístění akordů
