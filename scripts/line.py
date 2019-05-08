@@ -110,7 +110,6 @@ class Line(object):
         to_squeeze = to_squeeze.strip()
 
         if start_index != 0:
-            to_squeeze = " " + to_squeeze
             start_index += 1
 
         self.text = self.text[:start_index] + to_squeeze
