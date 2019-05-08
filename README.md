@@ -120,12 +120,12 @@ durový akort může být kormě velikosti písmene označen:
 dur, maj, △ (toto má přednost před velikostí písmene, tedy c△ bude C ne Cm
 
 molový akord může být označen:
-m, min, mol
+m, min, mol, mi
 
 preferovaný zápis (a zápis, na který jsou akordy převáděny) je:
 C, Cm, Cb Cbm, C#, C#m
 
-Další možné tvary akordů:
+Další možné tvary akordů (ne nutně všechny):
 (vždy: název - alerernativní názvy - tóny daného akordu
 C CMaj C△ Cdur, C - E - G
 Cm Cmin, C - Eb - G

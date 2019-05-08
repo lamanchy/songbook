@@ -1,5 +1,7 @@
 import re
 
+from scripts.chord import Chord
+
 
 class Line(object):
     def __init__(self, text: str):
@@ -21,7 +23,7 @@ class Line(object):
 
     @staticmethod
     def is_chord(chars):
-        return chars[0] in "CDEFGABH"
+        return Chord.is_chord(chars)
 
     @staticmethod
     def is_extra(chars):

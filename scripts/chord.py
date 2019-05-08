@@ -1,3 +1,7 @@
+class UnknownChordError(BaseException):
+    pass
+
+
 class Chord(object):
     tones = "CDEFGABH"
     tone_lowerers = ["b", "es", "s"]
@@ -27,6 +31,8 @@ class Chord(object):
         "5,9,11": "aug7",
         "6,8": "sus4",
         "3,8": "sus2",
+        "6,8,11": "7sus4",
+        "3,8,11": "7sus2",
         "4,7": "dim",
         "4,7,10": "dim7",
         "4,7,11": "m7b5",
@@ -55,6 +61,8 @@ class Chord(object):
             self.parse()
         except ValueError as e:
             raise ValueError(f"error parsing chord {chars}, \n\n{e.args[0]}")
+        except UnknownChordError as e:
+            raise UnknownChordError(f"{e.args[0]}\n\nCan parse {chars}, but dont know the chord, add it.")
 
     def get_ints(self):
         res = []
@@ -184,7 +192,7 @@ class Chord(object):
         self.find_mark("11", self.is11)
         self.find_mark("13", self.is13)
         self.find_mark(["maj", "△", "dur"], lambda: None)
-        self.find_mark(["min", "mol", "m"], self.moll)
+        self.find_mark(["min", "mi", "mol", "m"], self.moll)
 
         self.tone += self.chars
         self.parse_tone()
@@ -196,7 +204,12 @@ class Chord(object):
         if self.is_tone_lowered:
             self.chars += "b"
 
-        self.chars += self.dictionary[self.get_ints()]
+        try:
+            self.chars += self.dictionary[self.get_ints()]
+        except KeyError as e:
+            raise UnknownChordError("Can parse this chord, but I don't know it, please add it (or call Ondra)\n\n" +
+                                    e.args[0])
+
         if self.bass_tone is not None:
             self.chars += f"/{self.bass_tone}"
             if self.is_bass_tone_raised:
@@ -252,22 +265,22 @@ class Chord(object):
 if __name__ == "__main__":
     test_chords = [
         ["", "maj", "△", "dur"],
-        ["m", "min", "mol"],
+        ["m", "min", "mol", "mi"],
         ["7", "dur7"],
-        ["m7", "min7", "mol7"],
+        ["m7", "min7", "mol7", "mi7"],
         ["maj7", "△7"],
         ["minmaj", "mM7"],
         ["6"],
-        ["m6", "min6", "mol6"],
+        ["m6", "min6", "mol6", "mi6"],
         ["6add9", "6/9"],
         ["5", "no3"],
         ["9"],
-        ["m9", "min9"],
+        ["m9", "min9", "mi9"],
         ["maj9", "△9"],
         ["11"],
-        ["m11"],
+        ["m11", "mi11"],
         ["13"],
-        ["m13"],
+        ["m13", "mi13"],
         ["add9", "add2"],
         ["7b5", "7-5"],
         ["aug7", "7+5", "7#5"],
@@ -296,8 +309,6 @@ if __name__ == "__main__":
 
                     for typer in type[1]:
                         c = tone + typer + chord
-
-                        print(c, "\t", tone + type[1][0] + chords[0])
 
                         if Chord(c).chars != tone + type[1][0] + chords[0]:
                             print(f"{Chord(c).chars} is not {tone + type[1][0] + chords[0]}")
