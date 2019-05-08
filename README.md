@@ -8,6 +8,8 @@ River - Leon Bridges
 Sluneční hrob - Blue Effect
 Lemon Tree - Fool's Garden
 Wonderwall - Oasis
+Stairway to Heaven - Led Zeppelin
+Klobouk ve křoví - Jan Werich, Jiří Voskovec
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
