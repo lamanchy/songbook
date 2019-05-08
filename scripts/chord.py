@@ -183,7 +183,7 @@ class Chord(object):
         self.find_mark("no3", self.no3)
         self.find_mark(["7+5", "7#5"], lambda: [self.is7(), self.aug()])
         self.find_mark(["7-5", "7b5"], lambda: [self.is7(), self.lowered5()])
-        self.find_mark(["aug", "(#5)", "+"], self.aug)
+        self.find_mark(["aug", "(#5)", "+", "5#"], self.aug)
         self.find_mark("ø", lambda: [self.is7(), self.lowered5(), self.moll()])
         self.find_mark("5", self.no3)
         self.find_mark("6", self.add13)
@@ -289,7 +289,7 @@ if __name__ == "__main__":
         ["dim", "°"],
         ["dim7", "°7"],
         ["m7b5", "ø"],
-        ["aug", "+", "(#5)"],
+        ["aug", "+", "(#5)", "5#"],
         ["/G"],
         ["/Gb"],
         ["/G#"],
