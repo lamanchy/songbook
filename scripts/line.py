@@ -65,10 +65,20 @@ class Line(object):
                 break
 
     def format_chord_naming(self):
-        # sus4 - sus
-        # rm add
-        #
-        pass
+        tuples = self.get_chords_with_indexes()
+        tuples = [((i, Chord(chord).chars) if not self.is_extra(chord) else (i, chord)) for i, chord in tuples]
+
+        text = ""
+
+        for i, chord in tuples:
+            while len(text) < i:
+                text += " "
+
+            text += chord + " "
+
+        self.text = text.rstrip()
+
+
 
     def format_chord_position(self, next_line):
         start_index = 0
@@ -95,3 +105,19 @@ class Line(object):
             start_index += 1
 
         self.text = self.text[:start_index] + to_squeeze
+
+    def get_chords_with_indexes(self):
+        chord = ""
+        chord_index = 0
+        chords = []
+        for i, c in enumerate(self.text + " "):
+            if c != " ":
+                if chord == "":
+                    chord_index = i
+                chord += c
+            else:
+                if chord != "":
+                    chords.append((chord_index, chord))
+                chord = ""
+
+        return chords
