@@ -1,5 +1,12 @@
 # Ondřej Lomič's songbook
 
+TODO: 
+```
+Ribbons - Ingrid Michaelson
+Today - Smashing Pumpkins
+River - Leon Bridges
+```
+
 Ok, I suppose, that my family will read it, so: Czech.
 
 Ahojte rodino, známí. Tohle je zárodek nového zpěvníku, který bude mít

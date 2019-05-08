@@ -89,8 +89,6 @@ class Line(object):
 
         self.text = text.rstrip()
 
-
-
     def format_chord_position(self, next_line):
         start_index = 0
 
