@@ -5,6 +5,7 @@ TODO:
 Ribbons - Ingrid Michaelson
 Today - Smashing Pumpkins
 River - Leon Bridges
+Sluneční hrob - Blue Effect
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
