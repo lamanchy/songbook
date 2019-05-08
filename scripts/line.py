@@ -45,13 +45,19 @@ class Line(object):
         return text
 
     def remove_funny_ending(self):
-        while self.text[-1] in ",.-!?":
+        while len(self.text) > 0 and self.text[-1] in ",.-!?:":
+            if self.text[-1] == ":" and self.text[0] == "®":
+                break
+
             self.text = self.text[:-1]
             self.rstrip()
 
     def fix_interpunction(self):
-        for c in ".!?;":
+        for c in ".!?;\"":
             self.replace(c, ",")
+        if not self.text.startswith("®"):
+            self.replace(":", ",")
+
         self.replace(",,", ",")
         self.text = re.sub(r"^,", "", self.text)
         self.text = re.sub(r" ,", ",", self.text)
