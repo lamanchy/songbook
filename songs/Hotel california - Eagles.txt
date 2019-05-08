@@ -1,4 +1,4 @@
-Bm                        F#
+Hm                        F#
  On a dark desert highway, cool wind in my hair
 A                      E
  Warm smell of colitas rising up through the air
@@ -17,7 +17,7 @@ There were voices down the corridor, I thought I heard them say
 ®:
 G                         D
  Welcome to the Hotel California
-       F#7                  Bm
+       F#7                  Hm
 Such a lovely place, such a lovely face
 G                               D
 Plenty of room at the Hotel California
