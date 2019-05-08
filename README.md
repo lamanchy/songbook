@@ -6,6 +6,8 @@ Ribbons - Ingrid Michaelson
 Today - Smashing Pumpkins
 River - Leon Bridges
 Sluneční hrob - Blue Effect
+Lemon Tree - Fool's Garden
+Wonderwall - Oasis
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
