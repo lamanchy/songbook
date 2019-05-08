@@ -50,7 +50,7 @@ class Line(object):
             self.rstrip()
 
     def fix_interpunction(self):
-        for c in ".!?":
+        for c in ".!?;":
             self.replace(c, ",")
         self.replace(",,", ",")
         self.text = re.sub(r"^,", "", self.text)
