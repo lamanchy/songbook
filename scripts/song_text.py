@@ -26,6 +26,7 @@ class SongText(object):
             if line.is_text_line():
                 line.replace("  ", " ")
                 line.remove_funny_ending()
+                line.remove_funny_beginning()
                 line.fix_interpunction()
                 if i > 0 and not lines[i - 1].justifies_next_spaced():
                     line.lstrip()

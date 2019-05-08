@@ -52,6 +52,11 @@ class Line(object):
             self.text = self.text[:-1]
             self.rstrip()
 
+    def remove_funny_beginning(self):
+        for start in ["R: "] + [f"{i + 1}. " for i in range(10)]:
+            if self.text.startswith(start):
+                self.text = self.text[len(start):]
+
     def fix_interpunction(self):
         for c in ".!?;\"":
             self.replace(c, ",")
