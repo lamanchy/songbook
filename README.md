@@ -10,6 +10,8 @@ Lemon Tree - Fool's Garden
 Wonderwall - Oasis
 Stairway to Heaven - Led Zeppelin
 Klobouk ve křoví - Jan Werich, Jiří Voskovec
+The Sound of Silence - Simon & Garfunkel
+Klobouk ve křoví - Jan Werich, Jiří Voskovec
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
