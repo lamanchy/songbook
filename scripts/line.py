@@ -60,7 +60,7 @@ class Line(object):
     def fix_interpunction(self):
         self.replace("[:", "")
         self.replace(":]", "")
-        for c in ".!?;\"":
+        for c in ".!?;\"…":
             self.replace(c, ",")
         if not self.text.startswith("®"):
             self.replace(":", ",")
