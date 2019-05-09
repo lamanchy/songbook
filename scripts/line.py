@@ -58,6 +58,8 @@ class Line(object):
                 self.text = self.text[len(start):]
 
     def fix_interpunction(self):
+        self.replace("[:", "")
+        self.replace(":]", "")
         for c in ".!?;\"":
             self.replace(c, ",")
         if not self.text.startswith("®"):
