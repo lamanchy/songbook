@@ -176,8 +176,8 @@ class Chord(object):
         self.find_mark(["sus4", "sus"], self.sus4)
         self.find_mark(["add2", "add9"], self.add9)
         self.find_mark(["minmaj", "mm7"], self.minmaj)
-        self.find_mark(["dim7", "°7"], self.dim7)
-        self.find_mark(["dim", "°"], self.dim)
+        self.find_mark(["dimi7", "dim7", "°7"], self.dim7)
+        self.find_mark(["dimi", "dim", "°"], self.dim)
         self.find_mark(["maj7", "△7"], self.maj7)
         self.find_mark(["maj9", "△9"], self.maj9)
         self.find_mark("no3", self.no3)
@@ -286,8 +286,8 @@ if __name__ == "__main__":
         ["aug7", "7+5", "7#5"],
         ["sus4"],
         ["sus2"],
-        ["dim", "°"],
-        ["dim7", "°7"],
+        ["dim", "°", "dimi"],
+        ["dim7", "°7", "dimi7"],
         ["m7b5", "ø"],
         ["aug", "+", "(#5)", "5#"],
         ["/G"],
