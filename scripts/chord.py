@@ -160,6 +160,30 @@ class Chord(object):
         except ValueError:
             return False
 
+    parsers = [
+        (["sus2"], sus2),
+        (["sus4", "sus"], sus4),
+        (["add2", "add9"], add9),
+        (["minmaj", "mm7"], minmaj),
+        (["dimi7", "dim7", "°7"], dim7),
+        (["dimi", "dim", "°"], dim),
+        (["maj7", "△7"], maj7),
+        (["maj9", "△9"], maj9),
+        (["no3"], no3),
+        (["7+5", "7#5"], lambda s: [Chord.is7(s), Chord.aug(s)]),
+        (["7-5", "7b5"], lambda s: [Chord.is7(s), Chord.lowered5(s)]),
+        (["aug", "(#5)", "+", "5#"], aug),
+        (["ø"], lambda s: [Chord.is7(s), Chord.lowered5(s), Chord.moll(s)]),
+        (["5"], no3),
+        (["6"], add13),
+        (["7"], is7),
+        (["9"], is9),
+        (["11"], is11),
+        (["13"], is13),
+        (["maj", "△", "dur"], lambda _: None),
+        (["min", "mi", "mol", "m"], moll),
+    ]
+
     def parse(self):
         self.chars = self.chars.replace("6/9", "6add9")
 
@@ -172,27 +196,12 @@ class Chord(object):
 
         self.tone, self.chars = self.chars[0], self.chars[1:].lower()
 
-        self.find_mark("sus2", self.sus2)
-        self.find_mark(["sus4", "sus"], self.sus4)
-        self.find_mark(["add2", "add9"], self.add9)
-        self.find_mark(["minmaj", "mm7"], self.minmaj)
-        self.find_mark(["dimi7", "dim7", "°7"], self.dim7)
-        self.find_mark(["dimi", "dim", "°"], self.dim)
-        self.find_mark(["maj7", "△7"], self.maj7)
-        self.find_mark(["maj9", "△9"], self.maj9)
-        self.find_mark("no3", self.no3)
-        self.find_mark(["7+5", "7#5"], lambda: [self.is7(), self.aug()])
-        self.find_mark(["7-5", "7b5"], lambda: [self.is7(), self.lowered5()])
-        self.find_mark(["aug", "(#5)", "+", "5#"], self.aug)
-        self.find_mark("ø", lambda: [self.is7(), self.lowered5(), self.moll()])
-        self.find_mark("5", self.no3)
-        self.find_mark("6", self.add13)
-        self.find_mark("7", self.is7)
-        self.find_mark("9", self.is9)
-        self.find_mark("11", self.is11)
-        self.find_mark("13", self.is13)
-        self.find_mark(["maj", "△", "dur"], lambda: None)
-        self.find_mark(["min", "mi", "mol", "m"], self.moll)
+        self.parse_tone_level(self.tone)  # just optimisation
+
+        for marks, parser in self.parsers:
+            self.find_mark(marks, parser)
+            if len(self.chars) == 0:
+                break
 
         self.tone += self.chars
         self.parse_tone()
@@ -225,11 +234,10 @@ class Chord(object):
     def parse_bass_tone(self):
         self.bass_tone, _, self.is_bass_tone_lowered, self.is_bass_tone_raised = self.parse_tone_level(self.bass_tone)
 
-    def find_mark(self, marks, fn, match_whole=False):
-        if not isinstance(marks, list): marks = [marks]
+    def find_mark(self, marks, fn):
         for mark in marks:
-            if mark in self.chars or (not match_whole and mark == self.chars):
-                fn()
+            if mark in self.chars:
+                fn(self)
                 self.chars = self.chars.replace(mark, "")
 
     @classmethod

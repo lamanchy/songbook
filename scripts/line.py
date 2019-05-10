@@ -13,7 +13,10 @@ class Line(object):
     def is_chord_line(self):
         if self.is_empty(): return False
         not_empty_parts = [part for part in self.text.split(" ") if len(part) > 0]
-        return all([self.is_chord(part) or self.is_extra(part) for part in not_empty_parts])
+        for part in not_empty_parts:
+            if not self.is_chord(part) and not self.is_extra(part):
+                return False
+        return True
 
     def is_text_line(self):
         return not self.is_empty() and not self.is_chord_line()
