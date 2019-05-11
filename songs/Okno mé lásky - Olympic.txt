@@ -6,7 +6,7 @@ G                  F         C            G
 Kdo ti zpívá, když ne já, kdo tě hlídá když ne já
 Okno v přízemí je zavřené i dnes, lásko má
 
-[refrain]
+[chorus]
 Em         D          C        D
  A v jeho lesku vidím přicházet
 Em        D           C  D
@@ -19,7 +19,7 @@ Ty, já, jsme my, my a náš je svět
 Kdo tě budí, když ne já, kdo tě nudí, když ne já
 Okno v přízemí je zavřené i dnes, lásko má
 
-[refrain]
+[chorus]
 
 Kdo tě hladí, když ne já, kdo tě svádí, když ne já
 Kdo tě zradí když ne já

@@ -9,7 +9,7 @@ Má, má člověk srdce čistý, když pozná svět
 Pak hloupost a peníze, kariéra zjeví se
 Je z něj hloupej přestárlej kmet
 
-[refrain]
+[chorus]
     Dm                  Am
 Dál, jenom dál, abys u cesty zas stál
        E7                        Am
@@ -23,4 +23,4 @@ Víš, víš, že kytky ráno zas musej' kvést
 Tak touláš se po světě, než neděle najde tě
 Odkud v pátek utekls' k nám
 
-[refrain]
+[chorus]

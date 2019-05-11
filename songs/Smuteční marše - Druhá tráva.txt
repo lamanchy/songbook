@@ -12,7 +12,7 @@ Můj příliš dobrý příteli
 Naše spása není tak blízko, jak jsme si mysleli
 Tak zkus odejít v míru
 
-[refrain]
+[chorus]
     D                            C      G C G
 Tam někde v kopcích Urartu v prastarý arše
    D                        C                     G C G
@@ -28,7 +28,7 @@ Sám nahej vprostřed pokoje
 Bez vůle a v zmatku jak sošky orloje
 Bez svého hodináře
 
-[refrain]
+[chorus]
 
     C                                            G
 Než zmizíš vem si šálu a hodně teplej kabát do zimy
@@ -44,4 +44,4 @@ A já na dědičným provaze
 I s uškrcenou pýchou se vzpírám odvaze
 Spokojit se s málem
 
-[refrain] [2x]
+[chorus] [2x]

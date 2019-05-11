@@ -5,7 +5,7 @@ Svůj ideál, sen, co si dávám zdát
 Z úsměvů šál, dům nebo básní rým jéjé
 Jé co ti dám, mám řekni dárkem dát
 
-[refrain]
+[chorus]
 Eb         F            B        F
 Přej si co chceš, zlatý důl nebo věž
         Eb          F          B
@@ -18,7 +18,7 @@ Hudbu sfér, jenom ber se mnou též jéjé
 Můj ideál, víš to, co já mám rád jéjé
 Stín katedrál, sen, co si k ránu dávám zdát
 
-[refrain]
+[chorus]
 
 Můj ideál, víš to, co já mám rád jéjé
                                  C G   C

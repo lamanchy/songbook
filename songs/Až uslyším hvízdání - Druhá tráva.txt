@@ -5,7 +5,7 @@ Tě s někým jeho smích jak žhavý klín
 A on si myslí, jak se zdá, že postačí, když zahvízdá
 Hned něhou změkneš jako parafín
 
-[refrain]
+[chorus]
 G          C  G  D   C          F  C  G              C  G  D
 Až uslyším hvízdání, až uslyším hvízdání, až uslyším hvízdání
 Am                     G                       D
@@ -20,11 +20,11 @@ A pověz mi, jak lámeš mříž, co uděláš, když nevěříš
 Oni hvízdají a pyšní jsou, že létat mohou nad tebou
 A na zemi ti z ruky zobají
 
-[refrain]
+[chorus]
 
 Poslyš, když mi nevěříš, ty také chceš jít stále výš
 A slunce je tak zlaté, až se vlní
 Pak se můžeš, když chceš výš, spálit víc, než pochopíš
 A budeš rád, když nenajdeš jen trní
 
-[refrain]
+[chorus]

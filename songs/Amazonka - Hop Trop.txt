@@ -12,7 +12,7 @@ Ale život utíká
 Už na, táto, slyší jinej
 I když si tak neříká
 
-[refrain]
+[chorus]
                G
 Nebe modrý zrcadlí se
 Em                     Am Am7
@@ -32,14 +32,14 @@ Pod rukama utíká
 Vedly k tomu, že ti nikdo
 Amazonka, neříká
 
-[refrain]
+[chorus]
 
 Zlatý kráse cingrlátek
 Jak sis časem myslela
 Vadil možná trampskej šátek
 Nosit dáls' ho nechtěla
 
-[refrain]
+[chorus]
 Teď jsi víla z paneláku
 Samá dečka, samej krám
 Já si přál jen, abys byla

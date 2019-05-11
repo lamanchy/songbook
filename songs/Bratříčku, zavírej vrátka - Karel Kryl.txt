@@ -9,7 +9,7 @@ Se slzou na víčku hledíme na sebe
 Pojď se mnou, bratříčku, bojím se o tebe
 Na cestách klikatých, bratříčku, v polobotkách
 
-[refrain]
+[chorus]
 Dm   Am Dm    Am Dm   Am Dm Am
 Prší a _venku se setmělo
 Dm   Am  Dm  Am Dm Am Dm Am
@@ -27,7 +27,7 @@ Nauč se písničku, není tak složitá
 Opři se, bratříčku, cesta je rozbitá
 Budeme klopýtat, zpátky už nemůžeme
 
-[refrain]
+[chorus]
 Prší a venku se setmělo
 Tato noc nebude krátká
 Beránka vlku se zachtělo

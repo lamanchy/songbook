@@ -12,7 +12,7 @@ Ospalí a nudní byli po flámu
 Kouřili partyzánku, dým foukali do vánku
 Dívali se do dáli, viděli dvě smutný koleje na silnici
 
-[refrain]
+[chorus]
 D                 C        G C G
  Ráno bylo stejný, nesváteční
 D                 C        G C G
@@ -27,4 +27,4 @@ Pojedeme po svejch do podnájmu žít
 Koupíme na splátky jízdenku tam a zpátky
 Až omrzí nás dálky, budem jak dvě smutný koleje na silnici
 
-[refrain]
+[chorus]

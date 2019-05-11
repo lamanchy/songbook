@@ -11,7 +11,7 @@ Pro všechno na zemi u tvých nohou, Sáro
 Pamatuješ, Sáro, tehdy v létě v obilí
 Jsme spolu kouřili cigaretu, Sáro
 
-[refrain 1]
+[chorus 1]
       Am
 V tom pšeničném poli, kde ležet tak bolí
      G    D    Am
@@ -29,7 +29,7 @@ Nic než retko, Sáro
 Je to k smíchu, Sáro, jako tehdy v pšenici
 Pohleď v levici, mám dvě sparty, Sáro
 
-[refrain 2]
+[chorus 2]
 Ten nebohý kdosi, kdo na křídlech nosí
 Tvou lásku a tvůj klid
 Ten, zocelen z boje, pak příkoří tvoje

@@ -9,7 +9,7 @@ Skleniček pár a pár tahů z trávy
 Uteče den jak večerní zprávy
 Neuměj' žít a bouřej' se a neposlouchaj'
 
-[refrain]
+[chorus]
 D7   G                   A
  Jen zahlídli svět, maj' na duši vrásky
     D        Gm
@@ -21,4 +21,4 @@ U stánků na levnou krásu
 Postávaj', a ze slov a hlasů
 Poznávám, jak málo jsme jim stačili dát
 
-[refrain] [2x]
+[chorus] [2x]

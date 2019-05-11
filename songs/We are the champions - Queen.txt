@@ -18,7 +18,7 @@ We are the champions, my friends
     E             G#m               A  C#
 And we'll keep on fighting 'til the end
 
-[refrain]
+[chorus]
 F#m
 We are the champions
 Am         D#dim
@@ -41,4 +41,4 @@ I consider it a challenge before the whole human race
 And I ain't gonna lose
 And we mean to go on, and on, and on, and on
 
-[refrain]
+[chorus]

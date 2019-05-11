@@ -15,7 +15,7 @@ A doopravdy jemně
 D7            G
  Jemně mě oslovil
 
-[refrain]
+[chorus]
    G
 Vy byste porád seděla
            D7
@@ -41,7 +41,7 @@ Mě nejspíš získá si
 Ten který přijde skromně
 A tiše prohlásí
 
-[refrain]
+[chorus]
 
 Ten který přišel včera
 Do naší ulice
@@ -52,7 +52,7 @@ Jak se tak plaše ptá
 A když mu řeknu ano
 Tak tiše zašeptá
 
-[refrain]
+[chorus]
 
 [ending]
     D7         G

@@ -7,7 +7,7 @@ F                                   C
 Dm                         F
  Now I'm feelin the strain, aint it a shame
 
-[refrain]
+[chorus]
     C
 Oh, give me the beat boys to free my soul
   G
@@ -25,7 +25,7 @@ I dont understand the things I do
 The world outside looks so unkind
 I'm counting on you, to carry me through
 
-[refrain]
+[chorus]
 
 C G F G C
 
@@ -45,4 +45,4 @@ I want you to know I believe in your song
 Rhythm and rhyme and harmony
 You help me along, making me strong
 
-[refrain]
+[chorus]

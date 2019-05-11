@@ -13,7 +13,7 @@ G             Hm                     Em
       C                  Cm               Em
 Now I spend my time just making rhymes of yesterday
 
-[refrain]
+[chorus]
 One is the loneliest, number, one is the loneliest
 Number, one is the loneliest number that you'll ever do
 One is the loneliest, number, one is the loneliest, number
@@ -21,7 +21,7 @@ One is the loneliest number that you'll ever do
 
 Bridge
 
-[refrain]
+[chorus]
 One is the loneliest
 (Number) One is the loneliest
 (Number) One is the loneliest number that you'll ever do [4x]

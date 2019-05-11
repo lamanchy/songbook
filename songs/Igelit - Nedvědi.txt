@@ -7,7 +7,7 @@ K ránu se mlhy zvednou a ptáci volaj', hele, lidi, svítá
     G                      C                 G
 Pak větvičky si nalámou na oheň, aby uvařili čaj
 
-[refrain]
+[chorus]
                Am   G      C                  F  C
 A všichni se znaj', znaj', znaj' a blázněj' a zpívaj'
              Am   G    C           F        C
@@ -18,6 +18,6 @@ Kytara zpívá o tom, jak dřív bylo líp
 Ten, kdo neví, nepochopí, nepromíjí čas nic, všechno vrátí
 Ta chvilka, co máš na život, ti uplyne jak od ohýnku dým
 
-[refrain]
+[chorus]
 
 Ukrytý v stínu lesa, igelit, to kdyby přišel k ránu déšť

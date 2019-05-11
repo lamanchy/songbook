@@ -1,4 +1,4 @@
-[refrain]
+[chorus]
      A7
 They try to make me go to rehab, I say no, no, no
 Yes I've been black but when I come back, you'll know, know, know
@@ -19,7 +19,7 @@ E7
       D7
 But I know it don't come in a shot glass
 
-[refrain]
+[chorus]
 
 The man said why do you think you here
 I said, I got no idea
@@ -29,7 +29,7 @@ So I always keep a bottle near
 He said I just think you're depressed
 This me, yeah baby and the rest
 
-[refrain 2]
+[chorus 2]
 They try to make me go to rehab, I say no, no, no
 Yes I've been black but when I come back, you'll know, know, know
 
@@ -41,4 +41,4 @@ And have everyone think I've gone mad
 And it's not just my pride
 It's just 'till these tears have dried
 
-[refrain]
+[chorus]

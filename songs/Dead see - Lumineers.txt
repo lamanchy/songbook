@@ -20,7 +20,7 @@ I could trust
         Am               G           F        C
 I don't gamble, but if I did I would bet on us
 
-[refrain]
+[chorus]
          C
 Like the Dead Sea
                            F
@@ -46,7 +46,7 @@ Your father died and you decided to live
 It for yourself you felt, you just felt it was time
 And I'm glad, cause you with cats, that's just not right
 
-[refrain]
+[chorus]
 
 Am
  I been down, I been defeated
@@ -57,4 +57,4 @@ D
                    G
 Would you stay the night
 
-[refrain]
+[chorus]

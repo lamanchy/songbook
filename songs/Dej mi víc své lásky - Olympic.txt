@@ -13,7 +13,7 @@ V bílé plachtě chodím pozadu, aů
 Em         H7         Em   D7
 Vyrábím tu hradní záhadu, aů
 
-[refrain]
+[chorus]
 G                     H7
  Má drahá, dej mi víc, má drahá, dej mi víc
 Em         C              G       D7
@@ -28,7 +28,7 @@ Mi dokonale zvednul náladu, aů
 Natrhám ti sedmikrásky, tebe celou s tvými vlásky
 Zamknu si na sedm západů, aů
 
-[refrain]
+[chorus]
 
 Em
 Aů, aů, aů, aů

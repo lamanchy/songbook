@@ -10,7 +10,7 @@ A         E
 F#m          D
  Jak hudba v decibelech
 
-[refrain]
+[chorus]
 A E      F#m                D
  Uu, zas budem šťastni, tak prosím, zhasni svět
 
@@ -22,7 +22,7 @@ Míjíš mě a já tebe
 Jsme uvězněni v tělech
 Jak kulky v revolverech
 
-[refrain]
+[chorus]
 Zas budem šťastni, tak prosím, zhasni svět
 Zítra budem šťastni, tak prosím, zhasni svět
 Tak prosím, hned

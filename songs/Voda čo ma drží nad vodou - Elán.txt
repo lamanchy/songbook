@@ -14,7 +14,7 @@ Keby som mal kráčať sám a zranený
 Keby som ten prameň našiel náhodou
 Bola by to voda, čo ma drží nad vodou
 
-[refrain]
+[chorus]
 Hm         Em   C               G
  Možeš zabudnúť, stačí kým tu si
 Hm         Em  C              D H
@@ -32,4 +32,4 @@ Ono sa to podá, ty si predsa voda
 
 [verse 1]
 
-[refrain]
+[chorus]

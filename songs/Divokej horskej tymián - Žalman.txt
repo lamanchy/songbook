@@ -17,7 +17,7 @@ Až po okraj naplň džbán
 Je to věc, když pro nás voní
 Z hor divokej tymián
 
-[refrain]
+[chorus]
     C             G              C        Hm7
 Podívej, jak málo stačí, když do vázy natrhám
       Am         C          G      C    G
@@ -29,4 +29,4 @@ Kdo se vrací domů k nám
 Je to věc, když pro nás voní
 Z hor divokej tymián
 
-[refrain]
+[chorus]

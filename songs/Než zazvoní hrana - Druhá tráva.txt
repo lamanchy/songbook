@@ -14,7 +14,7 @@ A za ním ňáký vzdušný holčiny
 A říká, když s ním nevobjedu, nejsem chlap
 Těhle vosum Mařen z Magdaly
 
-[refrain]
+[chorus]
     C        G            Dm         Am
 Ale já přece nejsem jenom tak ňákej, dej sem
     C        G            Dm C G      F     Am
@@ -60,4 +60,4 @@ A už dlouho nemám, proč bych sobě lhal
 Bude ráno a ty říkáš, Dej mi čas
 A já nemám ani vteřinu
 
-[refrain]
+[chorus]

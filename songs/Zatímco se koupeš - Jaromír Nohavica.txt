@@ -12,7 +12,7 @@ Piju druhou kávu a kouřím třetí spartu
 A za velmi tenkou stěnou
 Slyším, jak se mydlíš pěnou
 
-[refrain]
+[chorus]
             D      G                D
 Nechej vodu vodou, jen ať si klidně teče
            Em               G             D
@@ -27,6 +27,6 @@ Svět se se mnou houpe, všechno mi z rukou padá
 A až budeš stát na prahu
 Všechny peníze dal bych za odvahu
 
-[refrain]
+[chorus]
 Em G      D        Em  A7         D
  Nebylo a není, hm-hm, zatímco se koupeš

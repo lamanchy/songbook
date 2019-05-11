@@ -11,7 +11,7 @@ Plnej řečí
   Em           D       G Cmaj7 G
 A čím víc, tím líp se mám
 
-[refrain]
+[chorus]
          C
 Budem o něco se rvát
       Em          D
@@ -30,13 +30,13 @@ A to všechno proto jen
 Přes všechna slova, co z nich jdou
 Hrabou pro kuličku svou, jen pro tu svou
 
-[refrain]
+[chorus]
 
 Možná jen se mi to zdá
 A po těžký noci přijde, přijde hezký ráno
 Jaký bude, nevím sám
 Taky jsem si zvyk na všechno kolem nás
 
-[refrain]
+[chorus]
 
 La la lá la lá la laj
