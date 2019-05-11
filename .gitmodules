@@ -1,0 +1,3 @@
+[submodule "pil_quality_pdf"]
+	path = pil_quality_pdf
+	url = https://github.com/lamanchy/pil_quality_pdf.git
