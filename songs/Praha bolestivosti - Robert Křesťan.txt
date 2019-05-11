@@ -1,6 +1,7 @@
 [solo]
 F | Am | F | C G | Dm | Am | B | Am [2x]
 
+[verse 1]
                  F                   C
 Rád bych si byl jist, zda známe hranici
                 F                  C
