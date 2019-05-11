@@ -25,7 +25,7 @@ class Tone(object):
             self.is_lowered = False
             self.move_tone(-1)
 
-        if self.is_raised and self.value in "EBH":
+        if self.is_raised and self.value in "EABH":
             self.is_raised = False
             self.move_tone(1)
 
@@ -64,8 +64,6 @@ class Tone(object):
         elif self.is_raised:
             self.is_raised = False
             self.move_tone(1)
-            if self.value == "B":
-                self.move_tone(1)
 
         else:
             self.is_raised = True

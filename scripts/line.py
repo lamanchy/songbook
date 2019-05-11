@@ -105,11 +105,10 @@ class Line(object):
 
         self.put_parts_with_indexes(tuples)
 
-
     def format_chord_position(self, next_line):
         start_index = 0
 
-        if next_line is not None and not next_line.is_empty():
+        if next_line is not None and next_line.is_text_line():
             start_index = len(next_line.text) - 1
 
             while True:
@@ -146,4 +145,3 @@ class Line(object):
                 chord = ""
 
         return chords
-

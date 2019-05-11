@@ -41,6 +41,7 @@ class SongText(object):
 
         self.text = self.join_lines(lines)
         self.save()
+        self.parse()
 
     @staticmethod
     def basic_formatting(lines):
