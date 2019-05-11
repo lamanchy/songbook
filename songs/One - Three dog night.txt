@@ -23,5 +23,5 @@ Bridge
 
 [chorus]
 One is the loneliest
-(Number) One is the loneliest
-(Number) One is the loneliest number that you'll ever do [4x]
+One is the loneliest
+One is the loneliest number that you'll ever do [4x]

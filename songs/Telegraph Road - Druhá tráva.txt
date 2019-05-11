@@ -8,34 +8,25 @@ Em | Em7 | A | E | Em | G D | A | E
 [bridge]
 Em Am Dsus4 D
 
-G                   Em
-Jedenkrát dávno šel pustinou muž
-  D                     C
-A na pravým místě tam vykácel buš
-G      C         D          G         D
-Z klád postavil dům, že měl sílu jak býk
-  C                Am      C
-A rozoral zem jako válečník
+G                   Em             D                     C
+Jedenkrát dávno šel pustinou muž a na pravým místě tam vykácel buš
+G      C         D          G         D    C                Am      C
+Z klád postavil dům, že měl sílu jak býk a rozoral zem jako válečník
 
-Jenže za ním jdou další, a ti umí víc
-Vázaný krovy a zdi z vepřovic
-A do zlatejch polí a bučení krav
-Po nějaký době zní telegraf
+Jenže za ním jdou další, a ti umí víc, vázaný krovy a zdi z vepřovic
+A do zlatejch polí a bučení krav, po nějaký době zní telegraf
 
-A už je tu kostel, a konečně most
-A železná ruda a zločinnost
-A okresní město má okresní soud
-  C                              Em
-A ta stará trať jméno Telegraf Road
+A už je tu kostel, a konečně most a železná ruda a zločinnost
+                                  C                              Em
+A okresní město má okresní soud a ta stará trať jméno Telegraf Road
 
 [solo 1]
 
 [bridge]
 
-Těžký jdou časy teď znova a znova
-Skončila válka a chystá se nová
-A rozmoklou stezkou, co prošel ten skaut
-V deseti proudech jdou provazy aut jak dravá řeka
+Těžký jdou časy teď znova a znova, skončila válka a chystá se nová
+A rozmoklou stezkou, co prošel ten skaut, v deseti proudech jdou provazy aut
+Jak dravá řeka
 
 [solo]
 G | Em | C G | C D | G D | C | Am | Am C
@@ -43,10 +34,8 @@ G | Em | C G | C D | G D | C | C
 
 [solo 1]
 
-  Am
-A rádio hlásí, že v noci byl mráz
-Em
-Lidi jdou z práce a nemají čas
+  Am                               Em
+A rádio hlásí, že v noci byl mráz, lidi jdou z práce a nemají čas
 D                  Hm          Em Dsus4 D
 Jenže vlak domů má velký zpoždění
 
@@ -55,38 +44,23 @@ Em | H | C Am6 | D7 G Hm | Am D7 | G | Am G | C H [4x]
 
 Em D
 
-Už nemůžu dělat, co kde bych kdy chtěl
-Třeba v pralesích kácet, to bohužel
-Můžu jen sklízet, co zasil jsem sám
-A zaplatit všechno, co komu kde mám
+Už nemůžu dělat, co kde bych kdy chtěl, třeba v pralesích kácet, to bohužel
+Můžu jen sklízet, co zasil jsem sám a zaplatit všechno, co komu kde mám
 
-Ti šedaví ptáci na drátech z mědi
-Vo tomhletom kódu už ledacos vědí
-Ti můžou letět a zapomenout
-C                             Em
-Na celej řád týhle Telegraf Road
+Ti šedaví ptáci na drátech z mědi, vo tomhletom kódu už ledacos vědí
+Ti můžou letět a zapomenout, na celej řád týhle Telegraf Road
 
 [solo 1]
 
-Víš, že bývaly časy, kdy bylo to zlý
-Že spali jsme v dešti a promrzlí
-Teď, když mi říkáš, tak vem si, co chceš
-Moc dobře cítím, že už je to lež
+Víš, že bývaly časy, kdy bylo to zlý, že spali jsme v dešti a promrzlí
+Teď, když mi říkáš, tak vem si, co chceš, moc dobře cítím, že už je to lež
 
-Tak důvěřuj ve mě, dej kočímu bič
-Já vezmu tě s sebou a odvedu pryč
-Ode všech temnot a vysokejch zdí
-C                 D  G         D  G
-Od všeho strachu, co v ulicích spí
-   C               D  G         D   G
-Já prošel jsem pamětí kdekterej kout
-  C                D   G        D    G
-A viděl jen smutek jak pýcha se dmout
+Tak důvěřuj ve mě, dej kočímu bič, já vezmu tě s sebou a odvedu pryč
+Ode všech temnot a vysokejch zdí, od všeho strachu, co v ulicích spí
+Já prošel jsem pamětí kdekterej kout a viděl jen smutek jak pýcha se dmout
 C            G      D
  A chtěl bych zapomenout
    Hm                Em
 Na všechny ty zákazy vjezdu, který jsou
-      C
-Rozsetý
-                   Em
-Po celý Telegraf Road
+      C                     Em
+Rozsetý, po celý Telegraf Road
