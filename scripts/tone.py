@@ -9,27 +9,25 @@ class Tone(object):
             raise ValueError(f"Tone is empty!")
 
         tone, rest = tone[0], tone[1:]
-        tone = tone.upper()
+        self.value = tone.upper()
         rest = rest.lower()
 
-        if tone not in self.tones:
-            raise ValueError(f"tone {tone} is not valid tone, try one of {self.tones}")
+        if self.value not in self.tones:
+            raise ValueError(f"tone {self.value} is not valid tone, try one of {self.tones}")
 
-        is_lowered = rest in self.tone_lowerers
-        is_raised = rest in self.tone_raisers
+        self.is_lowered = rest in self.tone_lowerers
+        self.is_raised = rest in self.tone_raisers
 
-        if not is_lowered and not is_raised and len(rest) > 0:
+        if not self.is_lowered and not self.is_raised and len(rest) > 0:
             raise ValueError(f"tone modifier {rest} is invalid, use on of {self.tone_modifiers}")
 
-        if is_lowered and tone in "CHBF":
-            is_lowered = False
-            tone = self.move_tone(tone, -1)
+        if self.is_lowered and self.value in "CHBF":
+            self.is_lowered = False
+            self.move_tone(-1)
 
-        if is_raised and tone in "EBH":
-            is_raised = False
-            tone = self.move_tone(tone, 1)
-
-        self.value, self.is_raised, self.is_lowered = tone, is_raised, is_lowered
+        if self.is_raised and self.value in "EBH":
+            self.is_raised = False
+            self.move_tone(1)
 
     def get_rest(self):
         res = ""
@@ -46,16 +44,30 @@ class Tone(object):
     def __eq__(self, other):
         return self.normalized() == other.normalized()
 
-    @classmethod
-    def move_tone(cls, tone, direction):
-        return cls.tones[(cls.tones.index(tone) + direction) % len(cls.tones)]
+    def move_tone(self, direction):
+        self.value = self.tones[(self.tones.index(self.value) + direction) % len(self.tones)]
 
     def normalized(self):
         if self.is_lowered:
             t = Tone(str(self))
-            t.value = t.move_tone(t.value, -1)
+            t.move_tone(-1)
             t.is_lowered = False
             t.is_raised = True
             return str(t)
 
         return str(self)
+
+    def transpose(self):
+        if self.is_lowered:
+            self.is_lowered = False
+
+        elif self.is_raised:
+            self.is_raised = False
+            self.move_tone(1)
+            if self.value == "B":
+                self.move_tone(1)
+
+        else:
+            self.is_raised = True
+            t = Tone(str(self))
+            self.value, self.is_raised, self.is_lowered = t.value, t.is_raised, t.is_lowered

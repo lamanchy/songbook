@@ -81,18 +81,30 @@ class Line(object):
                 break
 
     def format_chord_naming(self):
-        tuples = self.get_chords_with_indexes()
+        tuples = self.get_parts_with_indexes()
         tuples = [((i, str(Chord(chord))) if not self.is_extra(chord) else (i, chord)) for i, chord in tuples]
 
-        text = ""
+        self.put_parts_with_indexes(tuples)
 
+    def put_parts_with_indexes(self, tuples):
+        text = ""
         for i, chord in tuples:
             while len(text) < i:
                 text += " "
 
             text += chord + " "
-
         self.text = text.rstrip()
+
+    def transpose(self):
+        tuples = self.get_parts_with_indexes()
+        for index, (i, chord) in enumerate(tuples):
+            if self.is_chord(chord):
+                chord = Chord(chord)
+                chord.transpose()
+                tuples[index] = i, str(chord)
+
+        self.put_parts_with_indexes(tuples)
+
 
     def format_chord_position(self, next_line):
         start_index = 0
@@ -119,7 +131,7 @@ class Line(object):
 
         self.text = self.text[:start_index] + to_squeeze
 
-    def get_chords_with_indexes(self):
+    def get_parts_with_indexes(self):
         chord = ""
         chord_index = 0
         chords = []
@@ -134,3 +146,4 @@ class Line(object):
                 chord = ""
 
         return chords
+

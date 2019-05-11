@@ -2,11 +2,27 @@ from scripts.line import Line
 
 
 class SongText(object):
-    def __init__(self, text):
-        self.text = text
+    def __init__(self, path):
+        self.path = path
+        with open(path, "r", encoding="UTF-8") as f:
+            self.text = f.read()
+
+        self.parse()
+
+    def get_lines(self):
+        return [Line(line) for line in self.text.split("\n")]
+
+    def parse(self):
+        while self.text != self.parsed_text():
+            self.text = self.parsed_text()
+            self.save()
+
+    def save(self):
+        with open(self.path, "w", encoding="UTF-8") as f:
+            f.write(self.text)
 
     def parsed_text(self):
-        lines = [Line(line) for line in self.text.split("\n")]
+        lines = self.get_lines()
 
         for _ in range(3):  # for sure ;)
             self.clear_lines(lines)
@@ -14,9 +30,17 @@ class SongText(object):
 
         self.format_chords(lines)
 
-        lines = "\n".join([line.text for line in lines])
+        return self.join_lines(lines)
 
-        return lines
+    def transpose(self):
+        lines = self.get_lines()
+
+        for line in lines:
+            if line.is_chord_line():
+                line.transpose()
+
+        self.text = self.join_lines(lines)
+        self.save()
 
     @staticmethod
     def basic_formatting(lines):
@@ -33,8 +57,6 @@ class SongText(object):
 
                 line.upper_first_letter()
 
-            lines[i] = line
-
     @staticmethod
     def clear_lines(lines):
         while lines[0].is_empty():
@@ -43,16 +65,11 @@ class SongText(object):
         while lines[-1].is_empty():
             lines.pop(-1)
 
-        for i, line in reversed(list(enumerate(lines))):
-            if i >= 1:
-                prev_line = lines[i - 1]
-                # TODO do not join chord lines
-                # if line.is_chord_line() and prev_line.is_chord_line():
-                #     prev_line.text += " " + line.text
-                #     lines.pop(i)
+        for i, line in list(reversed(list(enumerate(lines))))[:-1]:
+            prev_line = lines[i - 1]
 
-                if line.is_empty() and prev_line.is_empty():
-                    lines.pop(i)
+            if line.is_empty() and prev_line.is_empty():
+                lines.pop(i)
 
     @staticmethod
     def format_chords(lines):
@@ -63,4 +80,6 @@ class SongText(object):
                 line.format_chord_naming()
                 line.format_chord_position(next_line)
 
-            lines[i] = line
+    @staticmethod
+    def join_lines(lines):
+        return "\n".join([line.text for line in lines])

@@ -11,11 +11,21 @@ class Song(object):
 
     def __init__(self, file_name: str):
         self.file_name = file_name
-        self.text = self.load_text()
+        self.text = SongText(self.path)
 
     @classmethod
     def load_songs(cls):
         return [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
+
+    @classmethod
+    def load_song(cls, name):
+        songs = [song for song in cls.load_songs() if song.file_name.startswith(name)]
+        if len(songs) == 0:
+            raise RuntimeError("Unknown song")
+        if len(songs) > 1:
+            raise RuntimeError("There are multiple songs with this name")
+
+        return songs[0]
 
     @property
     def file_name(self):
@@ -71,18 +81,6 @@ class Song(object):
     def remove_extension(self):
         return self.file_name[:-len(self.extension)]
 
-    def load_text(self):
-        with open(self.path, "r", encoding="UTF-8") as f:
-            text = SongText(f.read())
-
-        while text.text != text.parsed_text():
-            text.text = text.parsed_text()
-            with open(self.path, "w", encoding="UTF-8") as f:
-                f.write(text.text)
-
-        return text
-
-
     def validate_name(self, name, its_name):
         if len(name) == 0:
             raise ValueError(f"{its_name} of {self.file_name} is empty")
@@ -92,3 +90,6 @@ class Song(object):
             raise ValueError(f"first letter of {its_name} {name} must be uppercase")
         if "  " in name:
             raise ValueError(f"{its_name} {name} cannot contain two spaces next to each other")
+
+    def transpose(self):
+        self.text.transpose()

@@ -38,8 +38,8 @@ class Chord(object):
     }
 
     def __init__(self, chars: str):
-        self.tone = None
-        self.bass_tone = None
+        self.tone: Tone = None
+        self.bass_tone: Tone = None
         self.is_moll = None
         self.has_3 = True
         self.has_5 = True
@@ -213,6 +213,11 @@ class Chord(object):
                 chars = chars.replace(mark, "")
 
         return chars
+
+    def transpose(self):
+        self.tone.transpose()
+        if self.bass_tone is not None:
+            self.bass_tone.transpose()
 
 
 if __name__ == "__main__":
