@@ -14,7 +14,7 @@ A photograph without a face
 But with your presence and your grace
 Everything falls into place
 
-®:
+[refrain]
      F                     C
 Just please don't say you love me
          G                Am
@@ -33,7 +33,7 @@ Under pressure, precious things can break
 And how we feel is hard to fake
 So let's not give the game away
 
-®
+[refrain]
 
              G
 A fools rush in
@@ -46,4 +46,4 @@ This time I'm gonna slow down
               C        F G
 The thing I'm looking for
 
-® 2x
+[refrain] 2x

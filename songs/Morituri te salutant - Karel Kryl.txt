@@ -12,7 +12,7 @@ Má v ruce štítky, v pase staniol
 A z očí chtíč jí plá, když háže do neznáma
 Dvě křehké snítky rudých gladiol
 
-®:
+[refrain]
           G
 Seržante, písek je bílý jak paže Daniely
 Am
@@ -34,4 +34,4 @@ Mosazná včelka od vlkodlaka
 Rezavý kvér - můj brach a sto let stará špína
 A děsně velká bílá oblaka
 
-®
+[refrain]

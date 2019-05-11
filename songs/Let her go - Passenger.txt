@@ -1,4 +1,4 @@
-®:
+[refrain]
                        F                          C
 Well you only need the light when it's burning low
               G                         Am
@@ -19,7 +19,7 @@ You see her when you close your eyes
 Maybe one day you will understand why
 Everything you touch surely dies
 
-®
+[refrain]
 
 Staring at the ceiling in the dark
 Same old empty feeling in your heart
@@ -29,7 +29,7 @@ But to never to touch and never to keep
 Because you loved her too much
 And you dive too deep
 
-®
+[refrain]
 
                 Am
 And you let her go
@@ -43,4 +43,4 @@ Ooooo ooooo
 And you let her go
 F G Em Am F G
 
-®
+[refrain]

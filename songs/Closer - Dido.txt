@@ -14,7 +14,7 @@ It just makes me want you more
     Hm        A          Em
 And I've been meaning to tell you
 
-®:
+[refrain]
                D                 A
 The closer you get, the better I feel
                F#m             G
@@ -36,7 +36,7 @@ Take you're time I'll still be here
 
 And I've been meaning to tell you
 
-®
+[refrain]
 
            D            A
 We've been circling for time baby
@@ -47,9 +47,9 @@ The wait is over and now it's easy
 F#m           G
 Everything is fine
 
-®
+[refrain]
 
-®2:
+[refrain 2]
 The closer you get, the better you see
 The closer you are, the more I see
 Why everyone says that I look happier

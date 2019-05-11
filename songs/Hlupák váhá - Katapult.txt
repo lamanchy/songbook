@@ -13,7 +13,7 @@ Náladu máš mizernou
 Tehdy jeho zrada v srdci zamrazí
 Zůstaneš stát jako sloup
 
-®:
+[refrain]
 F       G    Am
  Hlupák váhá, svět kupředu uhání
 Hlupák váhá, ztrácí život v čekání
@@ -25,6 +25,6 @@ F       G   E
 
 [verse 2]
 
-®
+[refrain]
 
 [solo]

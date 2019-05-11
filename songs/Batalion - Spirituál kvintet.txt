@@ -9,7 +9,7 @@ Ostruhami do slabin koně po-há-ní
 Tam na straně polední, čekají ženy, zlaťáky a sláva
 Do výstřelů z karabin zvon už vyzvání
 
-®:
+[refrain]
 Am        C      G              Am
 Víno na kuráž, a pomilovat markytánku
 Am          C         G    Am Em Am
@@ -22,7 +22,7 @@ Na polštáři z kopretin budou věčně spát
 Neplač sladká Marion, verbíři nové chlapce přivedou ti
 Za královský hermelín, padne každý rád
 
-®
+[refrain]
 
 Víno máš a markytánku, dlouhá noc se prohýří
 Víno máš a chvilku spánku, díky, díky, verbíři

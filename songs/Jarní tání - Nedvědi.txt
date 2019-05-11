@@ -5,7 +5,7 @@ F        Dm     E        Am
 Voňavá zem se sněhem tiše plíží
 Tak nějak líp si balím, proč, bůhví
 
-®:
+[refrain]
            F                 C
 Přišel čas slunce, zrození a tratí
             F                     C
@@ -24,14 +24,14 @@ Pocit má vždy, jak zrodil by se sám
 Jaro je lék na řeči, co nás nudí
 Na lidi, co chtěj' zkazit život nám
 
-®
+[refrain]
 
 Zmrznout by měla, kéž by se tak stalo
 Srdce těch pánů, co je jim vše fuk
 Pak bych měl naděj, že i příští jaro
 Bude má země zdravá jako buk
 
-®
+[refrain]
 
 [ending]
        F     E           Am

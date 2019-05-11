@@ -5,7 +5,7 @@ Kdyby jsi se někdy, ke mně chtěla vrátit
                     D                 A
 Nesměla bys, lásko, moje srdce ztratit
 
-®:
+[refrain]
 Em 6x             D 2x G 8x
 Zabil jsem v lese jele-na
         G 4x   D 2x   Em 6x
@@ -22,11 +22,11 @@ Jednou hráze boří, Jindy tiše pláče
 Někdy mám ten pocit, I když roky plynou
 Že vidím tvůj odraz, dole pod hladinou
 
-®
+[refrain]
 
 Na jaře se vrací, listí od podzima
 Čas se někam ztrácí, brzo bude zima
 Svět přikryje ticho, tečka za příběhem
 Kdo pozná, čí kosti, zapadaly sněhem
 
-®
+[refrain]

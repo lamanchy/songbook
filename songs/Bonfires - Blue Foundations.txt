@@ -9,7 +9,7 @@ You wash my tears away
 And make me wanna stay
 And bonfires lit up the shores
 
-®:
+[refrain]
 Em             D
  Walk far far away
         Am
@@ -26,9 +26,9 @@ You stroke my fears away
 And make me wanna stay
 And bonfires lit up the shores
 
-®
+[refrain]
 
-®2:
+[refrain 2]
 Walk far far away
 Where to go and hide
 We're going to the sea

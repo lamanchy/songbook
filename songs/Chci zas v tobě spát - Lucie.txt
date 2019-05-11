@@ -5,7 +5,7 @@ Em                          C
 Temnice tmavá vříská bleskne tmou
 Mý vlasy loučí víská a letí nad vodou
 
-®:
+[refrain]
 D                    C            G
  A hrubý síly vzývám snídám bezpráví
 D                       Am
@@ -37,7 +37,7 @@ Až naše hvězda zhasne haudy haudy héééj
 Hledá a pravdu rodí neví nesvlíká
 Tě lásko
 
-®
+[refrain]
 
 Em
  Sami se k břehům kloníme

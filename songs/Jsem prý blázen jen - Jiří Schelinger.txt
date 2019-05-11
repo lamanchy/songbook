@@ -5,7 +5,7 @@ Dm                 C       H B
 Život klížím, nemám pevný bod
 Pode mnou propast temná, není přes ni most
 
-®:
+[refrain]
          Hm
 Jsem prý blázen jen
          A
@@ -20,11 +20,11 @@ Tím vším je láska má
 Hvězdy blednou vstává dům
 Já tu smutně stojím za vzor básníkům
 
-®
+[refrain]
 
 Kdo se blázen zdá mou vinou
 Tím vším je láska má
 Marně bloumám, marně sním
 Marně prosím ráno, které k tobě smí
 
-®
+[refrain]

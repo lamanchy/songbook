@@ -12,7 +12,7 @@ Bílých, jak sníh
 Hvězdo má, bárko zázraků
 Na nebesích
 
-®:
+[refrain]
         F        C
 Ať před mou planetou
         F         G
@@ -23,7 +23,7 @@ Dej ptákům pít
 Prosím svou přízeň dej i nám
 Dej mír a klid
 
-®
+[refrain]
 
 Dej vláhu rostlinám
 Dej ptákům pít

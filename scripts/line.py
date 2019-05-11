@@ -49,9 +49,6 @@ class Line(object):
 
     def remove_funny_ending(self):
         while len(self.text) > 0 and self.text[-1] in ",.-!?:":
-            if self.text[-1] == ":" and self.text[0] == "®":
-                break
-
             self.text = self.text[:-1]
             self.rstrip()
 
@@ -65,8 +62,6 @@ class Line(object):
         self.replace(":]", "")
         for c in ".!?;\"…":
             self.replace(c, ",")
-        if not self.text.startswith("®"):
-            self.replace(":", ",")
 
         self.replace(",,", ",")
         self.text = re.sub(r"^,", "", self.text)

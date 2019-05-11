@@ -6,7 +6,7 @@ Přede mnou stíny se dlouží a nad krajinou krouží
          F6 F#6 G6          C
 Podivnej pták, ___pták nebo mrak
 
-®:
+[refrain]
             F6         G6           C
 Tak do toho šlápni, ať vidíš kousek světa
               F6   G6             C
@@ -23,4 +23,4 @@ Co si radši počkaj', až se stmí, a pak šlapou dál
 Po kolejích táhnou bosí a na špagátě nosí
 Celej svůj dům, deku a rum
 
-®
+[refrain]

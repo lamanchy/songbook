@@ -7,7 +7,7 @@ Kdosi pro mě říkal, jsi vějíř a já horký vzduch
 Am       F         G          Am
 Roztanči prsty jen tak, nazdařbůh
 
-®:
+[refrain]
     Dm        Dm/C#        Dm/C       G
 Pak zabloudil v mlze, když hledal můj cit
    C       C/H        Am           C/H
@@ -21,7 +21,7 @@ Až přijde čas úplňku, tak nasednout si zkus
 Kdosi pro mě říkal, jsi loutna a já umím hrát
 Jednou tě naladím, než půjdu spát
 
-®:
+[refrain]
 Když zmokly mi šaty, dal na kamna hřát
 Čaj z peprné máty, tu vůni měl rád
 A do hrnku přidal svůj slzavý smích
@@ -32,13 +32,13 @@ Do snáře vkládáš si můj javorový list
 Kdosi pro mě říkal, jsem akord a ty nechceš znít
 Stačí jen z klavíru tón vykouzlit
 
-®:
+[refrain]
 Pak vytáhl z rukávu poslední z es
 Chtěl říct, že zná rybník a za ním i les
 A že láska hřeje i tam v jehličí
 Až objevím, kde je, tak past nalíčím
 
-®:
+[refrain]
 Vždyť život je valčík, ten netančíš sám
 Tu pravdu jsem prožila, tu pravdu mám
 Teď budím se brzy, už nemůžu spát

@@ -7,7 +7,7 @@ A proužek dýmu z dřeva slunce vítá
   F           G        C
 I z kytky motýl vylít' ven
 
-®:
+[refrain]
 C                          F  C
 Někdo škrtne sirkou, někdo zpívá
 F                  C
@@ -22,14 +22,14 @@ Pak vodu dlaní rozčeří
 Stud jí sluší, tak jako všem holkám
 Co na svou krásu nevěří
 
-®
+[refrain]
 
 Z odpadlýho kousku starý kůry
 Srdce jsem jí udělal
 A večer, když už začly lítat můry
 Tajně jí ho do spacáku dal
 
-®
+[refrain]
 
 [ending]
 F            G       C

@@ -11,7 +11,7 @@ The minor fall and the major lift
     D            H7             Em
 The baffled king composing hallelujah
 
-®:
+[refrain]
      C           Em          C           G  D G
 Hallelujah, hallelujah, hallelujah, hallelu-u-jah
 
@@ -22,7 +22,7 @@ She tied you to her kitchen chair
 She broke your throne and she cut your hair
 And from your lips she drew the hallelujah
 
-®
+[refrain]
 
 Baby I've been here before
 I've seen this room and I've walked this floor
@@ -31,7 +31,7 @@ I've seen your flag on the marble arch
 A love is not a victory march
 It's a cold and it's a broken hallelujah
 
-®
+[refrain]
 
 Well there was a time when you let me know
 What's really going on below
@@ -40,7 +40,7 @@ But remember when I moved in you
 And the holy dove was moving too
 And every breath we drew was hallelujah
 
-®
+[refrain]
 
 Well, maybe there's a god above
 But all I've ever learned from love
@@ -49,4 +49,4 @@ It's not a cry that you hear at night
 It's not somebody who's seen the light
 It's a cold and it's a broken hallelujah
 
-®
+[refrain]

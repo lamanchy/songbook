@@ -3,7 +3,7 @@ Am                Am/G       H7 Em       Am
                Am/C             Am        Em
 Paseky osvítí zář z borovejch klád zapálenejch
 
-®:
+[refrain]
 Am                C G                      Dm
  Sešli se zapomenout a zvednout hlavu, to stačí
 Am                     Em                  Am
@@ -12,9 +12,9 @@ Am                     Em                  Am
 Ohnutý lžíce a nůž, dům z igelitu, lístek zpátky
 Boudy na zastávkách, kde potkáváš lidi, co potkat jsi chtěl
 
-®
+[refrain]
 
 Stíny nad obzorem pomalu jdou, právě svítá
 Šlápoty, ohniště, klid, smutnej je kemp opuštěnej
 
-®
+[refrain]

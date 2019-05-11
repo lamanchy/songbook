@@ -12,7 +12,7 @@ Na to však existuje lék
 Zabírá líp než penicilin
 Je to, Rock'n'Roll
 
-®:
+[refrain]
 Am
 Dej nám Pán Bůh
 Dej nám Pán Bůh
@@ -25,7 +25,7 @@ Dej nám Pán Bůh
                Am
 Kýbl bublin sem
 
-®
+[refrain]
 
 [verse 1]
 D                 A
@@ -52,14 +52,14 @@ Z pytlíku na zmije
 A      D      E           A
 Rock'n Rock'n Rock'n Roll ti dá
 
-® 2x
+[refrain] 2x
 
 Jen bílá kvatina mozgů sedí
 A uši křídlem skín zavírá
 Nádhernej skaut z důstojnech šedin
 Rock'n Rock'n Roll ti dá
 
-®
+[refrain]
 
 [verse 1]
 

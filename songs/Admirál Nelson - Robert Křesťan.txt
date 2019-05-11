@@ -11,7 +11,7 @@ Jenže to je málo
      F#        H
 Však ty mi rozumíš
 
-®:
+[refrain]
 H  C    H A   G    Hm
 To chce začít hned zjara
   H A     G  Em
@@ -36,4 +36,4 @@ Aby snad nepřišli
 O tu svou káru
 S bílou opratí
 
-®
+[refrain]

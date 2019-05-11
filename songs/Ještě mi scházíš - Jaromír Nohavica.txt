@@ -7,7 +7,7 @@ Dm                    F
 Ebdim              E
 Náš nový běhoun v síni
 
-®:
+[refrain]
             Am               G
 Ještě mi scházíš, ještě jsem nepřivykl
         C      G/H       Am
@@ -24,4 +24,4 @@ A v každém koutě jako čert kulhavý skřítek Adalbert
 Ještě tě piju v kávě a snídám v bílé vece
 Ještě jsi ve všech věcech
 
-®
+[refrain]

@@ -7,7 +7,7 @@ Bílou přídí šalupa My Grave
      Dm        C       Dm
 Míří k útesům, který znám
 
-®:
+[refrain]
         F       C          Am
 Jen tři kříže z bílýho kamení
       Dm       C     Dm
@@ -22,14 +22,14 @@ Samý pití a rvačky jen
 Chřestot nožů, při kterým přejde smích
 Srdce kámen a jméno Sten
 
-®
+[refrain]
 
 Já, Bob Green, mám tváře zjizvený
 Štěkot psa zněl, když jsem se smál
 Druhej kříž mám a spím pod zemí
 Že jsem falešný karty hrál
 
-®
+[refrain]
 
 Třetí kříž snad vyvolá jen vztek
 Faty Rodgers těm dvoum život vzal
@@ -39,7 +39,7 @@ Vím, trestat je lidský
 Ale odpouštět božský
 Snad mi tedy Bůh odpustí
 
-®2:
+[refrain 2]
 Jen tři kříže z bílýho kamení
 Jsem jim do písku poskládal
 Slzy v očích měl a v ruce znavený

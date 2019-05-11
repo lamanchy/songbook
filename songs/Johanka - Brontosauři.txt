@@ -7,7 +7,7 @@ Jenom s vírou svou stojí dívka plavá, bílá
      Em     Dm          G        Am
 Oheň nad sebou, jenom s pravdou dál
 
-®:
+[refrain]
 E7                Am
 Hej, muži, přidej oheň spí
       E7             Am
@@ -22,11 +22,11 @@ To se osud smál, smutek utíká
 S pannou Johankou ke štěstí se země dívá
 Vítr zprávu vál, že se dýchat dá
 
-®
+[refrain]
 
 S hlavou skloněnou lidí zástup se tu dívá
 Nebe nad hlavou, slyšíš dětskej pláč
 Popel s vánkem ví, co se v dívčím srdci skrývá
 Hra se zastaví, jiná začíná
 
-®
+[refrain]

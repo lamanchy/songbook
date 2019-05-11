@@ -5,7 +5,7 @@ A7                     D7
 Nech si to projít palicí a nevracej se s vopicí
 Snaž se mě hochu trochu pochopit
 
-®:
+[refrain]
    E                   A7
 Já šel, šel dál, baby, kam mě Pánbůh zval
    E                     D7
@@ -20,11 +20,11 @@ A nad kolíbkou Elvis Presley stál
 Obrovskej bourák v ulici, po boku krásnou slepici
 A lidi šeptaj, přijel ňákej král
 
-®
+[refrain]
 
 Pořád tak ňák nemohu, chytit štěstí za nohu
 A nemůžu si najít klidnej kout
 Bláznivý ptáci začnou řvát a nový ráno šacovat
 A do mě vždycky pustí silnej proud
 
-®
+[refrain]

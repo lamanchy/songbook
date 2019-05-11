@@ -12,7 +12,7 @@ Pouťový čaroději
 Ale kdo by dnes věřil osudům za kačku
 Poukázkám na naději
 
-®:
+[refrain]
 Am             C        G
 Osud se nepíše přes kopírák
 C       G        Am    E
@@ -34,7 +34,7 @@ I když by mělo se dít
 Pohřbený zaživa, pak s hlavou na míse
 Bylo mi od toho dne těžko žít
 
-®:
+[refrain]
 Osud je malůvka, vítr ji pomačká
 Pečená brambora zmoklého pasáčka
 Pasáčka
@@ -49,7 +49,7 @@ Zvolna se rozpadal šat
 On tloukl na bubny a já na činely
 Tak jsem se naučil hrát
 
-®:
+[refrain]
 Osud je ikona visící v kostele
 Knoflíky po kapsách dobrého přítele
 Přítele
@@ -64,7 +64,7 @@ Na zádech plátěný vak
 Hraju jen na čtyři akordy života
 Stíhám to jen tak tak
 
-®:
+[refrain]
 Osud je malůvka hebká jak oblaka
 Šaškovská čepice zchudlého zpěváka
 Zpěváka
@@ -79,7 +79,7 @@ Plemenný arabský chov
 Koni jsem cukřík dal, pak k senu přivoněl
 A zazpíval beze slov
 
-®:
+[refrain]
 Osud je malůvka, tisíc let nepřečká
 Balónek vnoučete, hůlčička stařečka
 Stařečka

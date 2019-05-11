@@ -1,6 +1,6 @@
 [dolů-nahoru]
 
-®:
+[refrain]
 D
 Každý ráno na piáno hraje Jack, hraje Jack
 G7                  D
@@ -13,4 +13,4 @@ A nikomu v domě nevadí, že to piáno neladí
 E                Edim                 E7          A7
 Když hraje Jack, jak už jsem řek, svý honky tonky blues
 
-®
+[refrain]

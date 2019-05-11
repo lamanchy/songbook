@@ -1,6 +1,6 @@
 [capo 7]
 
-®:
+[refrain]
 D
  Here comes the sun
 G                  E7
@@ -17,14 +17,14 @@ D
                 G                    A7
 It feels like years since it's been here
 
-®
+[refrain]
 
 Little darling
 The smiles returning to their faces
 Little darling
 It seems like years since it's been here
 
-®
+[refrain]
 
 F C G D A7
 
@@ -37,7 +37,7 @@ I feel that ice is slowly melting
 Little darling
 It seems like years since it's been clear
 
-®
+[refrain]
 It's all right
 
 F C G D

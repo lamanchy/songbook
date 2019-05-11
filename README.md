@@ -101,9 +101,9 @@ a umístění akordů.
 
 - max. jeden volný řádek mezi texty
 
-- před prvním refrénem `®:`
+- před prvním refrénem `[refrain]`
 
-- místo druhého stejného značka `®`
+- místo druhého stejného značka `[refrain]`
 
 - povoleny značky jako [verse], [solo], [bridge], ovšem jen tam, kde to nejde
 poznat z akordů / přirozené struktury textu

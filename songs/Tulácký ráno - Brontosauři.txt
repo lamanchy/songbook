@@ -5,7 +5,7 @@ Am                          Dm
 A když se zvedám s písničkou známou
 A přezky chřestí o skalnatou mez
 
-®:
+[refrain]
 Dm
  Tulácký ráno na kemp se snáší
 B                C          F
@@ -20,11 +20,11 @@ Když oči k ohni vždy vrací se zpět
 Tam mnohý z pánů měl by se kouknout
 A hned by věděl, jakej chcem svět
 
-®
+[refrain]
 
 Posvátný je mi každý slovo
 Když lesní moudrost a přírodu zná
 Bobříků sílu a odvahu touhy
 Kolik v tom pravdy, však kdo nám ji dá
 
-®
+[refrain]

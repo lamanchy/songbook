@@ -16,7 +16,7 @@ I don't know where I belong
 I don't know where I went wrong
 But I can write a song
 
-®:
+[refrain]
               Am                   G
 I belong with you, you belong with me
                C
@@ -32,7 +32,7 @@ Took a bus to Chinatown
 I'd be standing on Canal, and Bowery
 And she'd be standing next to me
 
-®
+[refrain]
 
     F        G
 And love, we need it now
@@ -41,4 +41,4 @@ Let's hope for some
     F         C
 Cuz oh, we're bleeding out
 
-®
+[refrain]

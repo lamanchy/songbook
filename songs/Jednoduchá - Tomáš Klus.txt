@@ -18,7 +18,7 @@ Ale pro sebe tu byli
             D
 A vtip je v tom, že
 
-®:
+[refrain]
 Em        C
  Utopíme válku
 G           D
@@ -45,4 +45,4 @@ Kdo to najde, ten to má
 A ty jsi bledá, ale jsi
 Ale jsi má má má má má
 
-®
+[refrain]
