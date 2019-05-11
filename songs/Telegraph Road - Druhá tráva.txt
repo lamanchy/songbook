@@ -51,7 +51,7 @@ D                  Hm          Em Dsus4 D
 Jenže vlak domů má velký zpoždění
 
 [solo]
-Em | H | C Am6 | D7 G Hm | Am D7 | G | Am G | C H 4x
+Em | H | C Am6 | D7 G Hm | Am D7 | G | Am G | C H [4x]
 
 Em D
 

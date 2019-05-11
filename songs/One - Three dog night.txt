@@ -24,4 +24,4 @@ Bridge
 [refrain]
 One is the loneliest
 (Number) One is the loneliest
-(Number) One is the loneliest number that you'll ever do 4x
+(Number) One is the loneliest number that you'll ever do [4x]
