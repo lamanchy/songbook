@@ -30,7 +30,7 @@ class Line(object):
 
     @staticmethod
     def is_extra(chars):
-        return re.match(r"\d+x", chars)
+        return re.match(r"\d+x", chars) or chars == "|"
 
     def rstrip(self):
         self.text = self.text.rstrip()

@@ -46,9 +46,10 @@ class SongText(object):
         for i, line in reversed(list(enumerate(lines))):
             if i >= 1:
                 prev_line = lines[i - 1]
-                if line.is_chord_line() and prev_line.is_chord_line():
-                    prev_line.text += " " + line.text
-                    lines.pop(i)
+                # TODO do not join chord lines
+                # if line.is_chord_line() and prev_line.is_chord_line():
+                #     prev_line.text += " " + line.text
+                #     lines.pop(i)
 
                 if line.is_empty() and prev_line.is_empty():
                     lines.pop(i)
