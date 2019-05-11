@@ -82,7 +82,7 @@ class Line(object):
 
     def format_chord_naming(self):
         tuples = self.get_chords_with_indexes()
-        tuples = [((i, Chord(chord).chars) if not self.is_extra(chord) else (i, chord)) for i, chord in tuples]
+        tuples = [((i, str(Chord(chord))) if not self.is_extra(chord) else (i, chord)) for i, chord in tuples]
 
         text = ""
 

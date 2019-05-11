@@ -1,14 +1,12 @@
+from scripts.tone import Tone
+
+
 class UnknownChordError(BaseException):
     pass
 
 
 class Chord(object):
-    tones = "CDEFGABH"
-    tone_lowerers = ["b", "es", "s"]
-    tone_raisers = ["#", "is"]
-    tone_modifiers = tone_lowerers + tone_raisers
-
-    dictionary = {
+    chord_dictionary = {
         "5,8": "",
         "4,8": "m",
         "5,8,11": "7",
@@ -40,14 +38,10 @@ class Chord(object):
     }
 
     def __init__(self, chars: str):
-        self.tone = ""
-        self.chars = chars
-        self.is_tone_lowered = False
-        self.is_bass_tone_lowered = False
-        self.is_tone_raised = False
-        self.is_bass_tone_raised = False
-        self.has_3 = True
+        self.tone = None
+        self.bass_tone = None
         self.is_moll = None
+        self.has_3 = True
         self.has_5 = True
         self.is_5_lowered = False
         self.is_5_raised = False
@@ -58,7 +52,7 @@ class Chord(object):
         self.has_13 = False
         self.bass_tone = None
         try:
-            self.parse()
+            self.parse(chars)
         except ValueError as e:
             raise ValueError(f"error parsing chord {chars}, \n\n{e.args[0]}")
         except UnknownChordError as e:
@@ -75,18 +69,6 @@ class Chord(object):
         res.sort()
         res = [str(i) for i in res]
         return ",".join(res)
-
-    def tone_lowered(self):
-        self.is_tone_lowered = True
-
-    def tone_raised(self):
-        self.is_tone_raised = True
-
-    def bass_tone_lowered(self):
-        self.is_bass_tone_lowered = True
-
-    def bass_tone_raised(self):
-        self.is_bass_tone_raised = True
 
     def moll(self):
         self.is_moll = True
@@ -186,90 +168,51 @@ class Chord(object):
         (["min", "mi", "mol", "m"], moll),
     ]
 
-    def parse(self):
-        self.chars = self.chars.replace("6/9", "6add9")
+    def parse(self, chars):
+        chars = chars.replace("6/9", "6add9")
 
-        if "/" in self.chars:
-            self.chars, self.bass_tone = self.chars.split("/", 1)
-            self.parse_bass_tone()
+        if "/" in chars:
+            chars, bass_tone = chars.split("/", 1)
+            self.bass_tone = Tone(bass_tone)
 
-        if len(self.chars) == 0:
+        if len(chars) == 0:
             raise ValueError(f"Chord cannot be empty")
 
-        self.tone, self.chars = self.chars[0], self.chars[1:].lower()
+        if chars[0].islower():
+            self.moll()
 
-        self.parse_tone_level(self.tone)  # just optimisation
+        tone, chars = chars[0], chars[1:].lower()
+
+        Tone(tone)  # just optimisation
 
         for marks, parser in self.parsers:
-            self.find_mark(marks, parser)
-            if len(self.chars) == 0:
+            chars = self.find_mark(chars, marks, parser)
+            if len(chars) == 0:
                 break
 
-        self.tone += self.chars
-        self.parse_tone()
+        tone += chars
+        self.tone = Tone(tone)
 
-        self.chars = self.tone
+        if self.get_ints() not in self.chord_dictionary:
+            raise UnknownChordError(f"Can parse chord {self.get_ints()}, but I don't know it, "
+                                    f"please add it (or call Ondra)")
 
-        if self.is_tone_raised:
-            self.chars += "#"
-        if self.is_tone_lowered:
-            self.chars += "b"
-
-        try:
-            self.chars += self.dictionary[self.get_ints()]
-        except KeyError as e:
-            raise UnknownChordError("Can parse this chord, but I don't know it, please add it (or call Ondra)\n\n" +
-                                    e.args[0])
+    def __str__(self):
+        res = str(self.tone)
+        res += self.chord_dictionary[self.get_ints()]
 
         if self.bass_tone is not None:
-            self.chars += f"/{self.bass_tone}"
-            if self.is_bass_tone_raised:
-                self.chars += "#"
-            if self.is_bass_tone_lowered:
-                self.chars += "b"
+            res += f"/{self.bass_tone}"
 
-    def parse_tone(self):
-        self.tone, is_moll, self.is_tone_lowered, self.is_tone_raised = self.parse_tone_level(self.tone)
-        if self.is_moll is None:
-            self.is_moll = is_moll
+        return res
 
-    def parse_bass_tone(self):
-        self.bass_tone, _, self.is_bass_tone_lowered, self.is_bass_tone_raised = self.parse_tone_level(self.bass_tone)
-
-    def find_mark(self, marks, fn):
+    def find_mark(self, chars, marks, fn):
         for mark in marks:
-            if mark in self.chars:
+            while mark in chars:
                 fn(self)
-                self.chars = self.chars.replace(mark, "")
+                chars = chars.replace(mark, "")
 
-    @classmethod
-    def parse_tone_level(cls, tone):
-        if len(tone) == 0:
-            raise ValueError(f"Tone is empty!")
-
-        tone, rest = tone[0], tone[1:]
-        is_moll = tone.islower()
-        tone = tone.upper()
-        rest = rest.lower()
-
-        if tone not in cls.tones:
-            raise ValueError(f"tone {tone} is not valid tone, try one of {cls.tones}")
-
-        is_lowered = rest in cls.tone_lowerers
-        is_raised = rest in cls.tone_raisers
-
-        if not is_lowered and not is_raised and len(rest) > 0:
-            raise ValueError(f"tone modifier {rest} is invalid, use on of {cls.tone_modifiers}")
-
-        if is_lowered and tone in "CHBF":
-            is_lowered = False
-            tone = cls.tones[(cls.tones.index(tone) - 1) % len(cls.tones)]
-
-        if is_raised and tone in "EBH":
-            is_raised = False
-            tone = cls.tones[(cls.tones.index(tone) + 1) % len(cls.tones)]
-
-        return tone, is_moll, is_lowered, is_raised
+        return chars
 
 
 if __name__ == "__main__":
@@ -301,16 +244,16 @@ if __name__ == "__main__":
         ["m7b5", "ø"],
         ["aug", "+", "(#5)", "5#"],
         ["/G"],
-        ["/Gb"],
-        ["/G#"],
+        ["/Ab"],
+        ["/C#"],
         ["/F", "/E#"],
         ["/E", "/Fb"],
     ]
 
     for chords in test_chords:
         for chord in chords:
-            for tone in Chord.tones:
-                for type in [("normal", [""]), ("lowered", Chord.tone_lowerers), ("raised", Chord.tone_raisers)]:
+            for tone in Tone.tones:
+                for type in [("normal", [""]), ("lowered", Tone.tone_lowerers), ("raised", Tone.tone_raisers)]:
                     if type[0] == "lowered" and tone in "CHBF":
                         continue
 
@@ -319,6 +262,7 @@ if __name__ == "__main__":
 
                     for typer in type[1]:
                         c = tone + typer + chord
+                        prefix = tone + type[1][0]
 
-                        if Chord(c).chars != tone + type[1][0] + chords[0]:
-                            print(f"{Chord(c).chars} is not {tone + type[1][0] + chords[0]}")
+                        if str(Chord(c)) != prefix + chords[0]:
+                            print(f"{Chord(c)} is not {prefix + chords[0]}")
