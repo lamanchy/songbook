@@ -52,7 +52,7 @@ Z pytlíku na zmije
 A      D      E           A
 Rock'n Rock'n Rock'n Roll ti dá
 
-[refrain] 2x
+[refrain] [2x]
 
 Jen bílá kvatina mozgů sedí
 A uši křídlem skín zavírá

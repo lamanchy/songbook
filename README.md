@@ -108,7 +108,7 @@ a umístění akordů.
 - povoleny značky jako [verse], [solo], [bridge], ovšem jen tam, kde to nejde
 poznat z akordů / přirozené struktury textu
 
-- používejte opakování, tj. na konci řádku umístěte třeba `2x`
+- používejte opakování, tj. na konci řádku umístěte třeba `[2x]`
 (viz drunken sailor)
 
 - dodržuje pravidla DRY a KISS (viz google)

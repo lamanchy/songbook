@@ -20,4 +20,4 @@ Má barvu havraní, jak uhání, jak uhání
 V dlani motýl usíná, hvězdička už zhasíná
 Vánek, co ji k tobě nes', až do léta ti odlétá
 
-[refrain] 2x
+[refrain] [2x]
