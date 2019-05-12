@@ -1,35 +1,25 @@
 F#m Dadd9 A E
 
-   F#m              Dadd9
-If god had long hair
-A         E
- And a goatee
-           F#m              D
+   F#m              Dadd9 A         E
+If god had long hair ______and a goatee
 And if his eyes were pretty glazed
-A             E
- If he looked spaced out
-          F#m     Dadd9
+If he looked spaced out
 Would you buy his story
-A            E
- Would you believe he had
-   F#m   Dadd9  A E
+Would you believe he had
 An eye infection
 
-[chorus]
-    Dadd9     E
-And yeah yeah god looks baked
-Dadd9     E
-Yeah yeah god smells good
-Dadd9      E
+[bridge]
+    Dadd9      E
+And yeah yeah, god looks baked
+Yeah yeah, god smells good
 Yeah yeah, yeah yeah yeah
+
+[chorus]
         F#m        Dadd9   A E
 What if god smoked cannabis
-        F#m       Dadd9     A E
 Hit the bong like some of us
-        F#m      Dadd9
-Drove a tie-dyed microbus
-A          E
- And he subscribes to rolling stone
+Drove a tiedyed microbus
+And he subscribes to rolling stone
 
 If god made this place, in the beginning
 Did he plant any seeds
@@ -37,10 +27,12 @@ Or did he put them there for Adam and Eve
 So they’d be hungry for the apple
 That the snake was always offering
 
-[chorus]
+[bridge]
 And yeah yeah god rolls great
 Yeah yeah god smells good
 Yeah yeah, yeah yeah yeah
+
+[chorus]
 What if god smoked cannabis
 Do you suppose he had a buzz
 When he made the platypus
