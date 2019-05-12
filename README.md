@@ -13,6 +13,7 @@ Klobouk ve křoví - Jan Werich, Jiří Voskovec
 The Sound of Silence - Simon & Garfunkel
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
+Ballad of serenity - Sonny Rhodes
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
