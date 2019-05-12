@@ -3,10 +3,12 @@ from scripts.line import Line
 
 
 class SongText(object):
-    def __init__(self, path):
+    def __init__(self, path=None, text=None):
+        self.text = text
         self.path = path
-        with open(path, "r", encoding="UTF-8") as f:
-            self.text = f.read()
+        if path is not None:
+            with open(path, "r", encoding="UTF-8") as f:
+                self.text = f.read()
 
         self.parse()
 
@@ -19,8 +21,9 @@ class SongText(object):
             self.save()
 
     def save(self):
-        with open(self.path, "w", encoding="UTF-8") as f:
-            f.write(self.text)
+        if self.path is not None:
+            with open(self.path, "w", encoding="UTF-8") as f:
+                f.write(self.text)
 
     def parsed_text(self):
         lines = self.get_lines()
@@ -64,10 +67,10 @@ class SongText(object):
 
     @staticmethod
     def clear_lines(lines):
-        while lines[0].is_empty():
+        while len(lines) > 0 and lines[0].is_empty():
             lines.pop(0)
 
-        while lines[-1].is_empty():
+        while len(lines) > 0 and lines[-1].is_empty():
             lines.pop(-1)
 
         for i, line in list(reversed(list(enumerate(lines))))[:-1]:
@@ -103,3 +106,16 @@ class SongText(object):
     @property
     def height(self):
         return len(self.get_lines())
+
+    def get_text_without_headings(self):
+        lines = self.get_lines()
+        res = []
+
+        for i, line in enumerate(lines):
+            next_line = None if i + 1 == len(lines) else lines[i + 1]
+
+            if next_line is not None and line.is_tag_line() and next_line.is_text_line():
+                continue
+            res.append(line)
+
+        return self.join_lines(res)

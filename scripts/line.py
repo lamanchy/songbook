@@ -10,6 +10,9 @@ class Line(object):
     def is_empty(self):
         return len(self.text.strip()) == 0
 
+    def is_tag_line(self):
+        return all([self.is_tag(c) for c in self.text.split(" ")])
+
     def is_chord_line(self):
         if self.is_empty(): return False
         not_empty_parts = [part for part in self.text.split(" ") if len(part) > 0]
@@ -19,7 +22,7 @@ class Line(object):
         return True
 
     def is_text_line(self):
-        return not self.is_empty() and not self.is_chord_line()
+        return not self.is_empty() and not self.is_chord_line() and not self.is_tag_line()
 
     def justifies_next_spaced(self):
         return self.is_chord_line() and self.text[0] != " "
@@ -31,6 +34,10 @@ class Line(object):
     @staticmethod
     def is_extra(chars):
         return re.match(r"\[?\d+]?", chars) or chars == "|"
+
+    @staticmethod
+    def is_tag(chars):
+        return re.match(r"\[\w+( \d)?]", chars)
 
     def rstrip(self):
         self.text = self.text.rstrip()
@@ -195,3 +202,6 @@ class Line(object):
                 res[i] = index, part
 
         return res
+
+    def __repr__(self):
+        return self.text

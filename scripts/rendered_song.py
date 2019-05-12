@@ -28,14 +28,14 @@ class RenderedSong(object):
             first = RenderedText(first)
             second = RenderedText(second)
             font_size = min(first.font_size, second.font_size)
-            first = RenderedText(first.text, font_size + 1)
-            second = RenderedText(second.text, font_size + 1)
+            first = RenderedText(first.text.text, font_size + 1)
+            second = RenderedText(second.text.text, font_size + 1)
 
-            if second.text.count("\n") == 0:
+            if second.text.text.count("\n") == 0:
                 variations.append((font_size, split_index, [first]))
                 continue
 
-            if len(second.text.split("\n")) <= 4:
+            if len(second.text.text.split("\n")) <= 4:
                 continue
 
             variations.append((font_size, split_index, [first, second]))
