@@ -48,7 +48,7 @@ class Line(object):
         return text
 
     def remove_funny_ending(self):
-        while len(self.text) > 0 and self.text[-1] in ",.-!?:":
+        while len(self.text) > 0 and self.text[-1] in ",.-!?:_":
             self.text = self.text[:-1]
             self.rstrip()
 
@@ -60,6 +60,7 @@ class Line(object):
     def fix_interpunction(self):
         self.replace("[:", "")
         self.replace(":]", "")
+        self.replace("_ ", " _")
         for c in ".!?;\"…":
             self.replace(c, ",")
 
@@ -75,19 +76,40 @@ class Line(object):
                 self.text = self.text[:i] + self.text[i].upper() + self.text[i + 1:]
                 break
 
-    def format_chord_naming(self):
+    def format_chord_naming(self, next_line, fn):
+        if next_line is None: next_line = Line("")
         tuples = self.get_parts_with_indexes()
-        tuples = [((i, str(Chord(chord))) if not self.is_extra(chord) else (i, chord)) for i, chord in tuples]
+        next_tuples = next_line.get_parts_by_indexes([i for i, _ in tuples])
+        for i, (index, chord) in enumerate(tuples):
+            if self.is_chord(chord):
+                new_chord = fn(chord)
+                diff = len(new_chord) - len(chord)
+                if diff > 0:
+                    for o, (ondex, c) in list(enumerate(tuples))[i + 1:]:
+                        tuples[o] = ondex + diff, c
+                    for o, (ondex, c) in list(enumerate(next_tuples))[i + 1:]:
+                        next_tuples[o] = ondex + diff, c
+
+                tuples[i] = index, new_chord + " "
 
         self.put_parts_with_indexes(tuples)
+        next_line.put_parts_with_indexes(next_tuples)
 
     def put_parts_with_indexes(self, tuples):
-        text = ""
-        for i, chord in tuples:
-            while len(text) < i:
-                text += " "
+        text = self.text[:tuples[0][0]]
+        is_chord_line = self.is_chord_line()
+        for i, part in tuples:
+            if self.is_empty() or len(text) == 0 or is_chord_line:
+                to_add = " "
+            elif text[-1] in " _":
+                to_add = "_"
+            else:
+                to_add = "-"
 
-            text += chord + " "
+            while len(text) < i:
+                text += to_add
+
+            text += part
         self.text = text.rstrip()
 
     def transpose(self):
@@ -140,3 +162,36 @@ class Line(object):
                 chord = ""
 
         return chords
+
+    def remove_extra_padding(self, prev_line=None):
+        if prev_line is None: prev_line = Line("")
+
+        for i in range(len(self.text)):
+            if i >= len(self.text) - 1: break
+            while i >= len(prev_line.text) - 1:
+                prev_line.text += " "
+
+            if prev_line.text[i] != " " or prev_line.text[i + 1] != " ": continue
+            if self.text[i + 1] not in " _-": continue
+            if self.text[i + 1] in " _" and self.text[i] not in " _": continue
+
+            self.text = self.text[:i + 1] + self.text[i + 1 + 1:]
+            prev_line.text = prev_line.text[:i + 1] + prev_line.text[i + 1 + 1:]
+
+        prev_line.text = prev_line.text.rstrip()
+
+    def get_parts_by_indexes(self, indexes, move_left=True):
+        res = []
+        for i, index in enumerate(indexes):
+            end = len(self.text) if i + 1 == len(indexes) else indexes[i + 1]
+            res.append((index, self.text[index:end]))
+
+        if move_left:
+            for i in range(len(res[:-1])):
+                index, part = res[i]
+                while part.count(" ") > 0 and part[-1] != " ":
+                    res[i + 1] = res[i + 1][0] - 1, part[-1] + res[i + 1][1]
+                    part = part[:-1]
+                res[i] = index, part
+
+        return res

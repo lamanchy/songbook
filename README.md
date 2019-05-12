@@ -11,7 +11,6 @@ Wonderwall - Oasis
 Stairway to Heaven - Led Zeppelin
 Klobouk ve křoví - Jan Werich, Jiří Voskovec
 The Sound of Silence - Simon & Garfunkel
-Klobouk ve křoví - Jan Werich, Jiří Voskovec
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
 ```

@@ -93,3 +93,9 @@ class Song(object):
 
     def transpose(self):
         self.text.transpose()
+
+    def __str__(self):
+        return self.title
+
+    def __repr__(self):
+        return self.title

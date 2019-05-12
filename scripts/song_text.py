@@ -1,3 +1,4 @@
+from scripts.chord import Chord
 from scripts.line import Line
 
 
@@ -29,15 +30,18 @@ class SongText(object):
             self.basic_formatting(lines)
 
         self.format_chords(lines)
+        self.basic_formatting(lines)
 
         return self.join_lines(lines)
 
     def transpose(self):
         lines = self.get_lines()
 
-        for line in lines:
+        for i, line in enumerate(lines):
+            next_line = None if i + 1 == len(lines) else lines[i + 1]
+
             if line.is_chord_line():
-                line.transpose()
+                line.format_chord_naming(next_line, lambda chord: str(Chord(chord).transpose()))
 
         self.text = self.join_lines(lines)
         self.save()
@@ -76,11 +80,26 @@ class SongText(object):
     def format_chords(lines):
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
+            prev_line = None if i - 1 < 0 else lines[i - 1]
 
             if line.is_chord_line():
-                line.format_chord_naming()
+                line.format_chord_naming(next_line, lambda chord: str(Chord(chord)))
                 line.format_chord_position(next_line)
+
+            if prev_line is not None and line.is_text_line() and prev_line.is_chord_line():
+                line.remove_extra_padding(prev_line)
+
+            elif line.is_text_line():
+                line.remove_extra_padding()
 
     @staticmethod
     def join_lines(lines):
         return "\n".join([line.text for line in lines])
+
+    @property
+    def width(self):
+        return max(map(lambda line: len(line.text), self.get_lines()))
+
+    @property
+    def height(self):
+        return len(self.get_lines())

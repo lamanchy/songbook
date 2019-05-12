@@ -149,7 +149,7 @@ class Chord(object):
         (["minmaj", "mm7"], minmaj),
         (["dimi7", "dim7", "°7"], dim7),
         (["dimi", "dim", "°"], dim),
-        (["maj7", "△7"], maj7),
+        (["maj7", "maj", "△7"], maj7),
         (["maj9", "△9"], maj9),
         (["no3"], no3),
         (["7+5", "7#5"], lambda s: [Chord.is7(s), Chord.aug(s)]),
@@ -164,7 +164,7 @@ class Chord(object):
         (["9"], is9),
         (["11"], is11),
         (["13"], is13),
-        (["maj", "△", "dur"], lambda _: None),
+        (["△", "dur"], lambda _: None),
         (["min", "mi", "mol", "m"], moll),
     ]
 
@@ -218,15 +218,16 @@ class Chord(object):
         self.tone.transpose()
         if self.bass_tone is not None:
             self.bass_tone.transpose()
+        return self
 
 
 if __name__ == "__main__":
     test_chords = [
-        ["", "maj", "△", "dur"],
+        ["", "△", "dur"],
         ["m", "min", "mol", "mi"],
         ["7", "dur7"],
         ["m7", "min7", "mol7", "mi7"],
-        ["maj7", "△7"],
+        ["maj7", "△7", "maj"],
         ["minmaj", "mM7"],
         ["6"],
         ["m6", "min6", "mol6", "mi6"],
@@ -262,7 +263,7 @@ if __name__ == "__main__":
                     if type[0] == "lowered" and tone in "CHBF":
                         continue
 
-                    if type[0] == "raised" and tone in "EBH":
+                    if type[0] == "raised" and tone in "EBAH":
                         continue
 
                     for typer in type[1]:
