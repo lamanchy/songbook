@@ -1,4 +1,4 @@
-Hvízd
+[whistling] G | Em | Hm | C H
 
 [verse1]
 G                    Em
@@ -18,7 +18,7 @@ G          Em
 G                        Hm
  S hlavou k zemi pod hvězdami
 
-Hvízd
+[whistling]
 
 K nám bolest vlastně nechodí
 Jen někdy dusno je
@@ -27,28 +27,18 @@ Do jednoho pokoje
 Král občas musí do boje
 Jen aby nezrezlo mu žezlo
 
-G
- City se mění v štíty
-H
- A ráno na bojišti
-Ab
- Srůstají z vlastních třísek
-Eb
- Jako kry z ledních tříští
-F
- Sevřené v černé brázdě
-      H
-Za tankerem
+G                    H
+ City se mění v štíty a ráno na bojišti
+Ab                           Eb
+ Srůstají z vlastních třísek, jako kry z ledních tříští
+F                              H
+ Sevřené v černé brázdě, za tankerem
 
-Srdce, dva ledoborce
-Bortí si cestu šerem
-Radlice v tvrdé hlíně
-Dokud je nepustíme
-Byť třeba někdy vzplanem
-Prosím ať nezplaníme
-F#
+Srdce, dva ledoborce, bortí si cestu šerem
+Radlice v tvrdé hlíně, dokud je nepustíme
+Byť třeba někdy vzplanem, prosím ať nezplaníme
+F#                   Ab Eb F
  Doufám že nezplaníme
-Ab Eb F
 
 [verse1]
 
@@ -57,4 +47,4 @@ A nebo jsme ho sami
 Vytvořili z típlých slov
 S hlavou k zemi pod hvězdami
 
-Hvízd
+[whistling]
