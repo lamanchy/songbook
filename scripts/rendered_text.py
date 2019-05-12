@@ -12,14 +12,16 @@ class RenderedText(object):
     title_font_size = get_max_font_size(draw, "A", None, mm_to_px(delta * .7), 100)[0]
     author_font_size = title_font_size * 30 // 40
     text_font_size = title_font_size * 25 // 40
+    note_font_size = title_font_size * 15 // 40
     max_width = mm_to_px(page_size[0] - 2 * delta)
     max_height = mm_to_px(page_size[1] - 5 * delta)
     text_pos = mm_to_px(delta, 3 * delta)
 
-    def __init__(self, text, font_size=text_font_size):
+    def __init__(self, text, min_font_size, font_size=text_font_size):
         self.text = SongText(None, text)
         self.font_size, self.problems = get_max_font_size(
-            self.draw, self.text.text, self.max_width, self.max_height, font_size)
+            self.draw, self.text.get_text_to_size(), self.max_width, self.max_height, font_size,
+            min_font_size=min_font_size)
 
     def get_page(self):
         page = Image.new("RGB", mm_to_px(self.page_size), (255, 255, 255))
@@ -31,11 +33,20 @@ class RenderedText(object):
         lines = self.text.get_lines()
 
         font = get_font(self.font_size)
-        spacing = mm_to_px(self.font_size / 10.)
+        spacing = mm_to_px(self.font_size / 15.)
 
         line_height = draw.textsize("A", font)[1] + spacing
         y = 0
         disable_x_reset = False
+
+        if len(lines) > 0 and lines[0].text.startswith("[capo"):
+            width = draw.textsize(lines[0].text, font)[0]
+            draw.text((self.text_pos[0] + self.max_width - 2 * self.delta - width, self.text_pos[1]), lines[0].text,
+                      font=font, fill=(0, 0, 0))
+            lines.pop(0)
+            if len(lines) > 0 and lines[0].is_empty():
+                lines.pop(0)
+
         for i, line in enumerate(lines):
             if line.is_empty(): disable_x_reset = False
             if not disable_x_reset: x = 0

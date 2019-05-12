@@ -3,7 +3,6 @@ from PIL import ImageDraw
 from pil_quality_pdf.fonts import get_max_font_size, get_font
 from pil_quality_pdf.rendering import mm_to_px
 from scripts.rendered_text import RenderedText
-from scripts.song import Song
 
 
 class RenderedSong(object):
@@ -13,7 +12,7 @@ class RenderedSong(object):
     author_font_size = RenderedText.author_font_size
     delta = RenderedText.delta
 
-    def __init__(self, song: Song):
+    def __init__(self, song):
         self.song = song
 
         self.font_size, _, self.texts = self.get_best_configuration()
@@ -21,15 +20,20 @@ class RenderedSong(object):
     def get_best_configuration(self):
         parts = self.song.text.text.split("\n\n")
         variations = []
+        best = 0
         for split_index in range(0, len(parts)):
-            split_index += 1
+            split_index = len(parts) - split_index
             first, second = "\n\n".join(parts[:split_index]), "\n\n".join(parts[split_index:])
 
-            first = RenderedText(first)
-            second = RenderedText(second)
+            first = RenderedText(first, best - 1)
+            second = RenderedText(second, best - 1)
             font_size = min(first.font_size, second.font_size)
-            first = RenderedText(first.text.text, font_size + 1)
-            second = RenderedText(second.text.text, font_size + 1)
+            best = max(best, font_size)
+            if font_size < best:
+                continue
+            first = RenderedText(first.text.text, best - 1, font_size + 1)
+            second = RenderedText(second.text.text, best - 1, font_size + 1)
+            first.font_size = second.font_size = font_size
 
             if second.text.text.count("\n") == 0:
                 variations.append((font_size, split_index, [first]))

@@ -107,15 +107,18 @@ class SongText(object):
     def height(self):
         return len(self.get_lines())
 
-    def get_text_without_headings(self):
+    def get_text_to_size(self):
         lines = self.get_lines()
         res = []
+
+        if len(lines) > 0 and lines[0].text.startswith("[capo"):
+            lines.pop(0)
+            if len(lines) > 0 and lines[0].is_empty():
+                lines.pop(0)
 
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
 
-            if next_line is not None and line.is_tag_line() and next_line.is_text_line():
-                continue
             res.append(line)
 
         return self.join_lines(res)
