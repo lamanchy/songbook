@@ -15,7 +15,7 @@ class RenderedSong(object):
     def __init__(self, song):
         self.song = song
 
-        self.font_size, _, self.texts = self.get_best_configuration()
+        self.font_size, self.texts = self.get_best_configuration()
 
     def get_best_configuration(self):
         parts = self.song.text.text.split("\n\n")
@@ -35,18 +35,18 @@ class RenderedSong(object):
             second = RenderedText(second.text.text, best - 1, font_size + 1)
             first.font_size = second.font_size = font_size
 
-            if second.text.text.count("\n") == 0:
+            if len(second.text.text) == 0:
                 variations.append((font_size, split_index, [first]))
                 continue
 
-            if len(second.text.text.split("\n")) <= 4:
+            if len(second.text.get_lines()) <= 5:
                 continue
 
             variations.append((font_size, split_index, [first, second]))
 
         variations.sort(reverse=True)
 
-        return variations[0]
+        return variations[0][2][0].font_size, variations[0][2]
 
     def get_pages(self):
         pages = [text.get_page() for text in self.texts]
