@@ -5,12 +5,9 @@ Hned víte, že je tady zase jeden zbytečnej den
 A kolem, lidi se kterýma nic není
 Uměj vás tak maximálně zpražit
 
-Nebo něco zakázat
-Je vám z nich nablití
-A nevíte co s tím
-Na to však existuje lék
-Zabírá líp než penicilin
-Je to, Rock'n'Roll
+Nebo něco zakázat | je vám z nich nablití
+A nevíte co s tím | na to však existuje lék
+Zabírá líp než penicilin | je to, Rock'n'Roll
 
 [chorus]
 Am
@@ -54,7 +51,6 @@ Pak můžeš bejt správný hráč
 A nebo prezident
 Můžeš si žít v rachotu kol
 Vrátí tě zpátky jen tak na moment
-Rock'n Rock'n Rock'n, Rock'n'Roll
-Rock'n Rock'n Rock'n, Rock'n'Roll
+Rock'n Rock'n Rock'n, Rock'n'Roll [2x]
 
 A D E A
