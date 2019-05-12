@@ -35,24 +35,13 @@ class RenderedText(object):
 
         line_height = draw.textsize("A", font)[1] + spacing
         y = 0
+        disable_x_reset = False
         for i, line in enumerate(lines):
-            x = 0
+            if line.is_empty(): disable_x_reset = False
+            if not disable_x_reset: x = 0
+
             previous_line = None if i - 1 < 0 else lines[i - 1]
             next_line = None if i + 1 == len(lines) else lines[i + 1]
-
-            # if next_line is not None and line.is_tag_line() and not next_line.is_empty() and line.text.count(" ") == 0:
-            #     to_print = line.text[1:-1]
-            # if to_print == "s": to_print = "S"
-            # if to_print == "c": to_print = "R"
-            # if to_print == "v": to_print = "V"
-            # if to_print == "b": to_print = "B"
-            # if line.text[-2].isdigit():
-            #     to_print += line.text[-2]
-
-            # to_print += ": "
-            # width = draw.textsize(to_print, font)[0]
-            # draw.text((self.text_pos[0] - width, self.text_pos[1] + y), to_print, font=font, fill=(0, 0, 0))
-            # continue
 
             if line.is_chord_line() and previous_line is not None and previous_line.is_text_line():
                 y += spacing / 2
@@ -86,6 +75,11 @@ class RenderedText(object):
                 y += line_height
 
             else:
-                draw.text((self.text_pos[0], self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
+                draw.text((self.text_pos[0] + x, self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
+
+            if not line.is_tag_line() and line.is_tag(line.text.split(" ")[0]):
+                tag = line.text.split(" ")[0] + " "
+                x = draw.textsize(tag, font)[0]
+                disable_x_reset = True
 
             y += line_height
