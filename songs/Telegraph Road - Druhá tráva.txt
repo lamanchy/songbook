@@ -1,12 +1,10 @@
 [capo2]
 
-[solo1]
-Em | Em7 | A | E | Em | G D | A | E
+[solo1] Em | Em7 | A | E | Em | G D | A | E
 
 [solo1]
 
-[bridge]
-Em Am Dsus4 D
+[bridge] Em Am Dsus4 D
 
 G                   Em             D                     C
 Jedenkrát dávno šel pustinou muž a na pravým místě tam vykácel buš
@@ -26,8 +24,7 @@ Těžký jdou časy teď znova a znova, skončila válka a chystá se nová
 A rozmoklou stezkou, co prošel ten skaut, v deseti proudech jdou provazy aut
 Jak dravá řeka
 
-[solo]
-G | Em | C G | C D | G D | C | Am | Am C
+[solo] G | Em | C G | C D | G D | C | Am | Am C
 G | Em | C G | C D | G D | C | C
 
 [solo1]
@@ -37,9 +34,7 @@ A rádio hlásí, že v noci byl mráz, lidi jdou z práce a nemají čas
 D                  Hm          Em Dsus4 D
 Jenže vlak domů má velký zpoždění
 
-[solo]
-Em | H | C Am6 | D7 G Hm | Am D7 | G | Am G | C H [4x]
-
+[solo] Em | H | C Am6 | D7 G Hm | Am D7 | G | Am G | C H [4x]
 Em D
 
 Už nemůžu dělat, co kde bych kdy chtěl, třeba v pralesích kácet, to bohužel

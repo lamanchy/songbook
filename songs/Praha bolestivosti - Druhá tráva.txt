@@ -1,5 +1,4 @@
-[solo]
-F | Am | F | C G | Dm | Am | B | Am [2x]
+[solo] F | Am | F | C G | Dm | Am | B | Am [2x]
 
 [verse1]
                  F                   C

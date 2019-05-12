@@ -1,5 +1,4 @@
-[solo]
-E Hm | C G | G | Em C | Hm A | D
+[solo] E Hm | C G | G | Em C | Hm A | D
 
 [verse1]
     Em     C  G         Em  Hm          Am

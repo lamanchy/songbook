@@ -1,5 +1,4 @@
-[solo]
-G Em C D Am C G [2x]
+[solo] G Em C D Am C G [2x]
 
 G
  Skončili jsme, jasná zpráva
@@ -29,7 +28,6 @@ Mám snad bloudit vlastním bytem sám
 Kam se kouknu, kousek tebe mám
 
 [solo]
-G Em C D Am C G
 
 [chorus]
 
@@ -38,4 +36,3 @@ Není komu z okna mávat víc
 Jasná zpráva, rub, co nemá líc
 
 [solo]
-G Em C D Am C G
