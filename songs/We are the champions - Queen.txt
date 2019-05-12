@@ -1,12 +1,9 @@
-             Hm  F#m
-I've paid my dues
-Time after time
-I've done my sentence
-But committed no crime
+             Hm   F#m         Hm  F#m
+I've paid my dues, time after time
+I've done my sentence, but committed no crime
 
-        D       G
-And bad mistakes
-I've made a few
+        D        G            D  G
+And bad mistakes, I've made a few
             D        A                 Hm
 I've had my share of sand kicked in my face
     E         A
@@ -21,10 +18,8 @@ We are the champions, my friends
 And we'll keep on fighting 'til the end
 F#m                   Am         D#dim
 We are the champions, we are the champions
-E           F#m
-No time for losers
-       G          A
-'Cause we are the champions
+E           F#m            G          A
+No time for losers, 'cause we are the champions
        Em   F#m Em F#m
 Of the world
 
