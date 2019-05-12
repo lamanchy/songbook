@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
     with PdfWriter("songbook") as f:
         # songs = songs[:8]
-        songs = [song for song in songs if song.title.startswith("Ráno")]
+        # songs = [song for song in songs if song.title.startswith("Ráno")]
         f.counter = 5
 
         single_song_waiting_for_another = None
