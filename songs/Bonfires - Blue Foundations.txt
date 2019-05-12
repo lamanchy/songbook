@@ -28,7 +28,7 @@ And bonfires lit up the shores
 
 [chorus]
 
-[chorus 2]
+[chorus2]
 Walk far far away
 Where to go and hide
 We're going to the sea

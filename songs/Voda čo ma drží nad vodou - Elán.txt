@@ -1,4 +1,4 @@
-[capo 2]
+[capo2]
 
 G          C     D            G
  Keby bolo niečo, čo sa ti dá zniesť
@@ -30,4 +30,4 @@ Ak ťa eště trápi smútok z rozchodov
 Ono sa to podá, ty si predsa voda
 Čo ma drží nad vodou
 
-[verse 1] [chorus]
+[verse1] [chorus]

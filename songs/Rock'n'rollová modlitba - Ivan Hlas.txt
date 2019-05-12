@@ -19,7 +19,7 @@ Dej nám Pán Bůh, kýbl bublin sem
 
 [chorus]
 
-[verse 1]
+[verse1]
 D                 A
  Ulicí si to šine policeman
 D                            A
@@ -45,7 +45,7 @@ A uši křídlem skín zavírá
 Nádhernej skaut z důstojnech šedin
 Rock'n Rock'n Roll ti dá
 
-[chorus] [verse 1]
+[chorus] [verse1]
 
 Pak můžeš bejt správný hráč
 A nebo prezident

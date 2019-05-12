@@ -25,7 +25,7 @@ Známí kluci ruku stisknou, řeknou vítej, toulavej
 Budou hvězdy jako tenkrát až tě v očích zabolej
 Celou noc jim bude zpívat jeden blázen toulavej
 
-[chorus 2]
+[chorus2]
 Sobotní ráno mi poletí vstříc, budeme u cesty stát
 Vypráším celtu a můžu vám říct, že na starý songy
 Si vzpomenu rád, vzpomenu rád

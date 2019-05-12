@@ -1,9 +1,9 @@
-[capo 2]
+[capo2]
 
-[solo 1]
+[solo1]
 Em | Em7 | A | E | Em | G D | A | E
 
-[solo 1]
+[solo1]
 
 [bridge]
 Em Am Dsus4 D
@@ -20,7 +20,7 @@ A už je tu kostel, a konečně most a železná ruda a zločinnost
                                   C                              Em
 A okresní město má okresní soud a ta stará trať jméno Telegraf Road
 
-[solo 1] [bridge]
+[solo1] [bridge]
 
 Těžký jdou časy teď znova a znova, skončila válka a chystá se nová
 A rozmoklou stezkou, co prošel ten skaut, v deseti proudech jdou provazy aut
@@ -30,7 +30,7 @@ Jak dravá řeka
 G | Em | C G | C D | G D | C | Am | Am C
 G | Em | C G | C D | G D | C | C
 
-[solo 1]
+[solo1]
 
   Am                               Em
 A rádio hlásí, že v noci byl mráz, lidi jdou z práce a nemají čas
@@ -48,7 +48,7 @@ Můžu jen sklízet, co zasil jsem sám a zaplatit všechno, co komu kde mám
 Ti šedaví ptáci na drátech z mědi, vo tomhletom kódu už ledacos vědí
 Ti můžou letět a zapomenout, na celej řád týhle Telegraf Road
 
-[solo 1]
+[solo1]
 
 Víš, že bývaly časy, kdy bylo to zlý, že spali jsme v dešti a promrzlí
 Teď, když mi říkáš, tak vem si, co chceš, moc dobře cítím, že už je to lež

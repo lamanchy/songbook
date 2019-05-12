@@ -49,7 +49,7 @@ Everything is fine
 
 [chorus]
 
-[chorus 2]
+[chorus2]
 The closer you get, the better you see
 The closer you are, the more I see
 Why everyone says that I look happier

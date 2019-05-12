@@ -20,44 +20,35 @@ D
  S láskou se vůní brodíme
 C                    D                     C
  Postelový království za koně nechce se mi dát
-            D                 Em
-Jsem na tom stejně, mám tě rád
-C         D
- Jablkem, jablkem nejsi
-Am
- Kousnu hloubš a zlíbám tě celou
+
+[chorus2]
+C            D                 Em
+ Jsem na tom stejně, mám tě rád
+C         D             Am
+ Jablkem, jablkem nejsi, kousnu hloubš a zlíbám tě celou
 C                                  D
 Merci jó merci tak opustit zoufalců ráj
                     Em
 Chci zas v tobě spát
 
 Říkáš, že svět je krásnej, svět je zlej
-Až naše hvězda zhasne haudy haudy héééj
+Až naše hvězda zhasne haudy haudy héj
 Štěstím se lůza brodí, neříkám
 Hledá a pravdu rodí neví nesvlíká
+   D
 Tě lásko
 
 [chorus]
 
-Em
- Sami se k břehům kloníme
-C
- Sami jak bezvládnej proud
-Em
- Sami se proti vlnám stavíme
-C
- Sami se chcem zbavit těch pout
-Em
- Sami se k břehům kloníme
-C
- Sami jak bezvládnej proud
+Em                        C
+ Sami se k břehům kloníme, sami jak bezvládnej proud
+Em                           C
+ Sami se proti vlnám stavíme, sami se chcem zbavit těch pout
+Em                        C
+ Sami se k břehům kloníme, sami jak bezvládnej proud
 Em                          C D
  Sami se proti vlnám stavíme
-
 C            D                Em
  Jsem na tom stejně mám tě rád
-Jsem na tom stejně mám tě rád
-Jablkem jablkem nejsi
-Kousnu hloubš a zlíbám tě celou
-Merci jó merci tak opustit zoufalců ráj
-Chci zas v tobě spát
+
+[chorus2]
