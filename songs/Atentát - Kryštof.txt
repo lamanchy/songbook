@@ -5,10 +5,8 @@ F#m             D
 Na dva ostrovy, od sebe daleko
 Všechno v nás už přeteklo
 
-A         E
- Jsme uvězněni v tělech
-F#m          D
- Jak hudba v decibelech
+A         E             F#m          D
+ Jsme uvězněni v tělech, jak hudba v decibelech
 
 [chorus]
 A E      F#m                D
@@ -19,8 +17,7 @@ Už tolikrát jsme umřeli
 Ve tmách za slovy, daleko od nebe
 Míjíš mě a já tebe
 
-Jsme uvězněni v tělech
-Jak kulky v revolverech
+Jsme uvězněni v tělech, jak kulky v revolverech
 
 [chorus]
 Zas budem šťastni, tak prosím, zhasni svět
