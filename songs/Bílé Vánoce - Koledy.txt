@@ -2,8 +2,8 @@ G             Am7  C# D7
 Já sním o vánocích bí-lých
 C          D7              G   Am7
  Vánocích, které z dětství znám
-D7    G   G    G7
-Zněly zvonky __saní
+D7    G   Gmaj7 G7
+Zněly zvonky ___saní
   C     Cm          G
 A každé přání v ten den
 C    A7    Am7 D7
@@ -11,7 +11,7 @@ Splnilo se nám
 
 Já sním o vánocích bílých
 Vánočním stromku zářícím
-D7     G  G    G7      C   Cm
-Světla svíček, jmelí a sníh
-        G  Ddim  Am7   D7  G
-Tak byl krásný __den o vánocích
+D7     G  Gmaj7 G7      C   Cm
+Světla svíček, _jmelí a sníh
+        G  Ddim Am7   D7  G
+Tak byl krásný _den o vánocích
