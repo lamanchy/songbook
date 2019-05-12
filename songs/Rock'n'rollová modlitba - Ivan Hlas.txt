@@ -48,9 +48,7 @@ A uši křídlem skín zavírá
 Nádhernej skaut z důstojnech šedin
 Rock'n Rock'n Roll ti dá
 
-[chorus]
-
-[verse 1]
+[chorus] - [verse 1]
 
 Pak můžeš bejt správný hráč
 A nebo prezident

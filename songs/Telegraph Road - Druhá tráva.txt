@@ -20,9 +20,7 @@ A už je tu kostel, a konečně most a železná ruda a zločinnost
                                   C                              Em
 A okresní město má okresní soud a ta stará trať jméno Telegraf Road
 
-[solo 1]
-
-[bridge]
+[solo 1] - [bridge]
 
 Těžký jdou časy teď znova a znova, skončila válka a chystá se nová
 A rozmoklou stezkou, co prošel ten skaut, v deseti proudech jdou provazy aut
