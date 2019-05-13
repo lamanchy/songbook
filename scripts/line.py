@@ -17,7 +17,7 @@ class Line(object):
         if self.is_empty(): return False
         not_empty_parts = [part for part in self.text.split(" ") if len(part) > 0]
         for part in not_empty_parts:
-            if not self.is_chord(part) and not self.is_extra(part):
+            if not self.is_chord(part) and not self.is_extra(part) and not self.is_tag(part):
                 return False
         return True
 

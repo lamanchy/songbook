@@ -14,7 +14,7 @@ class RenderedText(object):
     text_font_size = title_font_size * 25 // 40
     note_font_size = title_font_size * 15 // 40
     max_width = mm_to_px(page_size[0] - 2 * delta)
-    max_height = mm_to_px(page_size[1] - 5 * delta)
+    max_height = mm_to_px(page_size[1] - 4.5 * delta)
     text_pos = mm_to_px(delta, 3 * delta)
 
     def __init__(self, text, min_font_size, font_size=text_font_size):
