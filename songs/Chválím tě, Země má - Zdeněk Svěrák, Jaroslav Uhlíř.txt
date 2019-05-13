@@ -1,16 +1,10 @@
-C           F
-Chválím tě, země má
-C          G
-Tvůj žár i mráz
-C         F
-Tvá tráva zelená
-C   G    C
-Dál vábí nás
+C           F        C          G
+Chválím tě, země má, tvůj žár i mráz
+C         F       C   G    C
+Tvá tráva zelená, dál vábí nás
 
-Máš závoj z oblaků
-Bílých, jak sníh
-Hvězdo má, bárko zázraků
-Na nebesích
+Máš závoj z oblaků, bílých, jak sníh
+Hvězdo má, bárko zázraků, na nebesích
 
 [chorus]
         F        C
@@ -18,15 +12,12 @@ Ať před mou planetou
         F         G
 Hvězdný prach zametou
 
-Dej vláhu rostlinám
-Dej ptákům pít
-Prosím svou přízeň dej i nám
-Dej mír a klid
+[verse2]
+Dej vláhu rostlinám, dej ptákům pít
+Prosím svou přízeň dej i nám, dej mír a klid
 
 [chorus]
 
-Dej vláhu rostlinám
-Dej ptákům pít
-Prosím svou přízeň dej i nám
-Dej mír a klid
+[verse2]
+
 Svou přízeň dej i nám, dej mír a klid
