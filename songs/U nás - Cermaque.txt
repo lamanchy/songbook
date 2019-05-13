@@ -1,21 +1,23 @@
-[whistling] G | Em | Hm | C H
+[capo5]
+
+[whistling] C | Am | Em | F E [2x]
 
 [verse1]
-G                    Em
+C                    Am
 K nám bolest vlastně nechodí
-          Hm
+          Em
 Jen někdy dusno je
- C            H
+ F            E
 Víc než by se vlezlo
 Do jednoho pokoje
 A z hrdel dere se zlo
-C                Em
+F                Am
  Někdo v nás zlo zapomněl
-Hm              C
+Em              F
  A nebo jsme ho sami
-G          Em
+C          Am
  Vytvořili z típlých slov
-G                        Hm
+C                        Em
  S hlavou k zemi pod hvězdami
 
 [whistling]
@@ -27,17 +29,17 @@ Do jednoho pokoje
 Král občas musí do boje
 Jen aby nezrezlo mu žezlo
 
-G                    H
+C                    E
  City se mění v štíty a ráno na bojišti
-Ab                           Eb
+C#                           G#
  Srůstají z vlastních třísek, jako kry z ledních tříští
-F                              H
+B                              E
  Sevřené v černé brázdě, za tankerem
 
 Srdce, dva ledoborce, bortí si cestu šerem
 Radlice v tvrdé hlíně, dokud je nepustíme
 Byť třeba někdy vzplanem, prosím ať nezplaníme
-F#                   Ab Eb F
+H                    C# | G# | B C C# | D
  Doufám že nezplaníme
 
 [verse1]
