@@ -68,7 +68,7 @@ class Line(object):
         self.replace("[:", "")
         self.replace(":]", "")
         self.replace("_ ", " _")
-        for c in ".!?;\"…":
+        for c in ".!?;\"…–":
             self.replace(c, ",")
 
         self.replace(",,", ",")
