@@ -38,12 +38,16 @@ Hledá a pravdu rodí neví nesvlíká
    D
 Tě lásko
 
-[chorus]
+[chorus] [chorus2]
 
-Em                        C
- Sami se k břehům kloníme, sami jak bezvládnej proud
-Sami se proti vlnám stavíme, sami se chcem zbavit těch pout
-Sami se k břehům kloníme, sami jak bezvládnej proud
+Em
+ Sami se k břehům kloníme
+C
+ Sami jak bezvládnej proud
+Sami se proti vlnám stavíme
+Sami se chcem zbavit těch pout
+Sami se k břehům kloníme
+Sami jak bezvládnej proud
 Em                          C D
  Sami se proti vlnám stavíme
 C            D                Em
