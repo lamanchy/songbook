@@ -1,7 +1,7 @@
 [chorus]
-D         Hm                   A
+C         G                 F
 Star star teach me how to shine shine
-Hm            D                 Hm         A   Hm
+G             C                 G           F  G
 Teach me so I know what's going on in your mind
 'Cause I don't understand these people
 Who say the hill's to steep
@@ -19,9 +19,8 @@ Teach me so I know what's going on in your mind
 Who say we're all asleep
 They'll toss and turn forever, but no rest will they find
 
-    Hm  G A
+    Am  F G
 And star
-                Hm   G A
 Teach me how to shine
 
 [solo]
