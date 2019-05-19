@@ -14,6 +14,36 @@ The Sound of Silence - Simon & Garfunkel
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
 Ballad of serenity - Sonny Rhodes
+Folsom Prison Blues - Johnny Cash
+Stray Cat Strut - Stray Cats
+bodláky ve vlasech
+salome
+až se k nám právo vrátí
+za svou pravdou stát
+zítra ráno v pět
+hey jude
+when the saints go marchin in, už ptáci jdou
+kde domov můj
+rock n roll pro betowena
+wishky to je moje gusto
+žízeň
+bláznivá markéta
+máj píseň
+hit the road jack
+lásko voníš deštěm
+brontosaurus kto
+pole s bavlnou
+mám děvče, ona se brání  A capo 3
+dajána
+hrobař
+holubi dum in 5/6 taktu
+medvídek lucie
+ej pada pada rosenka
+show must go on
+jan hodný
+nezmaři růže
+monter blues
+tashi dele navratilova
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
