@@ -62,10 +62,8 @@ Bloodhound Gang - Fire water burn
 Bad Romance - Vintage 1920's Gatsby 
 Afroman - Because I Got High
 Silly Wizard - My Love's In Germany
-Pixies - Where Is My Mind - High Definition
 Devil Makes Three - Plank
 Fever - Peggy Lee
-The Wailin' Jennys - The Parting Glass
 Loreena Mckennitt - As I Roved Out
 Nina Simone - I Wish I Knew How It Would Feel To Be Free
 ```
