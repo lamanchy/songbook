@@ -70,9 +70,7 @@ JIŘÍ SCHELINGER - NÁM SE LÍBÍ
 TASH SULTANA - JUNGLE (LIVE BEDROOM RECORDING)
 Kashmir - Led Zeppelin
 Loreena Mckennitt - As I Roved Out
-Hugh Laurie - Let Them Talk
 Nina Simone - I Wish I Knew How It Would Feel To Be Free
-Peter Gabriel - My Body is a cage
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
