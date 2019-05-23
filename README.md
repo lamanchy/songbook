@@ -44,6 +44,35 @@ jan hodný
 nezmaři růže
 monter blues
 tashi dele navratilova
+The Rolling Stones - Sympathy For The Devil
+Red Hot Chili Peppers - Can't Stop
+Arctic Monkeys - Do I Wanna Know?
+Just A Car Crash Away - Marilyn Manson
+NEVÍM - Vltava
+Hradišťan - Altajské nebe
+The Dead South - In Hell I'll Be In Good Company
+Frank Sinatra Fly Me To The Moon
+Joan Jett & the Blackhearts - I Love Rock N Roll
+Devil Makes Three - The Bullet
+Eurythmics - Sweet Dreams
+The Lumineers - Classy Girls
+The Lumineers - Flowers In Your Hair
+Desire - Under Your Spell
+Bloodhound Gang - Fire water burn
+Bad Romance - Vintage 1920's Gatsby 
+Afroman - Because I Got High
+Silly Wizard - My Love's In Germany
+Pixies - Where Is My Mind - High Definition
+Devil Makes Three - Plank
+Fever - Peggy Lee
+The Wailin' Jennys - The Parting Glass
+JIŘÍ SCHELINGER - NÁM SE LÍBÍ
+TASH SULTANA - JUNGLE (LIVE BEDROOM RECORDING)
+Kashmir - Led Zeppelin
+Loreena Mckennitt - As I Roved Out
+Hugh Laurie - Let Them Talk
+Nina Simone - I Wish I Knew How It Would Feel To Be Free
+Peter Gabriel - My Body is a cage
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
