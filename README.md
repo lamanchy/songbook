@@ -66,9 +66,6 @@ Pixies - Where Is My Mind - High Definition
 Devil Makes Three - Plank
 Fever - Peggy Lee
 The Wailin' Jennys - The Parting Glass
-JIŘÍ SCHELINGER - NÁM SE LÍBÍ
-TASH SULTANA - JUNGLE (LIVE BEDROOM RECORDING)
-Kashmir - Led Zeppelin
 Loreena Mckennitt - As I Roved Out
 Nina Simone - I Wish I Knew How It Would Feel To Be Free
 ```
