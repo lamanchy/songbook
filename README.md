@@ -20,7 +20,6 @@ bodláky ve vlasech
 salome
 až se k nám právo vrátí
 za svou pravdou stát
-zítra ráno v pět
 hey jude
 when the saints go marchin in, už ptáci jdou
 kde domov můj
@@ -28,13 +27,9 @@ rock n roll pro betowena
 wishky to je moje gusto
 žízeň
 bláznivá markéta
-máj píseň
 hit the road jack
 lásko voníš deštěm
-brontosaurus kto
 pole s bavlnou
-mám děvče, ona se brání  A capo 3
-dajána
 hrobař
 holubi dum in 5/6 taktu
 medvídek lucie
@@ -44,25 +39,14 @@ jan hodný
 nezmaři růže
 monter blues
 tashi dele navratilova
-The Rolling Stones - Sympathy For The Devil
 Red Hot Chili Peppers - Can't Stop
-Arctic Monkeys - Do I Wanna Know?
-Just A Car Crash Away - Marilyn Manson
 NEVÍM - Vltava
-Hradišťan - Altajské nebe
-The Dead South - In Hell I'll Be In Good Company
 Frank Sinatra Fly Me To The Moon
 Joan Jett & the Blackhearts - I Love Rock N Roll
-Devil Makes Three - The Bullet
-Eurythmics - Sweet Dreams
+Devil Makes Three - The Plank
 The Lumineers - Classy Girls
 The Lumineers - Flowers In Your Hair
-Desire - Under Your Spell
-Bloodhound Gang - Fire water burn
 Bad Romance - Vintage 1920's Gatsby 
-Afroman - Because I Got High
-Silly Wizard - My Love's In Germany
-Devil Makes Three - Plank
 Fever - Peggy Lee
 Loreena Mckennitt - As I Roved Out
 Nina Simone - I Wish I Knew How It Would Feel To Be Free
