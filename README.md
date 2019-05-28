@@ -47,7 +47,6 @@ The Lumineers - Flowers In Your Hair
 Bad Romance - Vintage 1920's Gatsby 
 Fever - Peggy Lee
 Loreena Mckennitt - As I Roved Out
-Nina Simone - I Wish I Knew How It Would Feel To Be Free
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
