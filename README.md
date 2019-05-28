@@ -24,7 +24,6 @@ when the saints go marchin in, už ptáci jdou
 kde domov můj
 rock n roll pro betowena
 wishky to je moje gusto
-žízeň
 bláznivá markéta
 hit the road jack
 lásko voníš deštěm
