@@ -1,6 +1,6 @@
 # Ondřej Lomič's songbook
 
-TODO: 
+Songs to add: 
 ```
 Ribbons - Ingrid Michaelson
 Today - Smashing Pumpkins
@@ -17,7 +17,6 @@ Ballad of serenity - Sonny Rhodes
 Folsom Prison Blues - Johnny Cash
 Stray Cat Strut - Stray Cats
 bodláky ve vlasech
-salome
 až se k nám právo vrátí
 za svou pravdou stát
 hey jude
