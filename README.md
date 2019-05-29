@@ -2,32 +2,25 @@
 
 Songs to add: 
 ```
-Ribbons - Ingrid Michaelson
-Today - Smashing Pumpkins
 River - Leon Bridges
 Sluneční hrob - Blue Effect
 Lemon Tree - Fool's Garden
-Wonderwall - Oasis
+Wonderwall - Oasis ??
 Stairway to Heaven - Led Zeppelin
-Klobouk ve křoví - Jan Werich, Jiří Voskovec
 The Sound of Silence - Simon & Garfunkel
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
 Ballad of serenity - Sonny Rhodes
-Folsom Prison Blues - Johnny Cash
 Stray Cat Strut - Stray Cats
 bodláky ve vlasech
 až se k nám právo vrátí
 za svou pravdou stát
-hey jude
+highway to hell
 when the saints go marchin in, už ptáci jdou
 kde domov můj
-rock n roll pro betowena
-wishky to je moje gusto
 bláznivá markéta
 hit the road jack
 lásko voníš deštěm
-pole s bavlnou
 hrobař
 holubi dum in 5/6 taktu
 medvídek lucie
@@ -38,7 +31,6 @@ nezmaři růže
 monter blues
 tashi dele navratilova
 Red Hot Chili Peppers - Can't Stop
-NEVÍM - Vltava
 Frank Sinatra Fly Me To The Moon
 Joan Jett & the Blackhearts - I Love Rock N Roll
 Devil Makes Three - The Plank
@@ -46,7 +38,6 @@ The Lumineers - Classy Girls
 The Lumineers - Flowers In Your Hair
 Bad Romance - Vintage 1920's Gatsby 
 Fever - Peggy Lee
-Loreena Mckennitt - As I Roved Out
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
