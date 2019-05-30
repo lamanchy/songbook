@@ -3,7 +3,6 @@
 Songs to add: 
 ```
 Sluneční hrob - Blue Effect
-Lemon Tree - Fool's Garden
 Wonderwall - Oasis ??
 Stairway to Heaven - Led Zeppelin
 The Sound of Silence - Simon & Garfunkel
