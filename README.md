@@ -2,7 +2,6 @@
 
 Songs to add: 
 ```
-River - Leon Bridges
 Sluneční hrob - Blue Effect
 Lemon Tree - Fool's Garden
 Wonderwall - Oasis ??
