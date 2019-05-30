@@ -1,18 +1,16 @@
-[Intro] G Em H C [2x]
+[solo] G Em H C [2x]
 
 [verse1]
           G                        Em                H C
 With your feet in the air and your head on the ground
 G      Em             H       C
  Try this trick and spin it, yeah
-G                   Em
- Your head will collapse
-             H
-But there's nothing in it
+G                   Em                 H
+ Your head will collapse, but there's nothing in it
            C
 And you'll ask yourself
 
-[Chorus]
+[chorus]
 G            Em   H            C
  Where is my mind, where is my mind
    G      Em    H C G Em H C
@@ -20,17 +18,10 @@ Where is my mind
   G  H          C              Cm    Em D
 Way out in the water, see it swimming
 
-[Verse]
 I was swimmin' in the Carribean
 Animals were hiding behind the rock
 Except the little fish
 But they told me, he swears
-Tryin' to talk to me, to me
+Tryin' to talk to me, talk to me
 
-[chorus]
-
-[solo] G Em H C
-
-[verse1] [chorus]
-
-[outro] G Em H C [2x]
+[chorus] [solo] [verse1] [chorus] [solo]

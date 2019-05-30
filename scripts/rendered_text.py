@@ -41,8 +41,9 @@ class RenderedText(object):
         disable_x_reset = False
 
         if len(lines) > 0 and lines[0].text.startswith("[capo"):
-            width = draw.textsize(lines[0].text, font)[0]
-            draw.text((self.text_pos[0] + self.max_width - 2 * self.delta - width, self.text_pos[1]), lines[0].text,
+            width, height = draw.textsize(lines[0].text, font)
+            draw.text((self.text_pos[0] + self.max_width - 2 * self.delta - width, self.text_pos[1] - 1.9 * height),
+                      lines[0].text,
                       font=font, fill=(0, 0, 0))
             lines.pop(0)
             if len(lines) > 0 and lines[0].is_empty():
