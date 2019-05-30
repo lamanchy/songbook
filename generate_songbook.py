@@ -12,9 +12,22 @@ if __name__ == "__main__":
     songs = Song.load_songs()
 
     with PdfWriter("songbook") as f:
-        # songs = songs[:8]
-        # songs = [song for song in songs if song.title.startswith("Ráno")]
-        f.counter = 5
+        # songs = songs[:10]
+        songs = [song for song in songs if song.title.startswith("River")]
+        draw = ImageDraw.Draw(Image.new("RGB", (0, 0), (255, 255, 255)))
+
+        num_of_pages = 1
+        while True:
+            i = (len(songs) + 1) // num_of_pages
+            list_font_size = get_max_font_size(
+                draw, "\n".join(["A" for a in range(i // 2)]), None,
+                mm_to_px(RenderedText.page_size[1] - RenderedText.delta * 2), RenderedText.text_font_size
+            )[0]
+            if list_font_size >= RenderedText.list_font_size:
+                break
+            num_of_pages += 1
+
+        f.counter = num_of_pages * 2 + 1
 
         single_song_waiting_for_another = None
         worst = []
@@ -92,12 +105,11 @@ if __name__ == "__main__":
 
         f.write(page)
 
-        i = (len(written_songs) + 1) // 2
-        font_size = get_max_font_size(
-            draw, "\n".join(["A" for a in range(i // 2)]), None, RenderedText.max_height, RenderedText.text_font_size)[
-            0]
-        font = get_font(font_size)
-        for tw in [written_songs[:i], written_songs[i:]]:
+        written_songs.sort(key=lambda written: written[0].title)
+        font = get_font(list_font_size)
+        for page_i in range(num_of_pages):
+            tw = written_songs[
+                 page_i * len(written_songs) // num_of_pages:(page_i + 1) * len(written_songs) // num_of_pages]
             o = (len(tw) + 1) // 2
             for ttw in [tw[:o], tw[o:]]:
                 page = Image.new("RGB", mm_to_px(RenderedText.page_size), (255, 255, 255))
@@ -105,14 +117,14 @@ if __name__ == "__main__":
 
                 text = "\n".join(list(map(lambda song: song[0].title, ttw)))
                 draw.text((RenderedText.text_pos[0] * 2, RenderedText.text_pos[1]), text,
-                          font=font, fill=(0, 0, 0), spacing=font_size / 15.0)
+                          font=font, fill=(0, 0, 0), spacing=list_font_size / 15.0)
 
                 pages = list(map(lambda song: str(song[1]), ttw))
                 size = draw.textsize("A" * max(map(lambda i: len(i), pages), default=1), font)[0]
                 text = "\n".join(pages)
                 draw.text((page.size[0] - RenderedText.text_pos[0] * 2 - size, RenderedText.text_pos[1]),
                           text, font=font, fill=(0, 0, 0),
-                          anchor="right", align="right", spacing=font_size / 15.0)
+                          anchor="right", align="right", spacing=list_font_size / 15.0)
 
                 f.write(page)
 

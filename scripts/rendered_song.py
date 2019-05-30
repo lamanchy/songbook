@@ -3,6 +3,7 @@ from PIL import ImageDraw
 from pil_quality_pdf.fonts import get_max_font_size, get_font
 from pil_quality_pdf.rendering import mm_to_px
 from scripts.rendered_text import RenderedText
+from scripts.song import Song
 
 
 class RenderedSong(object):
@@ -12,7 +13,7 @@ class RenderedSong(object):
     author_font_size = RenderedText.author_font_size
     delta = RenderedText.delta
 
-    def __init__(self, song):
+    def __init__(self, song: Song):
         self.song = song
 
         self.font_size, self.texts = self.get_best_configuration()

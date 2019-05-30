@@ -12,6 +12,7 @@ class RenderedText(object):
     title_font_size = get_max_font_size(draw, "A", None, mm_to_px(delta * .7), 100)[0]
     author_font_size = title_font_size * 30 // 40
     text_font_size = title_font_size * 25 // 40
+    list_font_size = title_font_size * 20 // 40
     note_font_size = title_font_size * 15 // 40
     max_width = mm_to_px(page_size[0] - 2 * delta)
     max_height = mm_to_px(page_size[1] - 4.5 * delta)
