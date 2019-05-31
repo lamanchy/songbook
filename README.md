@@ -3,25 +3,17 @@
 Songs to add: 
 ```
 Sluneční hrob - Blue Effect
-Wonderwall - Oasis ??
-Stairway to Heaven - Led Zeppelin
-The Sound of Silence - Simon & Garfunkel
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
-Ballad of serenity - Sonny Rhodes
 Stray Cat Strut - Stray Cats
 bodláky ve vlasech
-až se k nám právo vrátí
-za svou pravdou stát
 highway to hell
-when the saints go marchin in, už ptáci jdou
 kde domov můj
 bláznivá markéta
 hit the road jack
 lásko voníš deštěm
 hrobař
 holubi dum in 5/6 taktu
-medvídek lucie
 ej pada pada rosenka
 show must go on
 jan hodný
