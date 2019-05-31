@@ -27,7 +27,6 @@ Devil Makes Three - The Plank
 The Lumineers - Classy Girls
 The Lumineers - Flowers In Your Hair
 Bad Romance - Vintage 1920's Gatsby 
-Fever - Peggy Lee
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
