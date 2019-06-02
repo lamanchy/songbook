@@ -1,6 +1,6 @@
-Am E+* C D/F# Fmaj7 G/H Am [2x]
-C D Fmaj7 Am C G D
-C D Fmaj7 Am C D Fmaj7
+Am E+* | C D/F# | Fmaj7 | G/H Am [2x]
+C D | Fmaj7 Am | C G | D
+C D | Fmaj7 Am | C D | Fmaj7
 
 There’s a lady who’s sure, all that glitters is gold
 And she’s buying a stairway to heaven
@@ -11,8 +11,9 @@ Ooh, ooh, ooh, ooh and she’s buying a stairway to heaven
 There’s a sign on the wall, but she wants to be sure
 Cause you know sometimes words have two meanings
 In a tree by the brook, there’s a songbird who sings
-                                          G/H
 Sometimes all of our thoughts are misgiven
+
+Am E+* | C D/F# | Fmaj7 | G/H Am G/H
 
 [bridge]
 Am7 Am D             Am7 Am Em D C D
@@ -25,7 +26,7 @@ There’s a feeling I get, when I look to the west
        C         G/H        F  Am
 And my spirit is crying for leaving
 In my thoughts I have seen, rings of smoke through the trees
-                                         C G/H
+                                         G/H
 And the voices of those who stand looking
 
 [bridge]
@@ -45,8 +46,8 @@ The pipers calling you to join him
 Dear lady, can you hear the wind blow and did you know
 Your stairway lies on the whispering wind
 
-Dsus2 D Dsus4 [3x] D C Cadd9 C Cadd9 C
-Dsus2 D Dsus4 [3x] D C Cadd9 C G
+Dsus2 D Dsus4 [3x] D | C Cadd9 C | C Cadd9 C
+Dsus2 D Dsus4 [3x] D | C Cadd9 C | G
 [solo] Am | G | F | F [12x]
 
 Am         G                  F G
@@ -61,6 +62,6 @@ When all are one and one is all
 Am       G               F
  To be a rock and not to roll
 
-Am G F [4x]
+Am | G | F | F [4x]
                    G            Am
 And she’s buying a stairway to heaven

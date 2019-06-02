@@ -2,10 +2,8 @@
 
 Songs to add: 
 ```
-Sluneční hrob - Blue Effect
 Jolene - Dolly Parton
 Moravská - Tomas Kočko
-Stray Cat Strut - Stray Cats
 bodláky ve vlasech
 highway to hell
 kde domov můj
@@ -19,11 +17,9 @@ show must go on
 jan hodný
 nezmaři růže
 monter blues
-tashi dele navratilova
 Red Hot Chili Peppers - Can't Stop
 Frank Sinatra Fly Me To The Moon
 Joan Jett & the Blackhearts - I Love Rock N Roll
-Devil Makes Three - The Plank
 The Lumineers - Classy Girls
 The Lumineers - Flowers In Your Hair
 Bad Romance - Vintage 1920's Gatsby 
