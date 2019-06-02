@@ -2,15 +2,11 @@
 
 Songs to add: 
 ```
-Jolene - Dolly Parton
 Moravská - Tomas Kočko
 bodláky ve vlasech
-highway to hell
 kde domov můj
 bláznivá markéta
-hit the road jack
-lásko voníš deštěm
-hrobař
+pl9hal kdz6 prsi
 holubi dum in 5/6 taktu
 ej pada pada rosenka
 show must go on

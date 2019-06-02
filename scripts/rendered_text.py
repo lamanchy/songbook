@@ -1,3 +1,5 @@
+import re
+
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_max_font_size, get_font
@@ -37,7 +39,7 @@ class RenderedText(object):
         spacing = mm_to_px(self.font_size / 15.)
 
         line_height = draw.textsize("A", font)[1] + spacing
-        y = 0
+        base_x = x = y = 0
         disable_x_reset = False
 
         if len(lines) > 0 and lines[0].text.startswith("[capo"):
@@ -55,12 +57,22 @@ class RenderedText(object):
 
             previous_line = None if i - 1 < 0 else lines[i - 1]
             next_line = None if i + 1 == len(lines) else lines[i + 1]
+            next_next_line = None if i + 2 >= len(lines) else lines[i + 2]
 
             if line.is_chord_line() and previous_line is not None and previous_line.is_text_line():
                 y += spacing / 2
 
             if line.is_text_line() and previous_line is not None and previous_line.is_chord_line():
                 continue
+
+            if re.match(r"\[\d+x]", line.text):
+                tag = line.text.split(" ")[0] + " "
+                extra = line_height if not next_line.is_text_line() and next_next_line is not None and next_next_line.is_text_line() else 0
+                draw.text((self.text_pos[0] + x, self.text_pos[1] + y + extra), tag, font=font, fill=(0, 0, 0))
+                line.text = line.text[len(tag):]
+                x = draw.textsize(tag, font)[0]
+                disable_x_reset = True
+                y -= line_height
 
             if line.is_chord_line() and next_line is not None and next_line.is_text_line():
                 parts = line.get_parts_with_indexes()
@@ -70,17 +82,18 @@ class RenderedText(object):
                     chord_parts.insert(0, (0, ""))
                     text_parts.insert(0, (0, next_line.text[:parts[0][0]]))
 
+                extra = 0
                 for i in range(len(chord_parts)):
                     chord = chord_parts[i][1]
                     text = text_parts[i][1].replace("_", " ")
                     while text != text.replace("--", "-"):
                         text = text.replace("--", "-")
 
-                    draw.text((self.text_pos[0] + x, self.text_pos[1] + y), chord, font=font, fill=(0, 0, 0))
-                    draw.text((self.text_pos[0] + x, self.text_pos[1] + y + line_height), text, font=font,
+                    draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y), chord, font=font, fill=(0, 0, 0))
+                    draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y + line_height), text, font=font,
                               fill=(0, 0, 0))
 
-                    x += max(
+                    extra += max(
                         draw.textsize(chord, font)[0],
                         draw.textsize(text, font)[0]
                     )
@@ -89,10 +102,5 @@ class RenderedText(object):
 
             else:
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
-
-            if not line.is_tag_line() and line.is_tag(line.text.split(" ")[0]):
-                tag = line.text.split(" ")[0] + " "
-                x = draw.textsize(tag, font)[0]
-                disable_x_reset = True
 
             y += line_height
