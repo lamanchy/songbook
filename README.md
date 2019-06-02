@@ -8,11 +8,9 @@ kde domov můj
 bláznivá markéta
 pl9hal kdz6 prsi
 holubi dum in 5/6 taktu
-ej pada pada rosenka
 show must go on
 jan hodný
 nezmaři růže
-monter blues
 Red Hot Chili Peppers - Can't Stop
 Frank Sinatra Fly Me To The Moon
 Joan Jett & the Blackhearts - I Love Rock N Roll
