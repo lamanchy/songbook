@@ -5,18 +5,16 @@ Songs to add:
 Moravská - Tomas Kočko
 bodláky ve vlasech
 kde domov můj
-bláznivá markéta
-pl9hal kdz6 prsi
+Ráda se miluje - Karel Plíhal
+Kluziště - Karel Plíhal
+Když jsi smutná - Karel Plíhal
+Marie - Tomáš Klus
 holubi dum in 5/6 taktu
-show must go on
-jan hodný
 nezmaři růže
 Red Hot Chili Peppers - Can't Stop
 Frank Sinatra Fly Me To The Moon
 Joan Jett & the Blackhearts - I Love Rock N Roll
-The Lumineers - Classy Girls
 The Lumineers - Flowers In Your Hair
-Bad Romance - Vintage 1920's Gatsby 
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
