@@ -72,6 +72,7 @@ class Line(object):
             self.replace(c, ",")
 
         self.replace(",,", ",")
+        self.replace(",-", ",_")
         self.text = re.sub(r"^,", "", self.text)
         self.text = re.sub(r" ,", ",", self.text)
         self.text = re.sub(r",(?![\s\w])", "", self.text)
@@ -98,6 +99,11 @@ class Line(object):
                         next_tuples[o] = ondex + diff, c
 
                 tuples[i] = index, new_chord + " "
+
+            if self.is_chord_line() and next_line.is_text_line():
+                diff = tuples[i][0] - next_tuples[i][0]
+                if next_tuples[i][1][diff:2 + diff] not in ["  ", " _", "__", "--"]: continue
+                next_tuples[i] = next_tuples[i][0], next_tuples[i][1][:diff] + next_tuples[i][1][1 + diff:]
 
         self.put_parts_with_indexes(tuples)
         next_line.put_parts_with_indexes(next_tuples)
@@ -178,11 +184,20 @@ class Line(object):
             while i >= len(prev_line.text) - 1:
                 prev_line.text += " "
 
+            extra = 1
             if prev_line.text[i] != " " or prev_line.text[i + 1] != " ": continue
-            if self.text[i + 1] not in " _-": continue
-            if self.text[i + 1] in " _" and self.text[i] not in " _": continue
+            if i + 2 < len(self.text) and self.text[i + 2] == "-":
+                extra += 1
+            else:
+                if self.text[i + 1] not in " _-": continue
+                if self.text[i + 1] in " _" and self.text[i] not in " _":
+                    if i + 2 < len(self.text) and self.text[i] == "," and self.text[i + 2] in " _":
+                        extra += 1
+                    else:
+                        continue
+                if self.text[i] == "," and self.text[i + 1] == "-": continue
 
-            self.text = self.text[:i + 1] + self.text[i + 1 + 1:]
+            self.text = self.text[:i + extra] + self.text[i + extra + 1:]
             prev_line.text = prev_line.text[:i + 1] + prev_line.text[i + 1 + 1:]
 
         prev_line.text = prev_line.text.rstrip()

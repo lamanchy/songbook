@@ -89,6 +89,8 @@ class SongText(object):
                 line.format_chord_naming(next_line, lambda chord: str(Chord(chord)))
                 line.format_chord_position(next_line)
 
+            line.remove_funny_ending()
+
             if prev_line is not None and line.is_text_line() and prev_line.is_chord_line():
                 line.remove_extra_padding(prev_line)
 
