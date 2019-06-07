@@ -1,4 +1,5 @@
 import logging
+import sys
 
 import czech_sort
 from PIL import ImageDraw, Image
@@ -11,7 +12,7 @@ from scripts.song import Song
 
 if __name__ == "__main__":
     songs = Song.load_songs()
-    no_capo = True
+    no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
     with PdfWriter("songbook" + ("_for_piano" if no_capo else "")) as f:
         # songs = songs[:10]
