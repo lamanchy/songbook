@@ -9,10 +9,8 @@ Ráda se miluje - Karel Plíhal
 Kluziště - Karel Plíhal
 Marie - Tomáš Klus
 holubi dum in 5/6 taktu
-nezmaři růže
 Red Hot Chili Peppers - Can't Stop
 Frank Sinatra Fly Me To The Moon
-Joan Jett & the Blackhearts - I Love Rock N Roll
 The Lumineers - Flowers In Your Hair
 ```
 
