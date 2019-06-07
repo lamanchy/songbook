@@ -7,7 +7,6 @@ bodláky ve vlasech
 kde domov můj
 Ráda se miluje - Karel Plíhal
 Kluziště - Karel Plíhal
-Když jsi smutná - Karel Plíhal
 Marie - Tomáš Klus
 holubi dum in 5/6 taktu
 nezmaři růže
