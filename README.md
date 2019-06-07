@@ -2,7 +2,6 @@
 
 Songs to add: 
 ```
-Moravská - Tomas Kočko
 Red Hot Chili Peppers - Can't Stop, Dani California, Under The Bridge?
 ```
 
