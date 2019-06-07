@@ -205,6 +205,24 @@ class Line(object):
 
         prev_line.text = prev_line.text.rstrip()
 
+        for i in range(len(self.text)):
+            if i + 1 == len(self.text): break
+            if self.text[i:i + 2] == " _":
+                for o in range(i, len(prev_line.text)):
+                    if o + 1 == len(prev_line.text): break
+                    if prev_line.text[o] == " ":
+                        if prev_line.text[o + 1] == " ":
+                            self.text = self.text[:i + 1] + self.text[i + 2:]
+                            prev_line.text = prev_line.text[:o] + prev_line.text[o + 1:]
+                        break
+
+        for i in range(1, len(self.text)):
+            if i + 1 == len(self.text): break
+            if i == len(prev_line.text): break
+            while self.text[i:i + 2] == " _" and prev_line.text[i - 1:i + 1] == "  ":
+                self.text = self.text[:i + 1] + self.text[i + 2:]
+                prev_line.text = prev_line.text[:i] + prev_line.text[i + 1:]
+
     def get_parts_by_indexes(self, indexes, move_left=True):
         res = []
         for i, index in enumerate(indexes):

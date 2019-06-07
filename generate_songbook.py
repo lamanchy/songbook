@@ -1,5 +1,6 @@
 import logging
 
+import czech_sort
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_font, get_max_font_size
@@ -106,7 +107,7 @@ if __name__ == "__main__":
 
         f.write(page)
 
-        written_songs.sort(key=lambda written: written[0].title)
+        written_songs.sort(key=lambda written: czech_sort.key(written[0].title))
         font = get_font(list_font_size)
         for page_i in range(num_of_pages):
             tw = written_songs[

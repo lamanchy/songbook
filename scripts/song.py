@@ -1,5 +1,7 @@
 import os
 
+import czech_sort
+
 from scripts.settings import BASE_DIR
 from scripts.song_text import SongText
 
@@ -15,7 +17,8 @@ class Song(object):
 
     @classmethod
     def load_songs(cls):
-        return [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
+        songs = [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
+        return sorted(songs, key=lambda song: czech_sort.key(song.title))
 
     @classmethod
     def load_song(cls, name):
