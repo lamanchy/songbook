@@ -3,14 +3,7 @@
 Songs to add: 
 ```
 Moravská - Tomas Kočko
-bodláky ve vlasech
-kde domov můj
-Ráda se miluje - Karel Plíhal
-Kluziště - Karel Plíhal
-Marie - Tomáš Klus
-holubi dum in 5/6 taktu
-Red Hot Chili Peppers - Can't Stop
-The Lumineers - Flowers In Your Hair
+Red Hot Chili Peppers - Can't Stop, Dani California, Under The Bridge?
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.
