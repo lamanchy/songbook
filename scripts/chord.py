@@ -214,10 +214,12 @@ class Chord(object):
 
         return chars
 
-    def transpose(self):
-        self.tone.transpose()
-        if self.bass_tone is not None:
-            self.bass_tone.transpose()
+    def transpose(self, steps=1):
+        for i in range(steps):
+            self.tone.transpose()
+
+            if self.bass_tone is not None:
+                self.bass_tone.transpose()
         return self
 
 

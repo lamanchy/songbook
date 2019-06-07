@@ -66,6 +66,7 @@ class Line(object):
 
     def fix_interpunction(self):
         self.replace("[:", "")
+        self.replace("- ", "_ ")
         self.replace(":]", "")
         self.replace("_ ", " _")
         for c in ".!?;\"…–":
@@ -96,6 +97,7 @@ class Line(object):
                     for o, (ondex, c) in list(enumerate(tuples))[i + 1:]:
                         tuples[o] = ondex + diff, c
                     for o, (ondex, c) in list(enumerate(next_tuples))[i + 1:]:
+                        if not next_line.is_text_line(): continue
                         next_tuples[o] = ondex + diff, c
 
                 tuples[i] = index, new_chord + " "
@@ -123,7 +125,8 @@ class Line(object):
                 text += to_add
 
             text += part
-        self.text = text.rstrip()
+        self.text = text
+        self.remove_funny_ending()
 
     def transpose(self):
         tuples = self.get_parts_with_indexes()

@@ -10,10 +10,11 @@ from scripts.song import Song
 
 if __name__ == "__main__":
     songs = Song.load_songs()
+    no_capo = True
 
     with PdfWriter("songbook") as f:
         # songs = songs[:10]
-        songs = [song for song in songs if song.title.startswith("Mont")]
+        # songs = [song for song in songs if song.title.startswith("Divokej ")]
         draw = ImageDraw.Draw(Image.new("RGB", (0, 0), (255, 255, 255)))
 
         num_of_pages = 1
@@ -53,7 +54,7 @@ if __name__ == "__main__":
                 f.write(page)
 
         for i, song in enumerate(songs):
-            rendered = RenderedSong(song)
+            rendered = RenderedSong(song, no_capo)
 
             if len(rendered.texts) == 2:
                 write(rendered)

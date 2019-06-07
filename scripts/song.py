@@ -91,8 +91,12 @@ class Song(object):
         if "  " in name:
             raise ValueError(f"{its_name} {name} cannot contain two spaces next to each other")
 
-    def transpose(self):
-        self.text.transpose()
+    def transpose(self, steps=1):
+        self.text.transpose(steps)
+        self.save()
+
+    def save(self):
+        self.text.save()
 
     def __str__(self):
         return self.title

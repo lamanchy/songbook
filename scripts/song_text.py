@@ -24,6 +24,7 @@ class SongText(object):
         if self.path is not None:
             with open(self.path, "w", encoding="UTF-8") as f:
                 f.write(self.text)
+        self.parse()
 
     def parsed_text(self):
         lines = self.get_lines()
@@ -37,18 +38,17 @@ class SongText(object):
 
         return self.join_lines(lines)
 
-    def transpose(self):
+    def transpose(self, steps=1):
         lines = self.get_lines()
 
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
 
             if line.is_chord_line():
-                line.format_chord_naming(next_line, lambda chord: str(Chord(chord).transpose()))
+                fn = lambda chord: str(Chord(chord).transpose(steps))
+                line.format_chord_naming(next_line, fn)
 
         self.text = self.join_lines(lines)
-        self.save()
-        self.parse()
 
     @staticmethod
     def basic_formatting(lines):
@@ -124,3 +124,12 @@ class SongText(object):
             res.append(line)
 
         return self.join_lines(res)
+
+    def remove_capo(self):
+        if self.text.startswith("[capo"):
+            steps = int(self.text[5:self.text.index("]")])
+            self.text = self.text.split("\n", 1)[1]
+            if self.text.startswith("\n"):
+                self.text = self.text.split("\n", 1)[1]
+
+            self.transpose(steps)
