@@ -84,7 +84,7 @@ class RenderedText(object):
 
                 extra = 0
                 for i in range(len(chord_parts)):
-                    chord = chord_parts[i][1]
+                    chord = chord_parts[i][1].replace("_", " ")
                     text = text_parts[i][1].replace("_", " ")
                     while text != text.replace("--", "-"):
                         text = text.replace("--", "-")

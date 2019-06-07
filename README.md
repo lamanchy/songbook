@@ -10,7 +10,6 @@ Kluziště - Karel Plíhal
 Marie - Tomáš Klus
 holubi dum in 5/6 taktu
 Red Hot Chili Peppers - Can't Stop
-Frank Sinatra Fly Me To The Moon
 The Lumineers - Flowers In Your Hair
 ```
 

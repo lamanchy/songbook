@@ -33,7 +33,7 @@ class Line(object):
 
     @staticmethod
     def is_extra(chars):
-        return re.match(r"\[?\d+]?", chars) or chars == "|"
+        return re.match(r"\[?\d+]?", chars) or chars == "|" or re.match(r"_+", chars)
 
     @staticmethod
     def is_tag(chars):
@@ -56,6 +56,7 @@ class Line(object):
 
     def remove_funny_ending(self):
         while len(self.text) > 0 and self.text[-1] in ",.-!?:_":
+            if self.is_chord_line() and self.text[-1] == "_": break
             self.text = self.text[:-1]
             self.rstrip()
 

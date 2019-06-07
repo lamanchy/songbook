@@ -44,9 +44,18 @@ class SongText(object):
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
 
+            fn = lambda chord: str(Chord(chord).transpose(steps))
             if line.is_chord_line():
-                fn = lambda chord: str(Chord(chord).transpose(steps))
                 line.format_chord_naming(next_line, fn)
+            else:
+                last = line.text.split(" ")[-1]
+                if last.startswith("_"):
+                    last = last.replace("_", "").strip()
+                    if Chord.is_chord(last):
+                        i = line.text.rindex("_")
+                        line.text = line.text[:i + 1] + fn(last)
+
+
 
         self.text = self.join_lines(lines)
 
