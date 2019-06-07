@@ -13,7 +13,7 @@ if __name__ == "__main__":
     songs = Song.load_songs()
     no_capo = True
 
-    with PdfWriter("songbook") as f:
+    with PdfWriter("songbook" + ("_for_piano" if no_capo else "")) as f:
         # songs = songs[:10]
         # songs = [song for song in songs if song.title.startswith("Divokej ")]
         draw = ImageDraw.Draw(Image.new("RGB", (0, 0), (255, 255, 255)))
