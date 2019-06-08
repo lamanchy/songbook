@@ -4,7 +4,7 @@ I ta nejkrásnější ženská má někde hrubou jizvu
 I ten poslední chlap ze stáje
    C                              G
 Si spočítá, že jedna a jedna jsou dvě
-  C             G
+  C             G  C G
 A přijme její výzvu
 
 I ta nejsvětější pravda má někde skrytou díru
@@ -28,16 +28,16 @@ Sám nahej vprostřed pokoje
 Bez vůle a v zmatku jak sošky orloje
 Bez svého hodináře
 
-[chorus]
+[chorus] ______________________________________
 
     C                                            G
 Než zmizíš vem si šálu a hodně teplej kabát do zimy
   C                                                G
 A moji starou fotku, tu nejstarší, kde ještě sluší mi
-  C                                          G C G
+  C                                          G
 A flašku ruský vodky a sametovej hadr na schody
-    D                   C                           G C
-Ale to už nejsou básně, to už jsou jen sprostý pochody _G
+    D                   C                           G C G
+Ale to už nejsou básně, to už jsou jen sprostý pochody
 
 Ani nejkrásnější ženská nepohrdá králem
 A já na dědičným provaze
