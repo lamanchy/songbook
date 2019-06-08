@@ -1,38 +1,27 @@
-Em     Hm
-Udělej cokoli
-Em         G
- Co by zač stálo
-Hm                Em
+Am     Em     Am         C
+Udělej cokoli, co by zač stálo
+Em                Am
 Třeba jen přistup blíž
-Em      Hm
-Rány už nebolí
-     Em     G
-Jenže to je málo
-     F#        H
+Am      Em           Am     C
+Rány už nebolí, jenže to je málo
+     H         E
 Však ty mi rozumíš
 
 [chorus]
-H  C    H A   G    Hm
-To chce začít hned zjara
-  H A     G  Em
-A vyhnout se chybě
-  H  A    G  Hm        H A   G F#
+E  F    E D   C    Em      E D     C  Am
+To chce začít hned zjara a vyhnout se chybě
+  E  D    C  Em        E D   C H
 A ženskou co stejně už nejsou
-
-H  A    G   Hm
-Krásnou jak Sára
-  H A    G   Em
-A mírnou jak hříbě
-  H  A   G  Hm       Am Hm
+E  D    C   Em     E D    C   Am
+Krásnou jak Sára a mírnou jak hříbě
+  E  D   C  Em       Dm Em
 A silnou jak admirál Nelson
-Em       Am Hm
+Am       Dm Em
  Admirál Nelson [3x]
 
-Sedí a přemýšlí
-Dva klauni v baru
+Sedí a přemýšlí, dva klauni v baru
 Už starší a strakatí
-Aby snad nepřišli
-O tu svou káru
+Aby snad nepřišli, o tu svou káru
 S bílou opratí
 
 [chorus]
