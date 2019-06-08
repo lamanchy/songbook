@@ -1,30 +1,32 @@
-C
+[capo2]
+
+G
 Don't you worry, there my honey
-F
-We might not have any money
-Am                                F
-But we've got our love to pay the bills
 C
+We might not have any money
+Em                                C
+But we've got our love to pay the bills
+G
 Maybe I think you're cute and funny
-F                             Am
+C                             Em
 Maybe I wanna do what bunnies do with you
-                   F
+                   C
 If you know what I mean
 
 [chorus]
-    C                   E
+    G                   H
 Oh, let's get rich and buy our parents
- F                          C
+ C                          G
 Homes in the South of France
-                        E
+                        H
 Let's get rich and give everybody nice sweaters
-     F                     G
+     C                     D
 And teach them how to dance
-          C                   E
+          G                   H
 Let's get rich and build our house on a mountain
-       F                       D
+       C                       A
 Making everybody look like ants
-              C              F G        C
+              G              C D        G
 From way up there, you and I, _you and I
 
 Well you might be a bit confused
@@ -34,4 +36,4 @@ So I will help you read those books
 If you will soothe my worried looks
 And we will put the lonesome on the shelf
 
-[chorus] [2x], second time without guitar
+[chorus] [2x] second time without guitar
