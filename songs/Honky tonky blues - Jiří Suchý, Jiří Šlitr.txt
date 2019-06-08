@@ -1,16 +1,16 @@
 [dolů nahoru]
 
 [chorus]
-D
+C
 Každý ráno na piáno hraje Jack, hraje Jack
-G7                  D
+F7                  C
 Každý ráno na piáno hraje Jack, hraje Jack
-A7          G7          D     G7    D
+G7          F7          C     F7    C
 Honky tonk, honky tonk, honky tonky blues
 
-  F#7           Hm      F#7         Hm
+  E7            Am      E7          Am
 A nikomu v domě nevadí, že to piáno neladí
-E                Edim                 E7          A7
+D                Ddim                 D7          G7
 Když hraje Jack, jak už jsem řek, svý honky tonky blues
 
 [chorus]
