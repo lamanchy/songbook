@@ -1,15 +1,17 @@
-       F                 Am
+[capo3]
+
+       C                 Em
 She'll lie and steal and cheat
-    Csus4            C
+    Gsus4            G
 And beg you from her knees
-    F                   Am      G         C
+    C                   Em      D         G
 And make you thinks she means it this time
 She'll tear a hole in you
 The one you can't repair
 But I still love her, I don't really care
 
 [bridge]
-F             C      Am    G
+C             G      Em    D
  When we were young, Oh Oh, we did enough
 When it got cold, Ooh Ooh, we bundled up
 It cant be told, Ah Ah It cant be done
@@ -22,7 +24,7 @@ I'm standing on your porch screaming out
 And I wont leave until you come downstairs
 
 [chorus]
-             F    C             G Am
+             C    G             D Em
 So keep your head up, keep your l-ove
 Keep your head up, my love
 Keep your head up, my love
