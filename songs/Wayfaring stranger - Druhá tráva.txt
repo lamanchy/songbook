@@ -1,18 +1,20 @@
-           Am
+[capo3]
+
+           Em
 I'm just a poor wayfaring stranger
-                  Dm                  Am
+                  Am                  Em
 While traveling trough this world of woe
 Yet there´s no sickness, toil or danger
 In that bright world to which I go
 
 [chorus1]
-            F              C
+            C              G
 I´m going there to see my father
-            F               E
+            C               H
 I´m going there no more to roam
-          Am
+          Em
 I´m only going over Jordan
-          Dm        Am
+          Am        Em
 I´m only going over home
 
 I know dark clouds will gather round me
