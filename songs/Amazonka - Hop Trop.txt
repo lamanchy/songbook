@@ -1,10 +1,12 @@
-                 G    Gsus4 G
+[capo3]
+
+                 D    Dsus4 D
 Byly krásný naše plány
-                   Hm  Bm
+                   F#m Fm
 Byla jsi můj celej svět
-Am                    G   Gsus4
+Em                    D   Dsus4
  Čas je vzal a nechal rány
-Am                     D  Dsus4 D
+Em                     A  Asus4 A
  Starší jsme jen o pár let
 
 Tenkrát byly děti malý
@@ -13,13 +15,13 @@ Už na, táto, slyší jinej
 I když si tak neříká
 
 [chorus]
-               G
+               D
 Nebe modrý zrcadlí se
-Em                     Am Am7
+Hm                     Em Em7
  V řece, která všechno ví
-                   G   Gsus4
+                   D   Dsus4
 Stejnou barvu jako měly
-Am            D
+Em            A   Asus4 A
  Tvoje oči džínový
 
 Kluci tenkrát, co tě znali
@@ -44,5 +46,5 @@ Teď jsi víla z paneláku
 Samá dečka, samej krám
 Já si přál jen, abys byla
 Pořád stejná, přísahám
-                   G  Gsus4 G
+                   D  Dsus4 D
 Pořád stejná, přísahám
