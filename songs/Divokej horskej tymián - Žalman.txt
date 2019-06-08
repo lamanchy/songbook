@@ -1,10 +1,10 @@
-[capo2]
+[capo3]
 
-G           C      G
+       G    C      G
 Dál za vozem spolu šlapem
       C           G
 Někdo rád a někdo zmaten
-       C           Hm7
+       C           Hm
 Kdo se vrací, není sám
       Am                C           G      C    G
 Je to věc, když pro nás voní, z hor divokej tymián
