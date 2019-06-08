@@ -1,13 +1,15 @@
-C                               F/C
+C                               Csus4
  I've been trying to do it right
-C                              F/C
+C                              Csus4
  I've been living a lonely life
-C                               F/C
+C                               Csus4
  I've been sleeping here instead
-C                            F/C
+C                            Csus4
  I've been sleeping in my bed
-Am              G  C F/C C F/C
+Am              G
  Sleeping in my bed
+
+C Csus4 [2x]
 
 So show me family
 All the blood that I will bleed
@@ -22,14 +24,15 @@ I belong with you, you belong with me
 You're my sweetheart
               Am                   G
 I belong with you, you belong with me
-               C F/C C F/C
 You're my sweet
+
+C Csus4 [2x]
 
 I don't think you're right for him
 Think of what it might've been if you
 Took a bus to Chinatown
 I'd be standing on Canal and Bowery
-And she'd be standing next to me
+She'd be standing next to me
 
 [chorus]
 
@@ -37,7 +40,7 @@ And she'd be standing next to me
 And love, we need it now
       F        G
 Let's hope for some
-    F         C
+    F         G
 Cuz oh, we're bleeding out
 
 [chorus]
