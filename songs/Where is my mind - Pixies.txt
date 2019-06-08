@@ -26,4 +26,6 @@ Except the little fish
 But they told me, he swears
 Tryin' to talk to me, talk to me
 
-[chorus] [solo] [verse1] [chorus] [solo]
+[chorus] [solo]
+
+[verse1] [chorus] [solo]
