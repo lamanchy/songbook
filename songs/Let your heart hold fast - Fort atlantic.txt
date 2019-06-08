@@ -1,8 +1,8 @@
-        A
+        G
 All may days are spent
-       D         A
+       C         G
 All my cards are dealt
-       F#m D      A
+       Em  C      G
 Oh the desolation grows
 Every inch revealed
 As my heart is pierced
@@ -15,17 +15,17 @@ All my desperate calls
 Echo off the walls
 Back and forth then back again
 
-     D             A
+     C             G
 To believe I walk alone
-     D                  F#m
+     C                  Em
 Is a lie that I've been told
 
 [chorus]
-            A
+            G
 So let your heart hold fast
-         D          A
+         C          G
 For this soon shall pass
-         F#m       D         A
+         Em        C         G
 Like the high tide takes the sand
 
 At the bitter end
