@@ -1,6 +1,8 @@
-F#m Dadd9 A E
+[capo2]
 
-   F#m              Dadd9 A         E
+Em Cadd9 G D
+
+   Em               Cadd9 G         D
 If god had long hair ______and a goatee
 And if his eyes were pretty glazed
 If he looked spaced out
@@ -9,13 +11,13 @@ Would you believe he had
 An eye infection
 
 [bridge]
-    Dadd9      E
+    Cadd9      D
 And yeah yeah, god looks baked
 Yeah yeah, god smells good
 Yeah yeah, yeah yeah yeah
 
 [chorus]
-        F#m        Dadd9   A E
+        Em         Cadd9   G D
 What if god smoked cannabis
 Hit the bong like some of us
 Drove a tiedyed microbus
