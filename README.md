@@ -3,6 +3,15 @@
 Songs to add: 
 ```
 Red Hot Chili Peppers - Can't Stop, Dani California, Under The Bridge?
+saint james infarmry
+hey jude
+like a rolling stone
+creep
+hey you
+malovani
+plakala
+i shot the sheriff
+
 ```
 
 Ok, I suppose, that my family will read it, so: Czech.

@@ -101,6 +101,7 @@ class RenderedText(object):
                 y += line_height
 
             else:
+                line.text = line.text.replace("_", " ").rstrip()
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
 
             y += line_height

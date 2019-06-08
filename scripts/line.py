@@ -70,6 +70,8 @@ class Line(object):
         self.replace("- ", "_ ")
         self.replace(":]", "")
         self.replace(", a ", "  a ")
+        self.replace(", or ", "  or ")
+        self.replace(", nebo ", "  nebo ")
         self.replace(", and ", "  and ")
         self.replace("_ ", " _")
         for c in ".!?;\"…–":
