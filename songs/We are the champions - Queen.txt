@@ -1,26 +1,28 @@
-             Hm   F#m         Hm  F#m
+[capo2]
+
+             Am   Em          Am  Em
 I've paid my dues, time after time
 I've done my sentence, but committed no crime
 
-        D        G            D  G
+        C        F            C  F
 And bad mistakes, I've made a few
-            D        A                 Hm
+            C        G                 Am
 I've had my share of sand kicked in my face
-    E         A
+    D         G
 But I've come through
-                                       H
+                                       A
 And we mean to go on and on and on and on
 
 [chorus]
-E          G#m           C#m    A H
+D          F#m           Hm     G A
 We are the champions, my friends
-    E             G#m               A  C#
+    D             F#m               G  H
 And we'll keep on fighting 'til the end
-F#m                   Am         D#dim
+Em                    Gm         C#dim
 We are the champions, we are the champions
-E           F#m            G          A
+D           Em             F          G
 No time for losers, 'cause we are the champions
-       Em   F#m Em F#m
+       Dm   Em Dm Em
 Of the world
 
 I've taken my bows
