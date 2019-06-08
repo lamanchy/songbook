@@ -1,12 +1,12 @@
-[capo3]
+[capo5]
 
-       Em
+       Dm
 I have often told you stories
- D
+ C
 About the way
-  Em
+  Dm
 I lived the life of a drifter
-Hm
+Am
 Waiting for the day
 
 When I'd take your hand and sing you songs
@@ -15,18 +15,18 @@ Come lay with me and love me
 And I would surely stay
 
 [chorus]
-G      A                Em
+F      G                Dm
  But I feel I'm growing older
-C        D                 G
+B        C                 F
  And the songs that I have sung
-H            Em                D
+A            Dm                C
 Echo in the distance, like the sound
-     G              C
+     F              B
 Of a windmill going round
-Am                Hm              Em
+Gm                Am              Dm
 Guess I'll always be a soldier of fortune
 
-[solo] Em A Em A Em G A Em
+[solo] Dm G Dm G Dm F G Dm
 
 Many times I've been a traveller
 I looked for something new
@@ -40,15 +40,15 @@ It shows that you're not here
 
 [chorus]
 
-     Em             D
+     Dm             C
 Yes, I can hear the sound
-     G              C
+     F              B
 Of a windmill going round
-  Am                Hm
+  Gm                Am
 I guess I'll always be
-             Em
+             Dm
 A soldier of fortune
-  C                 Hm7
+  B                 Am7
 I guess I'll always be
-             E
+             D
 A soldier of fortune
