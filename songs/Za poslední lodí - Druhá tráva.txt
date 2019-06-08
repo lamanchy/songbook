@@ -1,5 +1,3 @@
-[capo2]
-
 [solo] Em | H [5x]
 Em | H C D H
 Em | H7
@@ -10,7 +8,7 @@ Em           Hm7    G7         Am
 A s posledním vojákem zdvihla se hráz
   Em                H7
 A bázlivý zpěv kdesi v klášterním dvoře
-     Dm   B      H        Em
+     Dm   B      H        Em   H Em H
 Zněl jak, sbohem, jednoho z nás
 
 Za poslední lodí se zavřelo moře
