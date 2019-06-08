@@ -6,12 +6,11 @@ Jednu malou kapku deště, ta mu spadla pod nohy
 Nejdřív ale chytil slinu, pak šáh' kamsi pro pivo
 Pak přitáhl kovadlinu a obrovský kladivo
 
-[chorus]
+[chorus] _______________________________________
       C         Em/H Am         C/G
 Zatím tři bílé vrány pěkně za sebou
        Fmaj7       C          D7        G
 Kolem jdou, někam jdou, do rytmu se kývají
-      C         Em/H Am         C/G
 Tyhle tři bílé vrány pěkně za sebou
        Fmaj7       C         Fmaj7     C
 Kolem jdou, někam jdou, nedojdou, nedojdou
@@ -27,4 +26,5 @@ Zpod víček mi vytrysk' pramen na zmačkané polštáře
 Kdosi mě vzal kolem ramen a políbil na tváře
 Kdesi v dálce rozmazaně strejda kovář odchází
 Do kalhot si čistí ruce umazané od sazí, zatím
+
 [solo]
