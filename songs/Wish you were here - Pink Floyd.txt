@@ -1,12 +1,12 @@
-[bridge] Em7 G Em7 G Em7 A7sus4 Em7 A7sus4 G
+[bridge] Em9 G Em9 G Em9 A7sus4 Em9 A7sus4 G
 
 [bridge]
 
-C                             D/F#
+C                             D
  So, so you think you can tell
-             Am/E                   G
+             Am                     G
 Heaven from hell, blue skies from pain
-                       D/F#                  C
+                       D                     C
 Can you tell a green field from a cold steel rail
                Am                             G
 A smile from a veil, do you think you can tell
