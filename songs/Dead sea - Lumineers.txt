@@ -39,8 +39,6 @@ Your father died and you decided to live
 It for yourself you felt, you just felt it was time
 And I'm glad, cause you with cats, that's just not right
 
-[chorus]
-
 Am
  I been down, I been defeated
 F
@@ -48,4 +46,4 @@ F
 D                                   G
  Would you stay, would you stay the night
 
-[chorus]
+[chorus] [2x]
