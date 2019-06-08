@@ -1,25 +1,29 @@
-C#m A C#m A
+[capo3]
 
-C#m                                         A
+Am F Am F
+
+Am                                          F
 Felt like the weight of the world was on my shoulders
-C#m                                   E     H5
+Am                                    C     G
 Pressure to break or retreat and then return
-C#m                                  A
+Am                                   F
 Facing the fear that the truth, I discovered
-C#m                  F#
+Am                   D
  No telling how, all these will work out
-    C#m                         G#7
+    Am                          E7
 But I've come to far to go back now
 
 [chorus]
-                 C#m                  A
+                 Am                   F
 I am looking for freedom, looking for freedom
-       H5                           E   G#7
+       G                            C   E7
 And to find it cost me everything I have
-                       C#m                  A
+                       Am                   F
 Well I am looking for freedom, looking for freedom
-       H5                             C#m
+       G                              Am
 And to find it, may take everything I have
+
+Am F Am F
 
 I know all too well it don't come easy
 The chains of the world they seem to movin tight
@@ -29,9 +33,9 @@ There's gotta be a winning in my bones
 
 [chorus]
 
-       A                         C#m
+       F                         Am
 Oh not giving up has always been hard, so hard
-    A                                           H5
+    F                                           G
 But if I do the thanks lase the way I won't get far
 
 Mhm, life hasn't been very kind to me lately, (well)
