@@ -1,18 +1,20 @@
-Dm
+[capo2]
+
+Am
  Posvátný je mi každý ráno
-Am                          Dm
+Em                          Am
  Když ze sna budí šumící les
 A když se zvedám s písničkou známou
 A přezky chřestí o skalnatou mez
 
 [chorus]
-Dm
+Am
  Tulácký ráno na kemp se snáší
-B                C          F
+F                G          C
  Za chvíli půjdem toulat se dál
-Dm
+Am
  A vodou z říčky oheň se zháší
-B               C          Dm
+F               G          Am
  Tak zase půjdem toulat se dál
 
 Posvátný je můj každý večer
