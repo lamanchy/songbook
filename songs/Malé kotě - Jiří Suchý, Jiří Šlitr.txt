@@ -1,16 +1,16 @@
-D    Hm    Em     A7
+C    Am    Dm     G7
 Malé kotě, mňau, mňau
 Spalo v botě, mňau, mňau
-                          D G   D G D
+                          C F   C F C
 Nehas, co tě, mňau, mňau, nepá, nepálí
 
 My jsme kotě, mňau, mňau
 Spáti v botě, mňau, mňau
 Po robotě, mňau, mňau, necha, nechali
 
-A7               D
+G7               C
  To, co kotě poví ti jedním pohledem
-A7              D        A7
+G7              C        G7
  To my ani slovy povědět nesvedem
 
 Věz, že kotě, mňau, mňau
@@ -18,9 +18,9 @@ Co spí v botě, mňau, mňau
 To tě potě, mňau, mňau, potě, potěší
 
 [chorus]
-D       G       D         A7
+C       F       C         G7
  Hoši a děvčata, pěstujte koťata
-D        G        D     A7    D
+C        F        C     G7    C
  Země je kulatá a místa je tu dost
 Kotě je solidní, nervy vám uklidní
 Nebuďte nevlídní a hned vás přejde zlost
