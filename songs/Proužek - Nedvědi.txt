@@ -2,9 +2,7 @@
 Ten mír, když za kopcem svítá
      F           G        C
 Když vystřídá se s nocí den
-               G              F C
 A proužek dýmu z dřeva slunce vítá
-  F           G        C
 I z kytky motýl vylít' ven
 
 [chorus]
@@ -31,6 +29,5 @@ Tajně jí ho do spacáku dal
 
 [chorus]
 
-[ending]
 F            G       C
 Jedna holka, co mám rád
