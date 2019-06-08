@@ -1,39 +1,41 @@
-Em7                  D
+[capo4]
+
+Am7                  G
  Across the oceans, across the seas
-Cadd9            Gmaj7
+Fadd9            Cmaj7
  Over forests of blackened trees
-        Em7                 D
+        Am7                 G
 Through valleys so still we dare not breathe
-Cadd9         D
+Fadd9         G
 To be by your side
-Cadd9              Em
+Fadd9              Am
  Over the shifting desert plains
-Cadd9             G
+Fadd9             C
  Across mountains all in flames
-        D/F#              Cadd9
+        G/H               Fadd9
 Through howling winds and driving rains
-D             Em
+G             Am
 To be by your side
 
-Cadd9           Em        Cadd9            G
+Fadd9           Am        Fadd9            C
  Every mile and every year for every one a little tear
-Am         Em                  Am            Em
-I cannot explain this, Dear, I will not even try
+Dm         Am                  Dm            Am
+I cannot explain this, dear, I will not even try
 
 Into the night as the stars collide
 Across the borders that divide
 Forests of stone standing petrified
 To be by your side
 
-Every mile and every year, For every one a single tear
-I cannot explain this, Dear, I will not even try
+Every mile and every year, for every one a single tear
+I cannot explain this, dear, I will not even try
 
 [chorus]
-      Cadd9    D      Cadd9               D
-For I know one thing, Love comes on a wing
-    Em        D       G           Cadd9
+      Fadd9    G      Fadd9               G
+For I know one thing, love comes on a wing
+    Am        G       C           Fadd9
 For tonight I will be by your side
-      Am            Em
+      Dm            Am
 But tomorrow I will fly
 
 From the deepest ocean to the highest peak
@@ -45,16 +47,16 @@ Where all the beasts bow down their heads
 Darling I will never rest
 Till I am by your side
 
-Every mile and every year, Time and Distance disappear
-I cannot explain this, dear No, I will not even try
+Every mile and every year, time and distance disappear
+I cannot explain this, dear no, I will not even try
 
 [chorus]
-And I know just one thing, Love comes on a wing
+And I know just one thing, love comes on a wing
 And tonight I will be by your side
 But tomorrow I will
 
 [chorus]
-Fly, away, Love rises with the day
+Fly, away, love rises with the day
 And tonight I may be by your side
 But tomorrow I will fly
 Tomorrow I will fly [2x]
