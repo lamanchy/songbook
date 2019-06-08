@@ -1,17 +1,17 @@
-     A                E
+     C                G
 When I find myself in times of trouble
-F#m           D
+Am            F
  Mother Mary comes to me
-A                  E            D A
+C                  G            F C
 Speaking words of wisdom let it be
 And in my hour of darkness
 She is standing right in front of me
 Speaking words of wisdom let it be
 
 [chorus]
-        F#m        E          D          A
+        Am         G          F          C
 Let it be, let it be, let it be, let it be
-A                  E            D A
+C                 G            F C
 Speaking words of wisdom let it be
 
 And when the broken hearted people
@@ -21,9 +21,8 @@ For though they may be parted
 There is still a chance that they will see
 There will be an answer let it be
 
-[chorus]
-Let it be, let it be, let it be, let it be
-There will be an answer let it be
+[chorus] There will be an answer
+Speaking words of wisdom
 
 And when the night is cloudy
 There is still a light that shines on me
@@ -32,5 +31,5 @@ I wake up to the sound of music
 Mother Mary comes to me
 Speaking words of wisdom let it be
 
-[chorus] Speaking words of wisdom
 [chorus] There will be an answer
+Speaking words of wisdom
