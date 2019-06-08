@@ -1,21 +1,23 @@
-Am7                D               G  C G
+[capo3]
+
+Dm7                G               C  F C
 Sedím na kolejích, které nikam nevedou
-Am7                      D               G  C G
+Dm7                      G               C  F C
 Koukám na kopretinu, jak miluje se s lebedou
-Am7                D                  G Em
+Dm7                G                  C Am
 Mraky vzaly slunce zase pod svou ochranu
-Am7                         D                 G D
+Dm7                         G                 C G
 Jen ty nejdeš, holka zlatá, kdypak já tě dostanu
 
 [chorus]
-G                  Em
+C                  Am
 Z ráje, my vyhnaní z ráje
-            Am7   C7            G     D
+            Dm    F             C     G
 Kde není už místa, prej něco se chystá
-G                   Em
+C                   Am
 Z ráje nablýskaných plesů
-               Am7 C7         G  C G C G
-Jdem zpátky do lesů za nějaký čas
+               Dm   F          C  F C F C
+Jdem zpátky do lesů, za nějaký čas
 
 Vlak nám včera ujel ze stanice do nebe
 Málo jsi se snažil, málo šel jsi do sebe
