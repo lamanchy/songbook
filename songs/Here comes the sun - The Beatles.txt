@@ -1,45 +1,29 @@
 [capo8]
 
 [chorus]
-D
- Here comes the sun
-G                  E7
- Here comes the sun
-          D              G6 Dadd9 G6 Dadd9 A7
+D                   G                  E7
+ Here comes the sun, here comes the sun
+          D              G6 Dadd9 | G6 Dadd9 | A7
 And I say, it's all right
 
-D
- Little darling
-                 G               A7
-It's been a long, cold, lonely winter
-D
- Little darling
-                G                    A7
-It feels like years since it's been here
+D                                 G               A7
+ Little darling, it's been a long, cold, lonely winter
+Little darling, it feels like years since it's been here
 
 [chorus]
 
-Little darling
-The smiles returning to their faces
-Little darling
-It seems like years since it's been here
+Little darling, the smiles returning to their faces
+Little darling, it seems like years since it's been here
 
 [chorus]
-
-F C | G | D | A7
 
 F    C    G             D   A7
 Sun, sun, sun, here it comes [3x]
-
 A7 A7sus4 A5 A7
 
-Little darling
-I feel that ice is slowly melting
-Little darling
-It seems like years since it's been clear
+Little darling, I feel that ice is slowly melting
+Little darling, it seems like years since it's been clear
 
 [chorus] [2x]
-
 It's all right
-
-F C | G | D
+G6 Dadd9 | G6 Dadd9 | F C G | G | D
