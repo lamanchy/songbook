@@ -1,3 +1,4 @@
+[chorus1]
    G                    C      B
 My girl, my girl, don't lie to me
         D             D/A        G
@@ -6,7 +7,7 @@ In the pines, in the pines
 Where the sun don't ever shine
 I would shiver the whole night through
 
-[chorus]
+[chorus2]
 My girl, my girl, where will you go
 I'm going where the cold wind blows
 In the pines, in the pines
@@ -19,28 +20,15 @@ Just about a mile from here
 His head was found in a driving wheel
 But his body never was found
 
-My girl, my girl, don't lie to me
-Tell me where did you sleep last night
-In the pines, in the pines
-Where the sun don't ever shine
-I would shiver the whole night through
+[chorus1]
 
-[solo] G C B D G
+[solo] G C B D G [2x]
 
-[quiet]
-My girl, my girl, where will you go
-I'm going where the cold wind blows
-In the pines, in the pines
-Where the sun don't ever shine
-I would shiver the whole night through
+[chorus2] [quiet]
 
-[loud]
-My girl, my girl, don't lie to me
-Tell me where did you sleep last night
-In the pines, in the pines
-Where the sun don't ever shine
-I would shiver the whole night through
+[chorus1] [loud]
 
+[ending]
 My girl, my girl, where will ya go
 I'm going where the cold wind blows
 In the pines, the pines
