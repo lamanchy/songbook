@@ -41,7 +41,7 @@ G       D/F#       Em
 In the sha, shallow
 We’re far from the shallow now
 
-[Bridge]
+[bridge]
 Hm   D
 Wooaaaah
 A Em Hm D A
