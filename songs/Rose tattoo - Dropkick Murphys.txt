@@ -1,10 +1,12 @@
+[solo] Am C G Am [2x]
+
     Am                            C
 The pictures tell the story, This life has many shades
     G                           Am
 I’d wake up every morning and before I’d start each day
 I’d take a drag from last nights cigarette
 That smoldered in it’s tray
-                         Dm               Am
+G                        Dm               Am
 Down a little something, then be on my way
 
 I traveled far and wide, laid this head in many ports
@@ -24,6 +26,8 @@ I’ve got your name written here, In a rose tattoo
 In a rose tattoo, in a rose tattoo
               G                       Am
 I’ve got your name written here, in a rose tattoo
+
+[solo]
 
 This ones for the mighty sea, mischief, gold and piracy
 This ones for the man that raised me, taught me sacrifice and bravery
@@ -47,13 +51,19 @@ I heard them once, sung in a song
                        Dm
 It played again and we sang along
 
+[solo]
+
 You’ll always be there with me, even if you’re gone
 You’ll always have my love, our memory will live on
 
 [chorus]
 In a rose tattoo, in a rose tattoo
 With pride I’ll wear it to the grave for you
+     C                 G
 In a rose tattoo, in a rose tattoo
-I’ve got your name written here
+              Dm                      Am
+I’ve got your name written here, in a rose tattoo
 In a rose tattoo, in a rose tattoo
 Signed and sealed in blood I would die for you
+
+[solo]
