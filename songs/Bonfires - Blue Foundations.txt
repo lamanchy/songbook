@@ -1,4 +1,4 @@
-Em D Am G D
+Em | D | Am | G D
 
 Em     D     Am
  I was given wine
@@ -19,6 +19,8 @@ Is where I want to be
 Walk far far away
 To laugh, to love
 
+[solo]
+
 Days of roses and wine
 Drifting astray
 With your hand in mine
@@ -34,6 +36,8 @@ Where to go and hide
 We're going to the sea
 Way far far away
 To laugh, to love
+
+[solo]
 
 [ending]
 And this is how it went

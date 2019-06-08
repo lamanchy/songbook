@@ -1,3 +1,5 @@
+[capo2]
+
 Em                        D
 Pověz mi, můj příteli, co uděláš, když rozdělí
    C                            Hm
@@ -12,12 +14,11 @@ Am                     G                       D
 Ukryji své zklamání za nekonečnou hrou a mlhou ranní
 Ukryji své zklamání za rozzářenou tvář a pousmání
 Ukryji své zklamání a vezmu jeho hlavu do svých dlaní
-
-Em D C Hm
+Em D C Hm [2x]
 
 A pověz mi, jak lámeš mříž, co uděláš, když nevěříš
 Že kroužkovaní ptáci zpívají
-Oni hvízdají a pyšní jsou, že létat mohou nad tebou
+Oni hvízdají, jen z pýchy řvou, že létat mohou nad tebou
 A na zemi ti z ruky zobají
 
 [chorus]
