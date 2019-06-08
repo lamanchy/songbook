@@ -1,12 +1,14 @@
-Am G | F C [2x]
+[capo2]
 
-        Am    G       F
+Em D | C G [2x]
+
+        Em    D       C
 Summer comes, winter fades
-C        Am  G         F
+G        Em  D         C
 Here we are, just the same
-   C          Am          G            F
+   G          Em          D            C
 We dont need pressure, we don’t need change
-C         Am      G     F  C Am G F
+G         Em      D     C  G Em D C
 Lets not give the game away
 
 There used to be an empty space
@@ -15,19 +17,19 @@ But with your presence and your grace
 Everything falls into place
 
 [chorus]
-     F                     C
+     C                     G
 Just please don't say you love me
-         G                Am  G
+         D                Em  D
 'cause I might not say it back
 Doesn't mean my heart stopped skipping
 When you look at me like that
 There's no need to worry
 When you see just where we're at
 Just please don't say you love me
-         G                 F  C
+         D                 C  G
 'cause I might not say it back
 
-Am G | F C [2x]
+Em D | C G [2x]
 
 Heavy words are hard to take
 Under pressure, precious things can break
@@ -36,15 +38,15 @@ So let's not give the game away
 
 [chorus]
 
-             G
+             D
 A fools rush in
-                          C
+                          G
 And I've been the fool before
-     C/H                A7
+     G/F#               E7
 This time I'm gonna slow down
-                              Dm
+                              Am
 'cause I think this could be more
-              C        F G
+              G        C D
 The thing I'm looking for
 
 [chorus] [2x]
