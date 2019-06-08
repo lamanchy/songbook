@@ -1,3 +1,5 @@
+[capo2]
+
 A        E
 Atentát, v posteli
 F#m             D
@@ -5,12 +7,13 @@ F#m             D
 Na dva ostrovy, od sebe daleko
 Všechno v nás už přeteklo
 
-A         E             F#m          D
- Jsme uvězněni v tělech, jak hudba v decibelech
+Jsme uvězněni v tělech, jak hudba v decibelech
 
 [chorus]
 A E      F#m                D
  Uu, zas budem šťastni, tak prosím, zhasni svět
+A E F#m D
+ Uu
 
 Atentát, v posteli
 Už tolikrát jsme umřeli
@@ -20,7 +23,7 @@ Míjíš mě a já tebe
 Jsme uvězněni v tělech, jak kulky v revolverech
 
 [chorus]
-Zas budem šťastni, tak prosím, zhasni svět
-Zítra budem šťastni, tak prosím, zhasni svět
-Tak prosím, zhasni hned
-Tak prosím, zhasni svět
+Uu, zas budem šťastni, tak prosím, zhasni svět
+Uu, zítra budem šťastni, tak prosím, zhasni svět
+Uu, tak prosím, zhasni hned
+Uu, tak prosím, zhasni svět
