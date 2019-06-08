@@ -18,7 +18,7 @@ Oh, give me the beat boys to free my soul
 I wanna get lost in your Rock n Roll and
 Drift away
 
-C G F G C
+C | G C
 
 Beginning to think I'm was wasten' time
 I dont understand the things I do
@@ -27,7 +27,7 @@ I'm counting on you, to carry me through
 
 [chorus]
 
-C G F G C
+C | G C
 
 Dm
  And when my mind is free
@@ -45,4 +45,7 @@ I want you to know I believe in your song
 Rhythm and rhyme and harmony
 You help me along, making me strong
 
-[chorus]
+[chorus] [2x]
+
+Now now, now won't ya take me
+Oh take me
