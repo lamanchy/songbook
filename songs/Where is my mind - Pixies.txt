@@ -1,8 +1,10 @@
+[capo5]
+
 [solo] G Em H C [2x]
 
-[verse1]
-          G                        Em                H
-With your feet in the air and your head on the ground _C
+[verse1] ________________________________________
+          G                        Em                H C
+With your feet in the air and your head on the ground
 G      Em             H       C
  Try this trick and spin it, yeah
 G                   Em                 H
