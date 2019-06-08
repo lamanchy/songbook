@@ -1,3 +1,5 @@
+[capo4]
+
 A                G
  Stojím v dešti, v očích pláč
 Dm                 C       H B
@@ -23,4 +25,4 @@ Tím vším je láska má
 Marně bloumám, marně sním
 Marně prosím ráno, které k tobě smí
 
-[chorus]
+[chorus] [2x]
