@@ -1,18 +1,20 @@
-F#m
+[capo2]
 
-A           E          A
+Em
+
+G           D          G
  Oh, it's a mystery to me
-          A          D              E
+          G          C              D
 We have a greed with which we have agreed
-        D                 E                  F#m
+        C                 D                  Em
 And you think you have to want more than you need
-  D               E                F#m
+  C               D                Em
 Until you have it all you won't be free
 
 [chorus]
-     D                  A
+     C                  G
 Society, you're a crazy breed
-                E              F#m
+                D              Em
 Hope you're not lonely without me
 
 When you want more than you have
