@@ -1,18 +1,20 @@
-  G                 Em
+[capo5]
+
+  C                 Am
 I heard there was a secret chord
-     G                   Em
+     C                   Am
 That David played and it pleased the lord
-    C                         D      G     D
+    F                         G      C     G
 But you don't really care for music, do you
-        G                  C           D
+        C                  F           G
 Well it goes like this the fourth, the fifth
-    Em                 C
+    Am                 F
 The minor fall and the major lift
-    D            H7             Em
+    G            E7             Am
 The baffled king composing hallelujah
 
 [chorus]
-     C           Em          C           G D G
+     F           Am          F           C G C
 Hallelujah, hallelujah, hallelujah, halleluu-jah
 
 Well your faith was strong but you needed proof
