@@ -1,4 +1,4 @@
-[capo7]
+[capo8]
 
 [chorus]
 D
@@ -26,17 +26,20 @@ It seems like years since it's been here
 
 [chorus]
 
-F C G D A7
+F C | G | D | A7
 
 F    C    G             D   A7
 Sun, sun, sun, here it comes [3x]
+
+A7 A7sus4 A5 A7
 
 Little darling
 I feel that ice is slowly melting
 Little darling
 It seems like years since it's been clear
 
-[chorus]
+[chorus] [2x]
+
 It's all right
 
-F C G D
+F C | G | D
