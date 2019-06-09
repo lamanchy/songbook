@@ -11,14 +11,20 @@ class Song(object):
     separator = " - "
     SONGS_DIR = os.path.join(BASE_DIR, "songs")
 
-    def __init__(self, file_name: str):
+    def __init__(self, file_name: str, categories):
+        self.categories = categories
         self.file_name = file_name
         self.text = SongText(self.path)
 
     @classmethod
     def load_songs(cls):
-        songs = [Song(song_name) for song_name in os.listdir(cls.SONGS_DIR)]
-        return sorted(songs, key=lambda song: czech_sort.key(song.title))
+        songs = []
+        for root, dirs, files in os.walk(cls.SONGS_DIR):
+            categories = root[len(cls.SONGS_DIR) + 1:].split(os.sep)
+            for name in files:
+                assert categories[0] != ""
+                songs.append(Song(os.path.join(root, name), categories))
+        return sorted(songs, key=lambda song: song.get_sort_key())
 
     @classmethod
     def load_song(cls, name):
@@ -82,7 +88,7 @@ class Song(object):
         return self.remove_extension().split(self.separator)
 
     def remove_extension(self):
-        return self.file_name[:-len(self.extension)]
+        return os.path.basename(self.file_name)[:-len(self.extension)]
 
     def validate_name(self, name, its_name):
         if len(name) == 0:
@@ -106,3 +112,6 @@ class Song(object):
 
     def __repr__(self):
         return self.title
+
+    def get_sort_key(self):
+        return [czech_sort.key(c) for c in self.categories] + [czech_sort.key(self.title)]

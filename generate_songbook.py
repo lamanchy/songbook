@@ -1,7 +1,6 @@
 import logging
 import sys
 
-import czech_sort
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_font, get_max_font_size
@@ -109,21 +108,33 @@ if __name__ == "__main__":
 
         f.write(page)
 
-        written_songs.sort(key=lambda written: czech_sort.key(written[0].title))
+        written_songs.sort(key=lambda w: w[0].get_sort_key())
+        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1])), written_songs))
+        category = None
+        list_songs = []
+
+        for written in written_songs:
+            if written[0] != category:
+                category = written[0]
+                if len(list_songs) > 0:
+                    list_songs.append(("", ""))
+                list_songs.append((category, ""))
+            list_songs.append(("  " + written[1], written[2]))
+
         font = get_font(list_font_size)
         for page_i in range(num_of_pages):
-            tw = written_songs[
-                 page_i * len(written_songs) // num_of_pages:(page_i + 1) * len(written_songs) // num_of_pages]
+            tw = list_songs[
+                 page_i * len(list_songs) // num_of_pages:(page_i + 1) * len(list_songs) // num_of_pages]
             o = (len(tw) + 1) // 2
             for ttw in [tw[:o], tw[o:]]:
                 page = Image.new("RGB", mm_to_px(RenderedText.page_size), (255, 255, 255))
                 draw = ImageDraw.Draw(page)
 
-                text = "\n".join(list(map(lambda song: song[0].title, ttw)))
+                text = "\n".join([x[0] for x in ttw])
                 draw.text((RenderedText.text_pos[0] * 2, RenderedText.text_pos[1]), text,
                           font=font, fill=(0, 0, 0), spacing=list_font_size / 15.0)
 
-                pages = list(map(lambda song: str(song[1]), ttw))
+                pages = [x[1] for x in ttw]
                 size = draw.textsize("A" * max(map(lambda i: len(i), pages), default=1), font)[0]
                 text = "\n".join(pages)
                 draw.text((page.size[0] - RenderedText.text_pos[0] * 2 - size, RenderedText.text_pos[1]),
