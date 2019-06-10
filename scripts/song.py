@@ -28,7 +28,7 @@ class Song(object):
 
     @classmethod
     def load_song(cls, name):
-        songs = [song for song in cls.load_songs() if song.file_name.startswith(name)]
+        songs = [song for song in cls.load_songs() if song.title.startswith(name)]
         if len(songs) == 0:
             raise RuntimeError("Unknown song")
         if len(songs) > 1:

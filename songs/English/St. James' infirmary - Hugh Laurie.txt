@@ -1,10 +1,10 @@
 [solo]
-Em | G | A | C [3x]
-Em | C | H | H
+Am | C | D | F [3x]
+Am | F | E | E
 
-Em          A            Em
+Am          D            Am
  I went down to St James infirmary
-Em  C          H
+Am  F          E
  Saw my baby there
 She was stretched out on a long white table
 So cold, so sweet, so sweet, so fair
@@ -15,8 +15,8 @@ She can search this whole wide world over
 She won't ever find another man like me
 
 [2x]
-Em | A | Em | Em
-Em | C | H | H
+Am | D | Am | Am
+Am | F | E | E
 
 When I die, bury me in straight laced shoes
 A box backed suit and a Stetson hat
