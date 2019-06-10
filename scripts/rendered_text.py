@@ -65,7 +65,8 @@ class RenderedText(object):
             if line.is_text_line() and previous_line is not None and previous_line.is_chord_line():
                 continue
 
-            if re.match(r"\[\d+x]", line.text):
+            if re.match(r"\[\d+x]", line.text) or (
+                    line.is_tag_line() and next_line is not None and next_line.is_chord_line() and next_next_line is not None and next_next_line.is_chord_line()):
                 tag = line.text.split(" ")[0] + " "
                 extra = line_height if not next_line.is_text_line() and next_next_line is not None and next_next_line.is_text_line() else 0
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y + extra), tag, font=font, fill=(0, 0, 0))

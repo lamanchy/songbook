@@ -1,3 +1,5 @@
+import re
+
 from scripts.chord import Chord
 from scripts.line import Line
 
@@ -54,8 +56,6 @@ class SongText(object):
                     if Chord.is_chord(last):
                         i = line.text.rindex("_")
                         line.text = line.text[:i + 1] + fn(last)
-
-
 
         self.text = self.join_lines(lines)
 
@@ -129,6 +129,15 @@ class SongText(object):
 
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
+            next_next_line = None if i + 2 >= len(lines) else lines[i + 2]
+
+            if line.is_tag_line() \
+                    and next_line is not None and next_line.is_chord_line() \
+                    and next_next_line is not None and next_next_line.is_chord_line():
+                continue
+
+            if re.match(r"\[\d+x]", line.text):
+                continue
 
             res.append(line)
 

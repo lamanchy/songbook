@@ -25,7 +25,8 @@ Skončila válka a chystá se nová
 A rozmoklou stezkou, co prošel ten skaut
 V deseti proudech jdou provazy aut, jak dravá řeka
 
-[solo] C | Am | F C | F G | C G | F | Dm | Dm F
+[solo]
+C | Am | F C | F G | C G | F | Dm | Dm F
 C | Am | F C | F G | C G | F | F
 
 [solo1]
@@ -35,7 +36,8 @@ A rádio hlásí, že v noci byl mráz, lidi jdou z práce a nemají čas
 G                  Em          Am Gsus4 G
 Jenže vlak domů má velký zpoždění
 
-[solo] Am | E | F Dm6 | G7 C Em | Dm G7 | C | Dm C | F E [4x]
+[solo]
+Am | E | F Dm6 | G7 C Em | Dm G7 | C | Dm C | F E [4x]
 Am G
 
 Už nemůžu dělat, co kde bych kdy chtěl

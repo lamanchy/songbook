@@ -46,7 +46,8 @@ Ať světlomety perou do očí
 Ať každej ví, že přišla moje chvíle
 Ať to každej ví a chystá obročí
 
-[solo] C | G | Dm | Am
+[solo]
+C | G | Dm | Am
 C | G | Dm C G | F Am
 
 Slyším, někde snad se stala chyba
