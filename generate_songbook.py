@@ -4,6 +4,7 @@ import sys
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_font, get_max_font_size
+from pil_quality_pdf.quality_constants import RESOLUTION_DPI
 from pil_quality_pdf.rendering import PdfWriter, mm_to_px
 from scripts.rendered_song import RenderedSong
 from scripts.rendered_text import RenderedText
@@ -13,7 +14,7 @@ if __name__ == "__main__":
     songs = Song.load_songs()
     no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
-    with PdfWriter("songbook" + ("_for_piano" if no_capo else "")) as f:
+    with PdfWriter("songbook" + ("_for_piano" if no_capo else "") + ("_print" if RESOLUTION_DPI == 300 else "")) as f:
         # songs = songs[:10]
         # songs = [song for song in songs if song.title.startswith("Hey you")]
         # songs.sort(key=lambda song: len(song.text.text.split("\n")))
@@ -132,14 +133,14 @@ if __name__ == "__main__":
 
                 text = "\n".join([x[0] for x in ttw])
                 draw.text((RenderedText.text_pos[0] * 2, RenderedText.text_pos[1]), text,
-                          font=font, fill=(0, 0, 0), spacing=list_font_size / 15.0)
+                          font=font, fill=(0, 0, 0), spacing=list_font_size / 5.0)
 
                 pages = [x[1] for x in ttw]
                 size = draw.textsize("A" * max(map(lambda i: len(i), pages), default=1), font)[0]
                 text = "\n".join(pages)
                 draw.text((page.size[0] - RenderedText.text_pos[0] * 2 - size, RenderedText.text_pos[1]),
                           text, font=font, fill=(0, 0, 0),
-                          anchor="right", align="right", spacing=list_font_size / 15.0)
+                          anchor="right", align="right", spacing=list_font_size / 5.0)
 
                 f.write(page)
 

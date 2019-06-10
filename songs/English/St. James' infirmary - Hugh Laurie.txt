@@ -1,4 +1,6 @@
-[solo] Em | G | A | C H [4x]
+[solo]
+Em | G | A | C [3x]
+Em | C | H | H
 
 Em          A            Em
  I went down to St James infirmary
@@ -12,7 +14,8 @@ Wherever she may be
 She can search this whole wide world over
 She won't ever find another man like me
 
-[2x] Em | A | Em | Em
+[2x]
+Em | A | Em | Em
 Em | C | H | H
 
 When I die, bury me in straight laced shoes
