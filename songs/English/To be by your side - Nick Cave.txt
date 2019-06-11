@@ -1,23 +1,23 @@
 [capo4]
 
-Am7                  G
+Am                   G
  Across the oceans, across the seas
-Fadd9            Cmaj7
+F                C
  Over forests of blackened trees
-        Am7                 G
+        Am                  G
 Through valleys so still we dare not breathe
-Fadd9         G
+F             G
 To be by your side
-Fadd9              Am
+F                  Am
  Over the shifting desert plains
-Fadd9             C
+F                 C
  Across mountains all in flames
-        G/H               Fadd9
+        G                 F
 Through howling winds and driving rains
 G             Am
 To be by your side
 
-Fadd9           Am        Fadd9            C
+F               Am        F                C
  Every mile and every year for every one a little tear
 Dm         Am                  Dm            Am
 I cannot explain this, dear, I will not even try
@@ -31,9 +31,9 @@ Every mile and every year, for every one a single tear
 I cannot explain this, dear, I will not even try
 
 [chorus]
-      Fadd9    G      Fadd9               G
+      F        G      F                   G
 For I know one thing, love comes on a wing
-    Am        G       C           Fadd9
+    Am        G       C           F
 For tonight I will be by your side
       Dm            Am
 But tomorrow I will fly
