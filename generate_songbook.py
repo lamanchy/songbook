@@ -14,9 +14,9 @@ if __name__ == "__main__":
     songs = Song.load_songs()
     no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
-    with PdfWriter("songbook" + ("_for_piano" if no_capo else "") + ("_print" if RESOLUTION_DPI == 300 else "")) as f:
+    with PdfWriter("_songbook" + ("_for_piano" if no_capo else "") + ("_print" if RESOLUTION_DPI == 300 else "")) as f:
         # songs = songs[:10]
-        # songs = [song for song in songs if song.title.startswith("Hey you")]
+        songs = [song for song in songs if song.title.startswith("A")]
         # songs.sort(key=lambda song: len(song.text.text.split("\n")))
         draw = ImageDraw.Draw(Image.new("RGB", (0, 0), (255, 255, 255)))
 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
         f.write(page)
 
         written_songs.sort(key=lambda w: w[0].get_sort_key())
-        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1])), written_songs))
+        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1]) + "."), written_songs))
         category = None
         list_songs = []
 
@@ -120,7 +120,7 @@ if __name__ == "__main__":
                 if len(list_songs) > 0:
                     list_songs.append(("", ""))
                 list_songs.append((category, ""))
-            list_songs.append(("  " + written[1], written[2]))
+            list_songs.append(("   " + written[1], written[2]))
 
         font = get_font(list_font_size)
         for page_i in range(num_of_pages):
@@ -132,13 +132,14 @@ if __name__ == "__main__":
                 draw = ImageDraw.Draw(page)
 
                 text = "\n".join([x[0] for x in ttw])
-                draw.text((RenderedText.text_pos[0] * 2, RenderedText.text_pos[1]), text,
-                          font=font, fill=(0, 0, 0), spacing=list_font_size / 5.0)
+                draw.text((RenderedText.text_pos[0] * 3, RenderedText.text_pos[1]), text,
+                          font=font, fill=(0, 0, 0),
+                          spacing=list_font_size / 5.0)
 
                 pages = [x[1] for x in ttw]
-                size = draw.textsize("A" * max(map(lambda i: len(i), pages), default=1), font)[0]
+                size = max(map(lambda i: draw.textsize(i, font)[0], pages), default=0)
                 text = "\n".join(pages)
-                draw.text((page.size[0] - RenderedText.text_pos[0] * 2 - size, RenderedText.text_pos[1]),
+                draw.text((RenderedText.text_pos[0] * 3 - size, RenderedText.text_pos[1]),
                           text, font=font, fill=(0, 0, 0),
                           anchor="right", align="right", spacing=list_font_size / 5.0)
 
