@@ -139,6 +139,8 @@ class SongText(object):
             if re.match(r"\[\d+x]", line.text):
                 continue
 
+            Line(line.text.replace("—", "-"))
+
             res.append(line)
 
         return self.join_lines(res)

@@ -66,7 +66,8 @@ class RenderedText(object):
                 continue
 
             if re.match(r"\[\d+x]", line.text) or (
-                    line.is_tag_line() and next_line is not None and next_line.is_chord_line() and next_next_line is not None and next_next_line.is_chord_line()):
+                    line.is_tag_line() and next_line is not None and next_line.is_chord_line() and next_next_line is not None and next_next_line.is_chord_line()
+            ):
                 tag = line.text.split(" ")[0] + " "
                 extra = line_height if not next_line.is_text_line() and next_next_line is not None and next_next_line.is_text_line() else 0
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y + extra), tag, font=font, fill=(0, 0, 0))
@@ -85,8 +86,8 @@ class RenderedText(object):
 
                 extra = 0
                 for i in range(len(chord_parts)):
-                    chord = chord_parts[i][1].replace("_", " ")
-                    text = text_parts[i][1].replace("_", " ")
+                    chord = chord_parts[i][1].replace("_", " ").replace("—", "-")
+                    text = text_parts[i][1].replace("_", " ").replace("—", "-")
                     while text != text.replace("--", "-"):
                         text = text.replace("--", "-")
 
@@ -102,7 +103,7 @@ class RenderedText(object):
                 y += line_height
 
             else:
-                line.text = line.text.replace("_", " ").rstrip()
+                line.text = line.text.replace("_", " ").replace("—", "-").rstrip()
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
 
             y += line_height
