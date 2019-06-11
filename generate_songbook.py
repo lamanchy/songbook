@@ -14,9 +14,9 @@ if __name__ == "__main__":
     songs = Song.load_songs()
     no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
-    with PdfWriter("_songbook" + ("_for_piano" if no_capo else "") + ("_print" if RESOLUTION_DPI == 300 else "")) as f:
+    with PdfWriter("songbook" + ("_for_piano" if no_capo else "") + ("_print" if RESOLUTION_DPI == 300 else "")) as f:
         # songs = songs[:10]
-        songs = [song for song in songs if song.title.startswith("A")]
+        # songs = [song for song in songs if song.title.startswith("A")]
         # songs.sort(key=lambda song: len(song.text.text.split("\n")))
         draw = ImageDraw.Draw(Image.new("RGB", (0, 0), (255, 255, 255)))
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
             i = (len(songs) + 1) // num_of_pages
             list_font_size = get_max_font_size(
                 draw, "\n".join(["A" for a in range(i // 2)]), None,
-                mm_to_px(RenderedText.page_size[1] - RenderedText.delta * 2), RenderedText.text_font_size
+                mm_to_px(RenderedText.page_size[1] - RenderedText.delta * 5), RenderedText.text_font_size
             )[0]
             if list_font_size >= RenderedText.list_font_size:
                 break
@@ -110,7 +110,7 @@ if __name__ == "__main__":
         f.write(page)
 
         written_songs.sort(key=lambda w: w[0].get_sort_key())
-        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1]) + "."), written_songs))
+        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1])), written_songs))
         category = None
         list_songs = []
 
