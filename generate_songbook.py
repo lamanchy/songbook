@@ -4,6 +4,7 @@ import sys
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_font, get_max_font_size
+from pil_quality_pdf.local_quality_constants import ANTIALIASING
 from pil_quality_pdf.quality_constants import RESOLUTION_DPI
 from pil_quality_pdf.rendering import PdfWriter, mm_to_px
 from scripts.rendered_song import RenderedSong
@@ -134,14 +135,14 @@ if __name__ == "__main__":
                 text = "\n".join([x[0] for x in ttw])
                 draw.text((RenderedText.text_pos[0] * 3, RenderedText.text_pos[1]), text,
                           font=font, fill=(0, 0, 0),
-                          spacing=list_font_size / 5.0)
+                          spacing=list_font_size / 5.0 * ANTIALIASING * ANTIALIASING)
 
                 pages = [x[1] for x in ttw]
                 size = max(map(lambda i: draw.textsize(i, font)[0], pages), default=0)
                 text = "\n".join(pages)
                 draw.text((RenderedText.text_pos[0] * 3 - size, RenderedText.text_pos[1]),
                           text, font=font, fill=(0, 0, 0),
-                          anchor="right", align="right", spacing=list_font_size / 5.0)
+                          anchor="right", align="right", spacing=list_font_size / 5.0 * ANTIALIASING * ANTIALIASING)
 
                 f.write(page)
 
