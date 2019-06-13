@@ -13,13 +13,12 @@ Kouřili partyzánku, dým foukali do vánku
 Dívali se do dáli, viděli dvě smutný koleje na silnici
 
 [chorus]
-D                 C        G C G
+D                 C        G C G C G
  Ráno bylo stejný, nesváteční
-D                 C        G C G
- Na tvářích počasí proměnlivý
+Na tvářích počasí proměnlivý
 D              C           G
  Rádio hlásilo, na blatech svítá
-E7                     Am7 D7 G
+E7                     Am7 D7 G C G
  Každej byl tak trochu sám, hm
 
 Holka, zvedej kotvy, nikdo nás už nebere
