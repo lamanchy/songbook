@@ -39,14 +39,19 @@ class RenderedText(object):
         spacing = mm_to_px(self.font_size / 15.)
 
         line_height = draw.textsize("A", font)[1] + spacing
-        base_x = x = y = 0
+        x = y = 0
         disable_x_reset = False
 
         if len(lines) > 0 and lines[0].text.startswith("[capo"):
-            width, height = draw.textsize(lines[0].text, font)
-            draw.text((self.text_pos[0] + self.max_width - 2 * self.delta - width, self.text_pos[1] - 1.9 * height),
-                      lines[0].text,
-                      font=font, fill=(0, 0, 0))
+            capo_font = get_font(self.list_font_size)
+            width, height = draw.textsize(lines[0].text, capo_font)
+            draw.text(
+                (
+                    self.text_pos[0] + self.max_width - width - mm_to_px(self.delta) // 2,
+                    self.text_pos[1] - 1.9 * height
+                ),
+                lines[0].text,
+                font=capo_font, fill=(0, 0, 0))
             lines.pop(0)
             if len(lines) > 0 and lines[0].is_empty():
                 lines.pop(0)
