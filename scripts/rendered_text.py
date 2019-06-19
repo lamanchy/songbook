@@ -38,6 +38,8 @@ class RenderedText(object):
         font = get_font(self.font_size)
         spacing = mm_to_px(self.font_size / 15.)
 
+        dash_size = draw.textsize("-", font)[0]
+
         line_height = draw.textsize("A", font)[1] + spacing
         x = y = 0
         disable_x_reset = False
@@ -96,14 +98,23 @@ class RenderedText(object):
                     while text != text.replace("--", "-"):
                         text = text.replace("--", "-")
 
+                    chord_size = draw.textsize(chord, font)[0]
+                    text_size = draw.textsize(text, font)[0]
+                    dx = max(chord_size, text_size)
+                    if i < len(chord_parts) - 1 and \
+                            len(text) > 0 and \
+                            text[-1] not in " _-," and \
+                            len(text_parts[i + 1][1]) > 0 and \
+                            text_parts[i + 1][1][0] not in " _-," and \
+                            text_size + dash_size <= dx:
+                        text += "-"
+                        print(text + text_parts[i + 1][1])
+
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y), chord, font=font, fill=(0, 0, 0))
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y + line_height), text, font=font,
                               fill=(0, 0, 0))
 
-                    extra += max(
-                        draw.textsize(chord, font)[0],
-                        draw.textsize(text, font)[0]
-                    )
+                    extra += dx
 
                 y += line_height
 
