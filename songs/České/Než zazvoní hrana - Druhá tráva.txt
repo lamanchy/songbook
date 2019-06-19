@@ -1,7 +1,7 @@
 Dm C | G | F Am | Am [2x]
 
-Am            F                  E7
- Povídá mi ta moje, prej, dej si bacha
+Am            F                 E7
+ Povídá mi ta moje, prej dej si bacha
 Am            F           E7
  A narovná si pásek z hadiny
        G                            Dm Bm
@@ -31,14 +31,14 @@ A ptám se, matko, kolik je mi vlastně let
 Oblíkni se, nastydneš
 
 [bridge]
-           Dm        B            A
+        Dm        B            A
 Mám rád každýho a milován jsem všemi
-        Dm          B             A
+    Dm           B             A
 A s vojskem sobě rovných překročím
-           C                      Gm
+        C                      Gm
 Všechny meze, všechny zákony a cíle
-           Dm                        A
-Všechno dobrý, všechno zlý si ochočím
+        Dm                        A
+Všechno dobrý, všechno zlý si ochočím, jé
 
 [bridge]
 Ať zvoní zvony na nahatý zemi
