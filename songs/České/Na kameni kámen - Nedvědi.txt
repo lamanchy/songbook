@@ -1,29 +1,21 @@
 [capo5]
 
-      C
-Jako suchej, starej strom
-    Fmaj7
-Jako všeničící hrom
+     C                         Fmaj7
+Jako suchej, starej strom, jako všeničící hrom
            C    Fmaj7 C
 Jak v poli tráva
-     C
-Připadá mi ten náš svět
-      Fmaj7
-Plnej řečí
+     C                         Fmaj7
+Připadá mi ten náš svět, plnej řečí
       Am       G      C  Fmaj7 C
 A čím víc, tím líp se mám
 
 [chorus]
-      F
-Budem o něco se rvát
-      Am          G
-Až tu nezůstane stát
+      F                     Am          G
+Budem o něco se rvát, až tu nezůstane stát
           C    Fmaj7 C
 Na kameni kámen
-         Fmaj7
-A jestli není žádnej Bůh
-       Am           G
-Tak nás vezme země, vzduch
+         Fmaj7                   Am           G
+A jestli není žádnej Bůh, tak nás vezme země, vzduch
            C   Fmaj7 C
 No a potom ámen
 
