@@ -39,6 +39,7 @@ class RenderedText(object):
         spacing = mm_to_px(self.font_size / 15.)
 
         hyphen_size = draw.textsize("-", font)[0]
+        space_size = draw.textsize(" ", font)[0]
 
         line_height = draw.textsize("A", font)[1] + spacing
         x = y = 0
@@ -91,7 +92,7 @@ class RenderedText(object):
                     chord_parts.insert(0, (0, ""))
                     text_parts.insert(0, (0, next_line.text[:parts[0][0]]))
 
-                extra = 0
+                extra = -space_size if next_line.text.startswith(" ") else 0
                 for i in range(len(chord_parts)):
                     chord = chord_parts[i][1].replace("_", " ").replace("—", "-")
                     while chord.endswith("  "): chord = chord[:-1]
