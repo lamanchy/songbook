@@ -1,7 +1,7 @@
 [bridge]
 Am   C     G    Am            C      G    Am
 Víno máš a markytánku, dlouhá noc se prohýří
-Víno máš a chvilku spánku, díky, díky, verbíři
+Víno máš a chvilku spánku, díky díky, verbíři
 
 Am                            C          G      Am Em
 Dříve než se rozední, kapitán k osedlání rozkaz dá-vá
@@ -21,6 +21,6 @@ Díky, díky vám královští verbíři
 Rozprášen je batalion, poslední vojáci se k zemi hroutí
 Na polštáři z kopretin budou věčně spát
 Neplač sladká Marion, verbíři nové chlapce přivedou ti
-Za královský hermelín, padne každý rád
+Za královský hermelín padne každý rád
 
 [chorus] [bridge]
