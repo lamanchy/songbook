@@ -50,7 +50,7 @@ if __name__ == "__main__":
                 if c % 2 == 0:
                     draw = ImageDraw.Draw(page)
                     text = f"{c}."
-                    font = get_font(RenderedText.note_font_size)
+                    font = get_font(RenderedText.list_font_size)
                     size = draw.textsize(text, font)
                     draw.text((page.size[0] - mm_to_px(RenderedText.delta) - size[0],
                                page.size[1] - mm_to_px(RenderedText.delta) - size[1]),

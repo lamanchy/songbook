@@ -1,5 +1,6 @@
 [capo5]
 
+[solo]
 Am Em Am Em
 F Am F Em
 Am
