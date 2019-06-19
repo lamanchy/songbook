@@ -38,7 +38,7 @@ class RenderedText(object):
         font = get_font(self.font_size)
         spacing = mm_to_px(self.font_size / 15.)
 
-        dash_size = draw.textsize("-", font)[0]
+        hyphen_size = draw.textsize("-", font)[0]
 
         line_height = draw.textsize("A", font)[1] + spacing
         x = y = 0
@@ -104,12 +104,17 @@ class RenderedText(object):
                     dx = max(chord_size, text_size)
                     if i < len(chord_parts) - 1 and \
                             len(text) > 0 and \
-                            text[-1] not in " _-," and \
+                            text[-1] not in " _," and \
                             len(text_parts[i + 1][1]) > 0 and \
-                            text_parts[i + 1][1][0] not in " _-," and \
-                            text_size + dash_size <= dx:
-                        text += "-"
-                        print(text + text_parts[i + 1][1])
+                            text_parts[i + 1][1][0] not in " _,":
+                        while text_size + hyphen_size <= dx:
+                            text_size += hyphen_size
+                            text += "-"
+
+                        if text_parts[i + 1][1][0] == "-":
+                            text_parts[i + 1] = (text_parts[i + 1][0], " " + text_parts[i + 1][1][1:])
+                            if text_size + hyphen_size <= dx + draw.textsize(" ", font)[0]:
+                                text += "-"
 
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y), chord, font=font, fill=(0, 0, 0))
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y + line_height), text, font=font,
