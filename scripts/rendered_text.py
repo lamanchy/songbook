@@ -74,7 +74,7 @@ class RenderedText(object):
                 continue
 
             if re.match(r"\[\d+x]", line.text) or (
-                    line.is_tag_line() and next_line is not None and next_line.is_chord_line() and next_next_line is not None and next_next_line.is_chord_line()
+                    line.is_tag_line() and next_line is not None and next_line.is_chord_line() and not next_line.is_tag_line() and next_next_line is not None and next_next_line.is_chord_line()
             ):
                 tag = line.text.split(" ")[0] + " "
                 extra = line_height if not next_line.is_text_line() and next_next_line is not None and next_next_line.is_text_line() else 0
