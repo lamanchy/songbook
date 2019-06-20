@@ -7,7 +7,7 @@ While traveling trough this world of woe
 Yet there´s no sickness, toil or danger
 In that bright world to which I go
 
-[chorus1]
+[chorus]
             C              G
 I´m going there to see my father
             C               H
@@ -22,7 +22,7 @@ I know my way, is rough and steep
 Yet beauteous fields lie just before me
 Where God´s redeemed their vigils keep
 
-[chorus2]
+[chorus]
 I´m going there to see my mother
 She sad she´d meet me, when I come
 I´m only going over Jordan

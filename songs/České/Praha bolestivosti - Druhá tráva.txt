@@ -1,6 +1,5 @@
 [solo] F | Am | F | C G | Dm | Am | B | Am [2x]
 
-[verse1]
                  F                   C
 Rád bych si byl jist, zda známe hranici
                 F                  C
@@ -17,6 +16,7 @@ Kdy končí pokora a kdy začíná strach
 [solo]
 
 F | Am | F | C G
+
         Dm             Am
 Usmívej se, všímej si hostí
            B                           Am

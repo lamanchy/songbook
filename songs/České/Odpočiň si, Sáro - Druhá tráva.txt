@@ -2,17 +2,15 @@
 
 [solo] E Hm | C G | G | Em C | Hm A | D
 
-[verse1]
     Em     C  G         Em  Hm          Am
 Odpočiň si, Sáro, obrať list a vzdej se mi
                  Em               C  G
 Pro všechno na zemi u tvých nohou, Sáro
 
-[verse2]
 Pamatuješ, Sáro, tehdy v létě v obilí
 Jsme spolu kouřili cigaretu, Sáro
 
-[chorus1]
+[chorus]
       Am
 V tom pšeničném poli, kde ležet tak bolí
      G    D    Am
@@ -26,11 +24,10 @@ My smělí nesmělí jsme spolu neměli
               C  G
 Nic než retko, Sáro
 
-[verse3]
 Je to k smíchu, Sáro, jako tehdy v pšenici
 Pohleď v levici, mám dvě sparty, Sáro
 
-[chorus2]
+[chorus]
 Ten nebohý kdosi, kdo na křídlech nosí
 Tvou lásku a tvůj klid
 Ten, zocelen z boje, pak příkoří tvoje
