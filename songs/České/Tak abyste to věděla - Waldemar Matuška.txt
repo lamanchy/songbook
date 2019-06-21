@@ -14,8 +14,8 @@ Vy byste porád seděla a nevydala hlásku
 A to se přece nedělá a já vás varuju
     A7        D           F7            A
 Tak abyste to věděla, tak já vám vyznám lásku
-    A G#7 G7  F#7 H7          E7     Am
-Tak a-by--ste to _věděla, tak já vás miluju
+    A G# G   F# H           E7     Am
+Tak a-by-ste to věděla, tak já vás miluju
 
 Já nemám ráda muže, kteří se vnucujou
 Za prachy oni u žen, si štěstí kupujou
@@ -31,7 +31,6 @@ A když mu řeknu ano, tak tiše zašeptá
 
 [chorus]
 
-[ending]
     E7         A
 Tak já vás miluju
     E7             A

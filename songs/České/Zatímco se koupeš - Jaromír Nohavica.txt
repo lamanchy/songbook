@@ -13,11 +13,11 @@ A za velmi tenkou stěnou
 Slyším, jak se mydlíš pěnou
 
 [chorus]
-            D      G                D
+            D     G                 D
 Nechej vodu vodou, jen ať si klidně teče
            Em               G             D
 Chápej, že touha je touha a čas se pomalu vleče
-         Em           G              D
+         Em          G               D
 Cigareta hasne, káva stydne, krev se pění
            Em                       G
 Bylo by to krásné, kdyby srdce bylo klidné
@@ -31,5 +31,5 @@ Všechny prachy dal bych za odvahu
 
 [chorus]
 
-          D        Em  A7         D
+         D        Em  A7         D
 Nebylo a není, hm hm, zatímco se koupeš
