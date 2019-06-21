@@ -67,7 +67,7 @@ class RenderedText(object):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
             next_next_line = None if i + 2 >= len(lines) else lines[i + 2]
 
-            if line.is_chord_line() and previous_line is not None and previous_line.is_text_line():
+            if line.is_chord_line() and previous_line is not None and previous_line.is_text_line() and not line.is_tag_line():
                 y += spacing / 2
 
             if line.is_text_line() and previous_line is not None and previous_line.is_chord_line():

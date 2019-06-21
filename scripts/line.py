@@ -74,7 +74,7 @@ class Line(object):
         self.replace(", nebo ", "  nebo ")
         self.replace(", and ", "  and ")
         self.replace("_ ", " _")
-        for c in ".!?;\"…–":
+        for c in ".!?;\"…–:":
             self.replace(c, ",")
 
         self.replace(",,", ",")
