@@ -4,6 +4,10 @@ Songs to add:
 ```
 ```
 
+Manual check:
+B / H chords
+upper cases in the middle of song
+
 Ok, I suppose, that my family will read it, so: Czech.
 
 Ahojte rodino, známí. Tohle je zárodek nového zpěvníku, který bude mít

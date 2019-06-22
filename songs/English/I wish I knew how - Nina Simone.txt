@@ -1,9 +1,9 @@
 [capo3]
 
-G B7 Em G7 C D9 G | G C
-G C G G D A7 D7 | D7 C
-G B7 Em G7 C D9 G Edim
-G B7 Em Ddim G D9 G | G C
+G H7 Em G7 C D9 G | G C
+G Cmaj7 G G D A7 D7 | D7 C
+G H7 Em G7 C D9 G Edim
+G H7 Em Ddim G D9 G | G C
 
 I wish I knew how it would feel to be free
 I wish I could break all the chains that are still biding me
@@ -14,9 +14,9 @@ And we start anew
 I wish I could be like the bird in the sky
 How sweet it would be to find that I could fly
 I'd soar to the sun and looked down at the sea
-G          B7 Em          Ddim G        B7  Em        G
+G          H7 Em          Ddim G        H7  Em        G
  Then I'd sing 'cause I'd know _how it feels to be free
-C          B7 Em          Ddim G        D9        G
+C          H7 Em          Ddim G        D9        G
  Then I'd sing 'cause I'd know _how it feels to be free
 
 I wish I could share all the love that's in my hearth
