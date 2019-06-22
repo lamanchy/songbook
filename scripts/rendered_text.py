@@ -70,7 +70,7 @@ class RenderedText(object):
             if line.is_chord_line() and previous_line is not None and previous_line.is_text_line() and not line.is_tag_line():
                 y += spacing / 2
 
-            if line.is_text_line() and previous_line is not None and previous_line.is_chord_line():
+            if line.is_text_line() and previous_line is not None and previous_line.is_chord_line() and not previous_line.is_tag_line():
                 continue
 
             if re.match(r"\[\d+x]", line.text) or (
@@ -84,7 +84,7 @@ class RenderedText(object):
                 disable_x_reset = True
                 y -= line_height
 
-            if line.is_chord_line() and next_line is not None and next_line.is_text_line():
+            if line.is_chord_line() and next_line is not None and next_line.is_text_line() and not line.is_tag_line():
                 parts = line.get_parts_with_indexes()
                 text_parts = next_line.get_parts_by_indexes([i for i, _ in parts], False)
                 chord_parts = line.get_parts_by_indexes([i for i, _ in parts], False)
