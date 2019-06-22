@@ -1,18 +1,18 @@
-[capo3]
+[capo4]
 
       F          Am  B          Am
 I see trees of green, red roses too
 Gm7         F     A7          Dm
  I see them bloom, for me and you
-      C#              Gm7/C   C7         F   Faug Bmaj7 _______
-And I think to myself, what a wonderful world _____C7
+      C#              Gm7/C   C7         F   F5+ Bmaj7
+And I think to myself, what a wonderful world ____C7
 
 I see skies of blue and clouds of white
 The bright blessed day, the dark sacred night
                                              B | B F
 And I think to myself, what a wonderful world
 
-[chorus]
+[chorus] ______________________________________
     C7                          F
 The colors of the rainbow, so pretty in the sky
 Are also on the faces of people goin' by
