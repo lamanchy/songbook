@@ -1,19 +1,19 @@
 [bridge]
 [2x]
-Emadd9 Em [2x]
-Dsus2 Dm [2x]
+Asus2 Am [2x]
+Gsus2 Gm [2x]
 
-    Emadd9
+    Asus2
 Hey you, out there in the cold
-                                     Hm
+                                     Em
 Getting lonely, getting old, can you feel me
-    Emadd9
+    Asus2
 Hey you, standing in the aisles
-                                           Hm
+                                           Em
 With itchy feet and fading smiles, can you feel me
-D                                         G D C
+G                                         C G F
  Hey you, don't you help them to bury the l-i-ight
-Hm            Am         Em
+Em            Dm         Am
  Don't give in without a fight
 
 [bridge]
@@ -25,14 +25,14 @@ Waiting for someone to call out, would you touch me
 Hey you, would you help me to carry the stone
 Open your heart, I'm coming home
 
-[solo] Am 4x Em 4x [3x]
+[solo] Dm 4x Am 4x [3x]
 
 [chorus]
-C           D      G  D C
+F           G      C  G F
  But it was only a fantasy
 The wall was too high, as you can see
 No matter how he tried he could not break free
-                            Em
+                            Am
 And the worms ate into his brain
 
 [bridge]

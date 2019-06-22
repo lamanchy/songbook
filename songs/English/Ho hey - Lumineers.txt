@@ -6,7 +6,7 @@ C                               Csus4
  I've been sleeping here instead
 C                            Csus4
  I've been sleeping in my bed
-Am              G
+Am               G
  Sleeping in my bed
 
 C Csus4 [2x]
@@ -20,7 +20,7 @@ But I can write a song
 [chorus]
               Am                   G
 I belong with you, you belong with me
-               C
+            C
 You're my sweetheart
               Am                   G
 I belong with you, you belong with me
@@ -31,16 +31,19 @@ C Csus4 [2x]
 I don't think you're right for him
 Think of what it might've been if you
 Took a bus to chinatown
-I'd be standing on canal and Bowery
-She'd be standing next to me
+I'd be standing on canal
+Am         G C
+ And Bowery
+Am                           G C
+ She'd be standing next to me
 
 [chorus]
 
-    F        G
+   F        G
 And love, we need it now
-      F        G
+     F        G
 Let's hope for some
-    F         G
-Cuz oh, we're bleeding out
+      F        G
+'Cause oh, we're bleeding out
 
 [chorus]

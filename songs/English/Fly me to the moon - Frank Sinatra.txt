@@ -1,7 +1,7 @@
 [capo5]
 
-Am7             Dm7               G7          Cmaj7
-Fly me to the moon and let me play among the stars _C7
+Am7            Dm7           G7           Cmaj7 C7
+Fly me to the moon, let me play among the stars
 Fmaj7            Ddim             E7           Am7 A7
  Let me see what spring is like on Jupiter and Mars
    Dm7         G7       Em  A7
@@ -19,5 +19,7 @@ In other words, I love you
 Fill my heart with song and let me sing forever more
 You're all that I long for, all I worship and do adore
 In other words, please be true
-   Dm7         G7  F7          A7 Gm G       Cmaj7
-In other words, in other words, __I _love you
+   Dm7         G7  F7         A7
+In other words, in other words
+Gm G       Cmaj7
+I _love you
