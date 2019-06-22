@@ -1,5 +1,6 @@
 [capo3]
 
+[verse1]
 Em             D          G
 A te Rehradice na pěkný rovině
 A          Hm    Em      A D
@@ -19,6 +20,4 @@ Proč by neplakaly, když srdénko bolí
 Musijó zaplakat šohajovi kvůli
 Kvůli šohajovi
 
-A te Rehradice na pěkný rovině
-Teče tam voděnka dolů po dědině
-Je pěkná, je čistá
+[verse1]
