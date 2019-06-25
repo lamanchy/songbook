@@ -17,7 +17,6 @@ I'm gonna keep on, I'm gonna keep on loving you
                        C9
 Till the day that I die
 
-[chorus]
 F              G              C    C9
  They tried to break up our romance
 F            G       C
@@ -32,7 +31,6 @@ And only true love can make it stop
 I'm gonna keep on, I'm gonna keep on loving you
 Till the day that I die
 
-[ending]
             F          G                  Am Fm6
 Oh, they're envious of everything that we do
                      C
@@ -43,6 +41,7 @@ When you love someone
 And that someone and that someone
         C       C9
 Really loves you
+
 [3x]
          F
 And that someone and that someone
