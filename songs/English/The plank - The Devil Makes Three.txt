@@ -1,4 +1,4 @@
-[capo4]
+[capo5]
 
 [solo] Em | Em | C7 Cmaj7 | H7sus4 [2x]
 
@@ -23,14 +23,13 @@ To all our enemies, we'll see you in hell
 We're gonna walk 'em off the plank into the wishing well
         Em
 Down to Davy Jones' locker where the fishes sleep
-           H7sus4                      C7          H7sus4
+           H7sus4                      C7           H7sus4
 I won't be praying for you so don't be praying for me
 To all our enemies, we'll see you in hell
 We're gonna walk 'em off the plank into the wishing well
 Down to Davy Jones' locker where the fishes sleep
-           H7sus4
 I won't be praying for you
-            C7                H7sus4        Em
+            C7                H7sus4       Em
 So don't be praying, don't be praying for me
 
 [solo]

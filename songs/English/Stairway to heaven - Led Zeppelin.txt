@@ -50,7 +50,7 @@ Dsus2 D Dsus4 [3x] D | C Cadd9 C | C Cadd9 C
 Dsus2 D Dsus4 [3x] D | C Cadd9 C | G
 [solo] Am | G | F | F [12x]
 
-Am         G                  F G
+Am         G                 F  G
  And as we wind on down the road
 Our shadows taller than our soul
 There walks a lady we all know
@@ -63,5 +63,5 @@ Am       G               F
  To be a rock and not to roll
 
 Am | G | F | F [4x]
-                   G            Am
+          F        G            Am
 And she’s buying a stairway to heaven

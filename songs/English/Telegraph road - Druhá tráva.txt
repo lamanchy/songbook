@@ -15,7 +15,7 @@ Jenže za ním jdou další a ti umí víc, vázaný krovy a zdi z vepřovic
 A do zlatejch polí a bučení krav, po nějaký době zní telegraf
 
 A už je tu kostel a konečně most a železná ruda a zločinnost
-                                  F                              Am
+                                  F                             Am
 A okresní město má okresní soud a ta stará trať jméno Telegraf Road
 
 [solo1] [bridge]
@@ -67,5 +67,5 @@ F            C      G
  A chtěl bych zapomenout
    Em                Am
 Na všechny ty zákazy vjezdu, který jsou
-      F                     Am
+        F                  Am
 Rozsetý, po celý Telegraf Road

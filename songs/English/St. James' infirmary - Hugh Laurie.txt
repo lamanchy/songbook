@@ -2,7 +2,7 @@
 Am | C | D | F [3x]
 Am | F | E | E
 
-Am          D            Am
+Am          D             Am
  I went down to St James infirmary
 Am  F          E
  Saw my baby there
