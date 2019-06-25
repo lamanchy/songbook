@@ -1,12 +1,10 @@
-[capo3]
-
-       G    C      G
+       C    F      C
 Dál za vozem spolu šlapem
-      C           G
+      F           C
 Někdo rád a někdo zmaten
-       C           Hm
+       F           Em
 Kdo se vrací, není sám
-      Am                C           G      C    G
+      Dm                F           C      F    C
 Je to věc, když pro nás voní, z hor divokej tymián
 
 Léto, zůstaň dlouho s námi
@@ -15,9 +13,9 @@ Až po okraj naplň džbán
 Je to věc, když pro nás voní, z hor divokej tymián
 
 [chorus]
-    C             G              C        Hm7
+    F             C              F        Em7
 Podívej, jak málo stačí, když do vázy natrhám
-      Am         C           G      C    G
+      Dm         F           C      F    C
 Bílou nocí k milování, z hor divokej tymián
 
 Dál za vozem trávou, prachem
