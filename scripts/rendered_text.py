@@ -4,6 +4,7 @@ from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_max_font_size, get_font
 from pil_quality_pdf.rendering import mm_to_px
+from scripts.chord import Chord
 from scripts.song_text import SongText
 
 
@@ -20,8 +21,9 @@ class RenderedText(object):
     max_height = mm_to_px(page_size[1] - 4.5 * delta)
     text_pos = mm_to_px(delta, 3 * delta)
 
-    def __init__(self, text, min_font_size, font_size=text_font_size):
+    def __init__(self, text, min_font_size, transposed_by, font_size=text_font_size):
         self.text = SongText(None, text)
+        self.transposed_by = transposed_by
         self.font_size, self.problems = get_max_font_size(
             self.draw, self.text.get_text_to_size(), self.max_width, self.max_height, font_size,
             min_font_size=min_font_size)
@@ -44,6 +46,9 @@ class RenderedText(object):
         line_height = draw.textsize("A", font)[1] + spacing
         x = y = 0
         disable_x_reset = False
+
+        help_tone_font = get_font(get_max_font_size(draw, "A", space_size, None, self.font_size)[0])
+        chords = set()
 
         if len(lines) > 0 and lines[0].text.startswith("[capo"):
             capo_font = get_font(self.list_font_size)
@@ -121,6 +126,14 @@ class RenderedText(object):
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y + line_height), text, font=font,
                               fill=(0, 0, 0))
 
+                    chord = chord.strip()
+                    if len(chord) > 0:
+                        if Chord.is_chord(chord):
+                            chords.add(str(Chord(chord).tone))
+                        # draw.text((self.text_pos[0] + x + extra + chord_size,
+                        #            self.text_pos[1] + y),
+                        #           str(chord.tone), font=help_tone_font, fill=(0, 0, 0))
+
                     extra += dx
 
                 y += line_height
@@ -130,3 +143,5 @@ class RenderedText(object):
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y), line.text, font=font, fill=(0, 0, 0))
 
             y += line_height
+
+        print("chords:", len(chords), chords)

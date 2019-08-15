@@ -8,6 +8,7 @@ class SongText(object):
     def __init__(self, path=None, text=None):
         self.text = text
         self.path = path
+        self.transposed_by = 0
         if path is not None:
             with open(path, "r", encoding="UTF-8") as f:
                 self.text = f.read()
@@ -42,6 +43,7 @@ class SongText(object):
 
     def transpose(self, steps=1):
         lines = self.get_lines()
+        self.transposed_by += steps
 
         for i, line in enumerate(lines):
             next_line = None if i + 1 == len(lines) else lines[i + 1]
@@ -145,11 +147,13 @@ class SongText(object):
 
         return self.join_lines(res)
 
-    def remove_capo(self):
+    def process_capo(self, no_capo):
         if self.text.startswith("[capo"):
             steps = int(self.text[5:self.text.index("]")])
-            self.text = self.text.split("\n", 1)[1]
-            if self.text.startswith("\n"):
+            self.transposed_by -= steps
+            if no_capo:
                 self.text = self.text.split("\n", 1)[1]
+                if self.text.startswith("\n"):
+                    self.text = self.text.split("\n", 1)[1]
 
-            self.transpose(steps)
+                self.transpose(steps)

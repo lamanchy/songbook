@@ -20,8 +20,7 @@ class RenderedSong(object):
         self.font_size, self.texts = self.get_best_configuration()
 
     def get_best_configuration(self):
-        if self.no_capo:
-            self.song.text.remove_capo()
+        self.song.text.process_capo(self.no_capo)
 
         parts = self.song.text.text.split("\n\n")
         variations = []
@@ -30,14 +29,14 @@ class RenderedSong(object):
             split_index = len(parts) - split_index
             first, second = "\n\n".join(parts[:split_index]), "\n\n".join(parts[split_index:])
 
-            first = RenderedText(first, best - 1)
-            second = RenderedText(second, best - 1)
+            first = RenderedText(first, best - 1, self.song.text.transposed_by)
+            second = RenderedText(second, best - 1, self.song.text.transposed_by)
             font_size = min(first.font_size, second.font_size)
             best = max(best, font_size)
             if font_size < best:
                 continue
-            first = RenderedText(first.text.text, best - 1, font_size + 1)
-            second = RenderedText(second.text.text, best - 1, font_size + 1)
+            first = RenderedText(first.text.text, best - 1, self.song.text.transposed_by, font_size + 1)
+            second = RenderedText(second.text.text, best - 1, self.song.text.transposed_by, font_size + 1)
             first.font_size = second.font_size = font_size
 
             if len(second.text.text) == 0:
