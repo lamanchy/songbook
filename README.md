@@ -7,6 +7,8 @@ check X9 vs Xadd9 chords
 capo table?
 guitar/uke,czech/english,A4/A5/A6,web/print
 andel xindl x
+dumb ways to die
+nohavica detske
 ```
 
 Manual check:
