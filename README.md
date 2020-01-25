@@ -9,6 +9,14 @@ guitar/uke,czech/english,A4/A5/A6,web/print
 andel xindl x
 dumb ways to die
 nohavica detske
+nohavica
+ zajíci
+ šneček
+ afričančata
+ můj pes
+ gronska pisnicka
+ kapr
+ telatko oblibene
 ```
 
 Manual check:
