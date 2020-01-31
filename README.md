@@ -8,6 +8,7 @@ capo table?
 guitar/uke,czech/english,A4/A5/A6,web/print
 andel xindl x
 dumb ways to die
+im on fire
 nohavica detske
 nohavica
  zajíci
