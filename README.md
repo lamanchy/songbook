@@ -9,6 +9,7 @@ guitar/uke,czech/english,A4/A5/A6,web/print
 andel xindl x
 dumb ways to die
 im on fire
+high hopes
 nohavica detske
 nohavica
  zajíci
