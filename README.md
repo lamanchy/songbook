@@ -11,6 +11,7 @@ dumb ways to die
 im on fire
 high hopes
 your mess is mine
+always look on the bright side of life
 nohavica detske
 nohavica
  zajíci
