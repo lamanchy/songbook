@@ -1,3 +1,5 @@
+[capo2]
+
 Em           Am            D                   G  D/F#
  Talk to me softly, there's something in your eyes
 Don't hang your head in sorrow and please don't cry
@@ -21,7 +23,8 @@ Give me a kiss before you, tell me goodbye
 Don't you take it so hard now
 And please don't take it so bad
 I'll still be thinkin' of you
-And the times we had, baby
+                  G D/F# Em D
+And the times we had,       baby
 
 [chorus]
 And don't you cry tonight [2x]
@@ -30,9 +33,9 @@ And don't you cry tonight
 
 [solo]
 Am C | D Em D
-C D | Em D
-C D | H C
 C D | Em
+C D | H C
+C D | Dsus2
 
 [bridge]
 Am             D     G       D/F#   Em
