@@ -1,11 +1,9 @@
-[capo3]
-
 [verse1]
-Em             D          G
+Am             G          C
 A te Rehradice na pěkný rovině
-A          Hm    Em      A D
+D          Em    Am      D G
 Teče tam voděnka dolů po dědině
-Am   Hm      Em
+Dm   Em      Am
 Je pěkná, je čistá
 
 A po tej voděnce drobný rebé skáčó

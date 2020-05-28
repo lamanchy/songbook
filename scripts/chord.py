@@ -15,7 +15,9 @@ class Chord(object):
         "4,8,12": "minmaj7",
         "5,8,10": "6",
         "4,8,10": "m6",
+        "2,5,8,11": "7b9",
         "3,5,8,10": "6add9",
+        "4,5,8,11": "7#9",
         "8": "5",
         "3,5,8,11": "9",
         "3,4,8,11": "m9",
@@ -45,6 +47,12 @@ class Chord(object):
         self.has_5 = True
         self.is_5_lowered = False
         self.is_5_raised = False
+        self.is_9_lowered = False
+        self.is_9_raised = False
+        self.is_11_lowered = False
+        self.is_11_raised = False
+        self.is_13_lowered = False
+        self.is_13_raised = False
         self.has_7 = False
         self.is_7_raised = False
         self.has_9 = False
@@ -54,7 +62,7 @@ class Chord(object):
         try:
             self.parse(chars)
         except ValueError as e:
-            raise ValueError(f"error parsing chord {chars}, \n\n{e.args[0]}")
+            raise ValueError(f"error parsing chord {chars}, \n\n{e.args[0]}", e)
         except UnknownChordError as e:
             raise UnknownChordError(f"{e.args[0]}\n\nCan parse {chars}, but dont know the chord, add it.")
 
@@ -63,9 +71,10 @@ class Chord(object):
         if self.has_3: res.append(4 if self.is_moll else 5)
         if self.has_5: res.append(7 if self.is_5_lowered else 9 if self.is_5_raised else 8)
         if self.has_7: res.append(12 if self.is_7_raised else 11)
-        if self.has_9: res.append(3)
-        if self.has_11: res.append(6)
-        if self.has_13: res.append(10)
+        if self.has_9: res.append(2 if self.is_9_lowered else 4 if self.is_9_raised else 3)
+        if self.has_11: res.append(5 if self.is_11_lowered else 7 if self.is_11_raised else 6)
+        if self.has_13: res.append(9 if self.is_13_lowered else 11 if self.is_13_raised else 10)
+        res = list(set(res))
         res.sort()
         res = [str(i) for i in res]
         return ",".join(res)
@@ -103,8 +112,26 @@ class Chord(object):
     def lowered5(self):
         self.is_5_lowered = True
 
+    def lowered9(self):
+        self.is_9_lowered = True
+
+    def lowered11(self):
+        self.is_11_lowered = True
+
+    def lowered13(self):
+        self.is_13_lowered = True
+
     def aug(self):
         self.is_5_raised = True
+
+    def raised9(self):
+        self.is_9_raised = True
+
+    def raised11(self):
+        self.is_11_raised = True
+
+    def raised13(self):
+        self.is_13_raised = True
 
     def maj7(self):
         self.is7()
@@ -149,8 +176,8 @@ class Chord(object):
         (["minmaj", "mm7"], minmaj),
         (["dimi7", "dim7", "°7"], dim7),
         (["dimi", "dim", "°"], dim),
-        (["maj7", "maj", "△7"], maj7),
         (["maj9", "△9"], maj9),
+        (["maj7", "maj", "△7"], maj7),
         (["no3"], no3),
         (["7+5", "7#5"], lambda s: [Chord.is7(s), Chord.aug(s)]),
         (["7-5", "7b5"], lambda s: [Chord.is7(s), Chord.lowered5(s)]),
@@ -161,6 +188,8 @@ class Chord(object):
         (["5"], no3),
         (["6"], add13),
         (["7"], is7),
+        (["#9"], lambda s: [Chord.is9(s), Chord.raised9(s)]),
+        (["b9"], lambda s: [Chord.is9(s), Chord.lowered9(s)]),
         (["9"], is9),
         (["11"], is11),
         (["13"], is13),
@@ -183,14 +212,19 @@ class Chord(object):
 
         tone, chars = chars[0], chars[1:].lower()
 
-        Tone(tone)  # just optimisation
+        if len(chars) > 0:
+            if chars[0] in "#b":
+                tone += chars[0]
+                chars = chars[1:]
 
-        for marks, parser in self.parsers:
-            chars = self.find_mark(chars, marks, parser)
-            if len(chars) == 0:
-                break
+            Tone(tone)  # just optimisation
 
-        tone += chars
+            for marks, parser in self.parsers:
+                chars = self.find_mark(chars, marks, parser)
+                if len(chars) == 0:
+                    break
+
+            tone += chars
         self.tone = Tone(tone)
 
         if self.get_ints() not in self.chord_dictionary:
@@ -230,7 +264,7 @@ if __name__ == "__main__":
         ["7", "dur7"],
         ["m7", "min7", "mol7", "mi7"],
         ["maj7", "△7", "maj"],
-        ["minmaj", "mM7"],
+        ["minmaj7", "mM7"],
         ["6"],
         ["m6", "min6", "mol6", "mi6"],
         ["6add9", "6/9"],
@@ -246,7 +280,11 @@ if __name__ == "__main__":
         ["7b5", "7-5"],
         ["7#5", "7+5", "aug7"],
         ["sus4", "4"],
+        ["7sus4"],
+        ["7#9"],
+        ["7b9"],
         ["sus2", "2"],
+        ["7sus2"],
         ["dim", "°", "dimi"],
         ["dim7", "°7", "dimi7"],
         ["m7b5", "ø"],
