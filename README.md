@@ -2,27 +2,9 @@
 
 Songs to add: 
 ```
-just let them talk ending
 check X9 vs Xadd9 chords
 capo table?
 guitar/uke,czech/english,A4/A5/A6,web/print
-andel xindl x
-Between The Bars
-https://pisnicky-akordy.cz/hana-hegerova/ceresne#
-dumb ways to die
-im on fire
-high hopes
-your mess is mine
-always look on the bright side of life
-nohavica detske
-nohavica
- zajíci
- šneček
- afričančata
- můj pes
- gronska pisnicka
- kapr
- telatko oblibene
 ```
 
 Manual check:
