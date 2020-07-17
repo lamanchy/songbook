@@ -28,14 +28,14 @@ Sec hadry mordie a na pět klení vod ká
 Ať nikdy nezkalí se, děj se vůle, stříbro s cínem
 Am         D              G    H7
  Ať příští jitra tvá jsou jasná
-         Em           H7         Em      E7/G
 Tak jako slunce na vodě a jak ta voda s vínem
-Am           D            G
- Jak hvězdy, co mi choděj do sna
+Jak hvězdy, co mi choděj do sna
+
+[solo]
 
 Za oknem fuchsie, tak bičav mange fotka
 Nemášli, kup si je, až luna vlasy protká
 Za oknem fuchsie a jedna píseň krotká
 Svátek má Žofie a ta má v těle šotka
 
-[chorus] [2x]
+[chorus]
