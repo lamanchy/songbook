@@ -1,4 +1,4 @@
-E7 | E E7/G A7 B7 A7 E7
+E7 | E E7/G A7 H7 A7 E7
 
 It might seem crazy what I'm about to say
 Sunshine she's here, you can take a break
@@ -8,7 +8,7 @@ With the air, like I don't care baby by the way
 [chorus]
             Cmaj7
 Because I'm happy
-             Bm7              E11             E7
+             Hm7              E11             E7
 Clap along if you feel like a room without a roof
 Because I'm happy
 Clap along if you feel like happiness is the truth
