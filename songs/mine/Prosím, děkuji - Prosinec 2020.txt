@@ -18,18 +18,25 @@ Děkuji za ruku, v potoku tonoucí
 Nevzrušíš kolemjdoucí, prosím, děkuji
 Prosím, děkuji
 
+[bridge]
+C                Dm
 Aby ti do smíchu nebylo
+        Am             A
 Polykám bělidlo a bosý chodidlo
+         C             Dm
 Rozrazím o kámen odpolední kafe
+         H7               E7
 Přiložím do kamen zahodím opratě proklatě
 
-[chorus]
+[chorus] [2x]
+
+Děkuji, děkuji, děkuji, prosím [4x]
 
 [bridge]
 Děkuji ti pane, že si tu pro ostatní, prosím
+A že si neomylný, prosím
 Že si tě nepodmaní, prosím
 Že si víš vždycky rady, prosím
-A že si dokonalý, prosím
 A že jsi ještě tady
 Děkuji za víru, z papíru origami hoří
 
