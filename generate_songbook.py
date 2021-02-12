@@ -123,7 +123,11 @@ if __name__ == "__main__":
             draw.text((page.size[0] // 2 - size[0] // 2, page.size[1] // 2),
                       text, font=font, fill=(0, 0, 0))
 
-            text = category.lower()
+            text = [category.lower()]
+            text += ["no_capo" if no_capo else "capo"]
+            if RESOLUTION_DPI != 300:
+                text += ["web"]
+            text = "[" + ",".join(text) + "]"
             font = get_font(RenderedText.author_font_size)
             size = draw.textsize(text, font)
             draw.text((mm_to_px(RenderedText.delta * 1.5),
