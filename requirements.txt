@@ -1,3 +1,4 @@
 pillow
 img2pdf
 czech_sort
+wordcloud

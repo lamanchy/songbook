@@ -14,7 +14,7 @@ from scripts.song import Song
 if __name__ == "__main__":
     no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
-    for category in ["czech", "english"]:
+    for category in ["mine"]:
         songs = Song.load_songs()
         songs = [song for song in songs if song.categories[0] == category]
         for song in songs:
@@ -22,9 +22,9 @@ if __name__ == "__main__":
         c = "en" if category == "english" else "cz"
 
         with PdfWriter("songbook_" + c + ("_for_piano" if no_capo else "") + (
-        "_print" if RESOLUTION_DPI == 300 else "") + "_A4") as f, \
+                "_print" if RESOLUTION_DPI == 300 else "") + "_A4") as f, \
                 PdfWriter("songbook_" + c + ("_for_piano" if no_capo else "") + (
-                "_print" if RESOLUTION_DPI == 300 else "") + "_A5") as f2, \
+                        "_print" if RESOLUTION_DPI == 300 else "") + "_A5") as f2, \
                 PdfWriter("songbook_" + c + ("_for_piano" if no_capo else "") + (
                 "_print" if RESOLUTION_DPI == 300 else "") + "_A6") as f3:
             def write_img(img):
@@ -168,7 +168,7 @@ if __name__ == "__main__":
                     text = "\n".join(pages)
                     draw.text((RenderedText.text_pos[0] * 3 - size, RenderedText.text_pos[1]),
                               text, font=font, fill=(0, 0, 0),
-                              anchor="right", align="right", spacing=list_font_size / 5.0 * ANTIALIASING * ANTIALIASING)
+                              anchor="ra", align="right", spacing=list_font_size / 5.0 * ANTIALIASING * ANTIALIASING)
 
                     write_img(page)
 

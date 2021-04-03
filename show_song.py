@@ -3,7 +3,7 @@ import sys
 from PIL import Image
 
 from pil_quality_pdf.local_quality_constants import ANTIALIASING
-from pil_quality_pdf.rendering import mm_to_px, show
+from pil_quality_pdf.rendering import mm_to_px, show, save
 from scripts.rendered_song import RenderedSong
 from scripts.song import Song
 
@@ -19,3 +19,4 @@ if __name__ == "__main__":
         to_show.paste(page, mm_to_px((297 / 2 * i, 0)))
 
     show(to_show)
+    save("shown.png", to_show)
