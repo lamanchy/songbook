@@ -95,8 +95,8 @@ class Song(object):
             raise ValueError(f"{its_name} of {self.file_name} is empty")
         if name != name.strip():
             raise ValueError(f"there cannot be any spaces around {its_name} '{name}' in {self.file_name}")
-        if not name[0].isupper():
-            raise ValueError(f"first letter of {its_name} {name} must be uppercase")
+        if not name[0].isupper() and not name[0].isdigit():
+            raise ValueError(f"first letter of {its_name} {name} must be uppercase or digit")
         if "  " in name:
             raise ValueError(f"{its_name} {name} cannot contain two spaces next to each other")
 

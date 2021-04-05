@@ -4,8 +4,7 @@ import sys
 from PIL import ImageDraw, Image
 
 from pil_quality_pdf.fonts import get_font, get_max_font_size
-from pil_quality_pdf.local_quality_constants import ANTIALIASING
-from pil_quality_pdf.quality_constants import RESOLUTION_DPI
+from pil_quality_pdf.quality_constants import RESOLUTION_DPI, ANTIALIASING
 from pil_quality_pdf.rendering import PdfWriter, mm_to_px
 from scripts.rendered_song import RenderedSong
 from scripts.rendered_text import RenderedText

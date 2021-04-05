@@ -1,4 +1,4 @@
 pillow
 img2pdf
-czech_sort
+czech-sort
 wordcloud
