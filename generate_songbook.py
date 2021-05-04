@@ -13,12 +13,12 @@ from scripts.song import Song
 if __name__ == "__main__":
     no_capo = len(sys.argv) > 1 and sys.argv[1] == "no_capo"
 
-    for category in ["mine"]:
+    for category in ["czech", "english", "mine"]:
         songs = Song.load_songs()
         songs = [song for song in songs if song.categories[0] == category]
         for song in songs:
             song.categories = song.categories[1:]
-        c = "en" if category == "english" else "cz"
+        c = "en" if category == "english" else "cz" if category == "czech" else "mine"
 
         with PdfWriter("songbook_" + c + ("_for_piano" if no_capo else "") + (
                 "_print" if RESOLUTION_DPI == 300 else "") + "_A4") as f, \
