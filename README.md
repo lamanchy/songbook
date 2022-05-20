@@ -5,8 +5,6 @@ Songs to add:
 check X9 vs Xadd9 chords
 capo table?
 guitar/uke,czech/english,A4/A5/A6,web/print
-this must be the place
-zabili zabili
 blackbird
 vlastovky traband
 imagine
