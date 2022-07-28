@@ -11,4 +11,4 @@ if __name__ == "__main__":
     # for i in range(12):
     #     song.transpose(1)
 
-    Song.transpose(Song.load_song(sys.argv[1]), int(sys.argv[2]))
+    Song.transpose(Song(sys.argv[1], []), int(sys.argv[2]))
