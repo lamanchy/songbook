@@ -9,9 +9,14 @@ blackbird
 vlastovky traband
 imagine
 jennifer lady
-mamuti
-přijdeš domů
+přijdeš domů https://www.youtube.com/watch?v=rVunAlEa6sc
 život
+aurora
+https://www.youtube.com/watch?v=3kB3fA7YEcg
+https://www.youtube.com/watch?v=eVBgTjL2nKE
+https://www.youtube.com/watch?v=Oq_O0_qIsbc
+https://www.youtube.com/watch?v=brPPm1D5O5E
+https://www.youtube.com/watch?v=5CygOVQ2SPE
 ```
 
 Manual check:
