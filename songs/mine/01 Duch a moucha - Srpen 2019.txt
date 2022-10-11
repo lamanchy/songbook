@@ -38,21 +38,13 @@ Pilník skřípe, kostí orá
 Škoda že jsi dávno mrtvá
 Plech se směje, věčně hrdá
 
-        C           G
-A mraky šumí, tráva voní
-      Dm         Am
-Kočka vrní, voda hučí
-      F           C
-Květy voní, mraky hučí
-      G           Dm
-Tráva šumí, květy šustí
-     Am          F
-Voda voní, kočka vrčí
-      C           G
-Tráva hučí, mraky voní
-      Dm           Am
-Květy šustí, tráva hučí
-      F           C
-Kočka voní, mraky vrní
+        C           G           Dm         Am
+A mraky šumí, tráva voní, kočka vrní, voda hučí
+      F           C           G           Dm
+Květy voní, mraky hučí, tráva šumí, květy šustí
+     Am          F           C           G
+Voda voní, kočka vrčí, tráva hučí, mraky voní
+      Dm           Am          F           C
+Květy šustí, tráva hučí, kočka voní, mraky vrní
   G          Am  G Am
 A ty, ty jsi živá

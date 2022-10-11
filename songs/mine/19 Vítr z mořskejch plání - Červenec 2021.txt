@@ -1,21 +1,13 @@
 [chorus]
-A                  D
-Vítr z mořskejch plání
-               A   D
-Ale ty myslíš na ni
-Zpívej do svítání
-Na zemi pod hvězdami
+A                D                    A    D
+Vítr z mořskejch plání, ale ty myslíš na ni
+Zpívej do svítání, na zemi pod hvězdami
 
-C           G           A
- Jsem věšel její spodní prádlo
-              B
-Na slunci tam vlálo
-      F           G
-Vlhký po včerejší noci
-    A
-Teda po vyprání přeci
-Rudý krajky oči svedou
-Někam dolů vedou
+C           G           A                     B
+ Jsem věšel její spodní prádlo, na slunci tam vlálo
+      F           G         A
+Vlhký po včerejší noci, teda po vyprání přeci
+Rudý krajky oči svedou, někam dolů vedou
 Dej si pozor na svou ruku krucipísek
 
 [chorus]
@@ -33,32 +25,23 @@ Už mi stačí, chléb a sůl
 [chorus]
 A ty zas myslíš na ni
 
-Jsem seděl na zemi v kuchyni
-Tys vařila snídani
-Zadek ve výšce mých očí
-Z toho se hlava točí
-Z toho se mi sbihaj chutě
-Pevně oběhnout tě
+Jsem seděl na zemi v kuchyni, tys vařila snídani
+Zadek ve výšce mých očí, z toho se hlava točí
+Z toho se mi sbihaj chutě, pevně oběhnout tě
 Pod poklicí už to buble krásná vůně
 
 [chorus]
 
-Spacák v noci tiše šustí
-K tělu si mě pustíš
-Ruka krouží po tvý kůži
-Po čem asi touží
-Hlavně tiše s představami
-Nejsme tady sami
+Spacák v noci tiše šustí, k tělu si mě pustí
+Ruka krouží po tvý kůži, po čem asi touží
+Hlavně tiše s představami, nejsme tady sami
 Zbytek příště musím ještě na tu tůru
 
 [chorus]
-K mořskejm pláním
-Kde zapomenu na ni
-Kde se zpívá do svítání
-Na zemi pod hvězdami
+K mořskejm pláním, kde zapomenu na ni
+Kde se zpívá do svítání, na zemi pod hvězdami
 
 [bridge]
 
 [chorus]
-Z mořskejch plání
-Na zemi pod hvězdami
+Z mořskejch plání, na zemi pod hvězdami

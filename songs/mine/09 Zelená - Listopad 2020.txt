@@ -1,16 +1,12 @@
+[capo7]
 [14/8]
 
 Cmaj7 Fmaj7
 
-Zelený povlak na polštář
-A mrtvý pták
-Podej nůž, pohlaď moji tvář
-Vsaď si na zázrak
-
-Ztracený střepy života
-Polykám
-Promrzlý, na tebe vzpomínka
-Usínám
+Zelený povlak na polštář a mrtvý pták
+Podej nůž, pohlaď moji tvář, vsaď si na zázrak
+Ztracený střepy života, polykám
+Promrzlý, na tebe vzpomínka, usínám
 
 [bridge]
   Am              G
@@ -35,14 +31,10 @@ Možná stanu se milencem
 A piliny vymetem koštětem našich vzpomínek
 Ale jenom těch dobrejch
 
-Svítání
-Prsty v duši mý
-Myšlenky rozhání
-Tvoje klíční kosti
-Tak nestůj a nemysli
-Slov bylo dosti
-A jestli teď odejdeš
-Tak prosím, prosím, bez lítosti
+Svítání, prsty v duši mý
+Myšlenky rozhání, tvoje klíční kosti
+Tak nestůj a nemysli, slov bylo dosti
+A jestli teď odejdeš, tak prosím, prosím, bez lítosti
 
 [bridge]
 A přece vím, že žár vrhá stín

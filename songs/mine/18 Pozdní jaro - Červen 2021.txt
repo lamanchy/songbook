@@ -1,19 +1,29 @@
 [capo2]
 
+G C G C
+
 Pozdní jaro, brzký léto, láká tě to ven
 Tak krosnu vem, mám volnej den
 Na slunci je vedro, propocený tělo chce
 Zchladit se v horským potoce
-Čas s tebou uteče jak voda
+Dmaj11          C
+ Čas s tebou uteče jak voda
+      Dmaj11   G
 A najednou je večer
 
 [chorus]
-A jak počítám, už nám nezbývá
+G          H7               C
+ A jak počítám, už nám nezbývá
+        Dsus2
 Cesta jediná na na nádraží
 Vlak vyráží a se vší kuráží
+                             Em
 Oči ti zazá—říkalas že jsi jiná
-Že se ti těžko usíná, když nejsi nahá
+C         A        Cadd9/G            G
+ Že se ti těžko usíná, když nejsi nahá
+Dmaj11     C
 Za koho mě máš studený nohy
+   Dmaj11      G
 No co se dělat dá
 
 [chorus]
@@ -45,8 +55,4 @@ Trochu ledu v sodovce
 Čas s tebou uteče jak voda
 A najednou je večer
 
-[chorus]
-A jak počítám, už nám nezbývá
-Cesta jediná na na nádraží
-Vlak vyráží a se vší kuráží
-Oči ti zazáří
+[chorus, but shorter]

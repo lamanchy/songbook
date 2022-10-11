@@ -27,9 +27,8 @@ Když tě ráno ptáci vzbudí
 Fmaj7 F# G G#
 
 [chorus]
-Amaj7  Dmaj7
- On ví, on to vidí
-On ví, on to cítí
+Amaj7  Dmaj7       Amaj7  Dmaj7
+ On ví, on to vidí, on ví, on to cítí
     E7
 Ale ho to nezajímá, duše líná, mysl křivá
 Amaj7
@@ -38,11 +37,13 @@ Amaj7
 A když ti z rukou všechno padá
 Když protivnej seš kdekomu
 A když sázka je prohraná, rada drahá
-       G7               Dm7     C6add9     Hm7b5
-Taškou praštím o zem, zbořím oponu, pominu pomluvu
-   A7sus4          G7          F6             E7#9
-Až slunce vyjde strachy, naval prachy, mír a lásku taky
-Dm7         C6add9          Hm7b5   A7sus4      G7         F6
-Na zakázku, jen jim vytři zraky a modli se, nebojím se o tebe
-   E7#9
-Že půjdeš do nebe
+       G7             Dm7       C6add9
+Taškou praštím o zem, zbořím oponu
+       Hm7b5       A7sus4       G7
+Pominu pomluvu, až slunce vyjde strachy
+      F6            E7#9        Dm7
+Naval prachy, mír a lásku taky, na zakázku
+C6add9        Hm7b5     A7sus4
+Jen jim vytři zraky a modli se
+    G7         F6     E7#9
+Nebojím se o tebe, že půjdeš do nebe

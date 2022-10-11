@@ -1,5 +1,7 @@
 [capo4]
 
+E Asus2
+
 Tvou kůží sténám
 Svékám tě tuží
 Netuší kam vrhá tě
@@ -8,6 +10,8 @@ Do očí ztratíš se nahá
 Celá ruka hledá kde něha
 Mluví z tvojí duše voní
 
+H A
+
 Do ucha šeptám, líbám
 Celá křehká
 Tváře hřejí ti zamrazí
@@ -15,14 +19,23 @@ V zápěstí hladí boky vábí
 Rty do dlaní, rty na přání
 Stydký kosti znenadání není dosti
 
-[chorus]
-Déšť na nás padá
-Mokrá tráva zatím stačí
-Pro tvý záda touhy plny oči
-Stehna kolem těla
-Celá ses chvěla
+H A
 
-Ranní rosou chodíš bosa
+[chorus]
+Amaj7 C#m7        Ab
+ ______Déšť na nás padá
+      A           H
+Mokrá tráva zatím stačí
+        Ab         C#
+Pod tvý záda touhy plný oči
+A
+Stehna kolem těla
+E Asus2    H
+ __Celá ses chvěla
+
+H                   A
+ Ranní rosou chodíš bosa
+                 E
 Slož hlavu na má prsa
 Na co čeká, proč nelíbá
 Mě tvá pusa

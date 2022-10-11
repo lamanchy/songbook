@@ -1,8 +1,12 @@
 [capo4]
 
-Tři přání na počkání
-V břiše kručí, kdo jen tuší
+Em         Hm7
+ Tři přání na počkání
+Em              Hm7
+ V břiše kručí, kdo jen tuší
+   C#m7b5   Hm7
 Co duše vlčí
+   C#m7b5     H7
 Si asi přála, takhle z rána
 
 Sním kus žrádla, jak se sluší
@@ -12,12 +16,15 @@ Se nepoučí moje hlava
 
 [chorus]
 [2x]
-Ještě dejchám dál
-Ještě dejchám dál, na na na na na
+Em     G        A Asus4
+ Ještě dejchám dál
+Em     C        Hm7 H7
+ Ještě dejchám dál, na na na na na
 
-A až ji opustím
-Možná mi odpustí
-
+Am7   D7   G
+ Až ji opustím
+Am7      D7   G  H7
+ Možná mi odpustí
 Na na na
 
 Tvoje oči mě zaskočí

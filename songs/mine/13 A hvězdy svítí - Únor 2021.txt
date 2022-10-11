@@ -1,32 +1,29 @@
-A hvězdy svítí
-I když přes mraky je nevididíš
-Však počkej chvíli
+[capo5]
 
-Měsíčku bílý
-Pomoz jí prosím, až uvidíš
+Cmaj7sus2 Gadd9 Fmaj9        Gadd9        Cmaj7sus2
+ A hvězdy svítí, i když přes mraky je nevidíš
+Však počkej chvíli
+Měsíčku bílý, pomoz jí prosím, až uvidíš
 Že nemá síly
 
-Zítra se přece možná zase potkáme
-Když nevěříš, počkej a uvidíš
+[chorus]
+Cmaj7sus2 Hm7         A7      A7sus4 A7
+ Zítra se přece možná zase potkáme
+         Gadd9 Fmaj9
+Když nevěříš
+Cmaj7sus2   Gadd9 Fmaj9 Em7
+Počkej a uvidíš
 
-Hlavu v mém klíně
-Usla jsi klidně, maličká
+Hlavu v mém klíně, usla jsi klidně, maličká
 Nemluv o vině
-
-Hlavu ve víně
-Opilá byla, včelička
+Hlavu ve víně, opilá byla, včelička
 Po medovině
 
-Zítra se přece možná zase potkáme
-Když nevěříš, počkej a uvidíš
+[chorus]
 
-Na konci cesty
-Až vyjde slunce, po ránu
+Na konci cesty, až vyjde slunce, po ránu
 Uvolním pěsti
-
-Až budem šťastni
-Až budu vlastnit zahradu
+Až budem šťastni, až budu vlastnit zahradu
 Na konci cesty, po ránu
 
-Zítra se přece možná zase potkáme
-Když nevěříš
+[chorus, shorter]
