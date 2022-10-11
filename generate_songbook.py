@@ -61,6 +61,12 @@ class SongbookGenerator:
 
                 self.write_page(page)
 
+    @staticmethod
+    def remove_index(title):
+        if title[0].isdigit() and title[1].isdigit() and title[2] == ' ':
+            title = title[3:]
+        return title
+
     def get_songs_list(self, written_songs):
         written_songs.sort(key=lambda w: w[0].get_sort_key())
         written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1])), written_songs))
@@ -72,7 +78,7 @@ class SongbookGenerator:
                 if len(list_songs) > 0:
                     list_songs.append(("", ""))
                 list_songs.append(("   " + category.upper(), ""))
-            list_songs.append(("   " + written[1], written[2]))
+            list_songs.append(("   " + self.remove_index(written[1]), written[2]))
         return list_songs
 
     def write_first_page(self):
@@ -119,7 +125,11 @@ class SongbookGenerator:
             if rendered.has_problems():
                 worst.append((rendered.font_size, song.title, rendered.get_problems()))
 
-            if self.keep_order or len(rendered.texts) == 2:
+            if len(rendered.texts) == 2:
+                if self.keep_order and single_song_waiting_for_another:
+                    self.write_song(single_song_waiting_for_another, current_page, written_songs, force_two=True)
+                    single_song_waiting_for_another = None
+
                 self.write_song(rendered, current_page, written_songs)
 
             else:
@@ -174,12 +184,12 @@ class SongbookGenerator:
 
         self.pdf_writer.write(img)
 
-    def write_song(self, rendered, current_page, written_songs):
+    def write_song(self, rendered, current_page, written_songs, force_two=False):
         song = rendered.song
         written_songs.append((song, current_page[0] + 1))
 
         pages = rendered.get_pages()
-        if self.keep_order and len(pages) == 1:
+        if force_two and len(pages) == 1:
             pages.append(Image.new(mode=pages[0].mode, size=pages[0].size, color=(255, 255, 255)))
 
         for page in pages:
