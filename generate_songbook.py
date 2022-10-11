@@ -12,6 +12,7 @@ from scripts.song import Song
 
 class SongbookGenerator:
     def __init__(self, capo_setting: bool, size, category):
+        self.keep_order = category == 'mine'
         self.capo_setting = capo_setting
         self.size = size
         self.category = category
@@ -118,7 +119,7 @@ class SongbookGenerator:
             if rendered.has_problems():
                 worst.append((rendered.font_size, song.title, rendered.get_problems()))
 
-            if len(rendered.texts) == 2:
+            if self.keep_order or len(rendered.texts) == 2:
                 self.write_song(rendered, current_page, written_songs)
 
             else:
@@ -176,7 +177,12 @@ class SongbookGenerator:
     def write_song(self, rendered, current_page, written_songs):
         song = rendered.song
         written_songs.append((song, current_page[0] + 1))
-        for page in rendered.get_pages():
+
+        pages = rendered.get_pages()
+        if self.keep_order and len(pages) == 1:
+            pages.append(Image.new(mode=pages[0].mode, size=pages[0].size, color=(255, 255, 255)))
+
+        for page in pages:
             current_page[0] += 1
             if current_page[0] % 2 == 0:
                 self.write_page_number(current_page, page)
