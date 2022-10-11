@@ -1,3 +1,5 @@
+import logging
+
 from PIL import ImageDraw
 
 from pil_quality_pdf.fonts import get_max_font_size, get_font
@@ -18,6 +20,11 @@ class RenderedSong(object):
         self.song = song
 
         self.font_size, self.texts = self.get_best_configuration()
+
+        if self.has_problems():
+            logging.warning(
+                f"Song {song.title} has too large {self.get_problems()} "
+                f"{self.font_size}/{RenderedText.text_font_size}.")
 
     def get_best_configuration(self):
         self.song.text.process_capo(self.no_capo)
@@ -63,3 +70,6 @@ class RenderedSong(object):
 
     def get_problems(self):
         return ", ".join([", ".join(page.problems) for page in self.texts])
+
+    def has_problems(self):
+        return self.font_size < RenderedText.text_font_size

@@ -144,4 +144,4 @@ class RenderedText(object):
 
             y += line_height
 
-        print("chords:", len(chords), chords)
+        # print("chords:", len(chords), chords)

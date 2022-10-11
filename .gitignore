@@ -1,5 +1,8 @@
 /.idea
 /songbook*
-/_songbook*
+/pdf_writer
+/pdfs
 /venv
 /shown.png
+/to_collate
+/test.png
