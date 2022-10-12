@@ -10,19 +10,19 @@ G                    Cadd9
  Země se točí, ať už člověk křičí
              D
 V pondělí či ve středu
-       Cadd9        H
+       C            H7
 Kdopak slyší kácení pralesu
        C                        G
 Kácení lesů mysli, na co dneska vědci na co
                D
 Přischlý barvy transparentu
-             C                     H
+             C                     H7
 Na co vědci, na co na co zahříváme planetu
               C
 I žába z vody horký vody hodký vody
-D                H
+D                H7
 Vyskočí pod kola mopedu
-             C                   H
+             C                   H7
 Ať už člověk křičí, v pondělí či ve středu
         C         G
 Země se země ze mě křičí
@@ -51,6 +51,15 @@ Nesahej mi na mý ryby, na legendy o kapru
 Na korálový pralesy útesy Sněžku
 Bez sněhu, na naše děti taky vidí
 Taky chtějí planetu, chtějí být hrdí
-Že jsi nestál nežil někde vzadu
+Že jsi nestál nežil nelhal pravdu
 
 [chorus]
+Protože ty můžeš a protože musíš
+Anebo se snad pletu
+A protože zalžeš a protože prosíš
+Já vím, mám tě rád, já tě chápu
+
+I když (ne)můžeš, i když (ne)musíš
+I když se, (ne)nepletu
+I když zalžeš, i když ne ne nepoprosíš
+Stejně furt ničíme planetu
