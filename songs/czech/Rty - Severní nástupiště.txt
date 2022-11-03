@@ -1,6 +1,8 @@
+[capo2]
+
 G        H7             C#m7b5 A7sus2
  Skrzí pleť se linula bouře
-      C       C/H C/A C/F   D
+      C       C/H C/A F     D
 Nikdo neviděl, ________její spadlý slova
 Neviděj svět tak jako já
 Vidím mokrý zábradlí, vidíš ho jinak
@@ -8,14 +10,14 @@ Vidím mokrý zábradlí, vidíš ho jinak
 Vítr jí napínal vrásky, splétal vlasy za uši
 Byla jako hladová, když se za ním otáčela
 Zapletla se s lidmi, co jí připadali jako její oblíbení herci
-                             Asus2b6
+                       C/G   Asus2b6
 A každý slovo je těžký, jako hlína
 
 [chorus]
 [3x]
-C        Dmaj11         Em
+C/G      Dmaj11/A       Em
  Rty máš suché skrej je do mě
-      G            Dmaj11
+      G            Dmaj11/A
 Já ty drobné ranky spolku
 
 Rty máš suché skrej je do mě
