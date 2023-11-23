@@ -40,10 +40,10 @@ class RenderedText(object):
         font = get_font(self.font_size)
         spacing = mm_to_px(self.font_size / 15.)
 
-        hyphen_size = draw.textsize("-", font)[0]
-        space_size = draw.textsize(" ", font)[0]
+        hyphen_size = draw.textbbox((0, 0), "-", font)[2]
+        space_size = draw.textbbox((0, 0), " ", font)[2]
 
-        line_height = draw.textsize("A", font)[1] + spacing
+        line_height = draw.textbbox((0, 0), "A", font)[3] + spacing
         x = y = 0
         disable_x_reset = False
 
@@ -52,7 +52,8 @@ class RenderedText(object):
 
         if len(lines) > 0 and lines[0].text.startswith("[capo"):
             capo_font = get_font(self.list_font_size)
-            width, height = draw.textsize(lines[0].text, capo_font)
+            _, _, width, height = draw.textbbox((0, 0), lines[0].text, capo_font)
+            print(width, height)
             draw.text(
                 (
                     self.text_pos[0] + self.max_width - width - mm_to_px(self.delta) // 2,
@@ -85,7 +86,7 @@ class RenderedText(object):
                 extra = line_height if not next_line.is_text_line() and next_next_line is not None and next_next_line.is_text_line() else 0
                 draw.text((self.text_pos[0] + x, self.text_pos[1] + y + extra), tag, font=font, fill=(0, 0, 0))
                 line.text = line.text[len(tag):]
-                x = draw.textsize(tag, font)[0]
+                x = draw.textbbox((0, 0), tag, font)[2]
                 disable_x_reset = True
                 y -= line_height
 
@@ -105,8 +106,8 @@ class RenderedText(object):
                     while text != text.replace("--", "-"):
                         text = text.replace("--", "-")
 
-                    chord_size = draw.textsize(chord, font)[0]
-                    text_size = draw.textsize(text, font)[0]
+                    chord_size = draw.textbbox((0, 0), chord, font)[2]
+                    text_size = draw.textbbox((0, 0), text, font)[2]
                     dx = max(chord_size, text_size)
                     if i < len(chord_parts) - 1 and \
                             len(text) > 0 and \
@@ -119,7 +120,7 @@ class RenderedText(object):
 
                         if text_parts[i + 1][1][0] == "-":
                             text_parts[i + 1] = (text_parts[i + 1][0], " " + text_parts[i + 1][1][1:])
-                            if text_size + hyphen_size <= dx + draw.textsize(" ", font)[0]:
+                            if text_size + hyphen_size <= dx + draw.textbbox((0, 0), " ", font)[2]:
                                 text += "-"
 
                     draw.text((self.text_pos[0] + x + extra, self.text_pos[1] + y), chord, font=font, fill=(0, 0, 0))
