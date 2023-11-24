@@ -147,13 +147,39 @@ class SongText(object):
 
         return self.join_lines(res)
 
-    def process_capo(self, no_capo):
-        if self.text.startswith("[capo"):
-            steps = int(self.text[5:self.text.index("]")])
-            self.transposed_by -= steps
-            if no_capo:
-                self.text = self.text.split("\n", 1)[1]
-                if self.text.startswith("\n"):
-                    self.text = self.text.split("\n", 1)[1]
 
-                self.transpose(steps)
+    def remove_capo_mark(self):
+        if self.text.startswith("[capo"):
+            self.text = self.text.split("\n", 1)[1]
+            if self.text.startswith("\n"):
+                self.text = self.text.split("\n", 1)[1]
+
+    def process_capo(self, capo_setting):
+        steps = 0
+        if self.text.startswith("[capo"):
+            steps += int(self.text[5:self.text.index("]")])
+
+        if capo_setting == 'guitar':
+            self.transposed_by -= steps
+            return
+
+        if capo_setting == 'piano':
+            self.transposed_by -= steps
+            self.remove_capo_mark()
+            self.transpose(steps)
+            return
+
+        if capo_setting == 'ukulele':
+            steps -= 5
+
+            if steps < 0:
+                steps += 5
+                self.transposed_by -= 7
+                self.transpose(7)
+
+            self.transposed_by -= steps
+            if steps > 0:
+                self.text = f"[capo{steps}]\n" + self.text.split("\n", 1)[1]
+            else:
+                self.remove_capo_mark()
+

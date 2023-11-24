@@ -11,7 +11,7 @@ from scripts.song import Song
 
 
 class SongbookGenerator:
-    def __init__(self, capo_setting: bool, size, category):
+    def __init__(self, capo_setting: str, size, category):
         self.keep_order = category == 'mine'
         self.capo_setting = capo_setting
         self.size = size
@@ -53,7 +53,7 @@ class SongbookGenerator:
                           spacing=list_font_size / 5.0 * ANTIALIASING * ANTIALIASING)
 
                 pages = [x[1] for x in ttw]
-                size = max(map(lambda i: draw.textsize(i, font)[0], pages), default=0)
+                size = max(map(lambda i: draw.textbbox((0, 0), i, font)[2], pages), default=0)
                 text = "\n".join(pages)
                 draw.text((RenderedText.text_pos[0] * 3 - size, RenderedText.text_pos[1]),
                           text, font=font, fill=(0, 0, 0),
@@ -86,22 +86,22 @@ class SongbookGenerator:
         draw = ImageDraw.Draw(page)
         text = "Blonďákův"
         font = get_font(RenderedText.title_font_size * 1.5)
-        size = draw.textsize(text, font)
-        draw.text((page.size[0] // 2 - size[0] // 2, page.size[1] // 2 - size[1] * 1.1),
+        size = draw.textbbox((0, 0), text, font)
+        draw.text((page.size[0] // 2 - size[2] // 2, page.size[1] // 2 - size[3] * 1.1),
                   text, font=font, fill=(0, 0, 0))
         text = "zpěvník"
-        size = draw.textsize(text, font)
-        draw.text((page.size[0] // 2 - size[0] // 2, page.size[1] // 2),
+        size = draw.textbbox((0, 0), text, font)
+        draw.text((page.size[0] // 2 - size[2] // 2, page.size[1] // 2),
                   text, font=font, fill=(0, 0, 0))
         text = [self.category.lower()]
-        text += ["no_capo" if self.capo_setting else "capo"]
+        text += [self.capo_setting]
         if RESOLUTION_DPI != 300:
             text += ["web"]
         text = "[" + ",".join(text) + "]"
         font = get_font(RenderedText.author_font_size)
-        size = draw.textsize(text, font)
+        size = draw.textbbox((0, 0), text, font)
         draw.text((mm_to_px(RenderedText.delta * 1.5),
-                   page.size[1] - mm_to_px(RenderedText.delta * 1.5) - size[1]),
+                   page.size[1] - mm_to_px(RenderedText.delta * 1.5) - size[3]),
                   text, font=font, fill=(0, 0, 0))
         self.write_page(page)
 
@@ -162,7 +162,7 @@ class SongbookGenerator:
 
     def get_songbook_name(self):
         songbook_name = "en" if category == "english" else "cz" if category == "czech" else "mine"
-        songbook_name += "_for_piano" if self.capo_setting else ""
+        songbook_name += f"_for_{self.capo_setting}"
         songbook_name += "_print" if RESOLUTION_DPI == 300 else ""
         songbook_name += f"_{self.size}"
         return f"songbook_{songbook_name}"
@@ -202,16 +202,17 @@ class SongbookGenerator:
         draw = ImageDraw.Draw(page)
         text = f"{current_page[0]}."
         font = get_font(RenderedText.list_font_size)
-        size = draw.textsize(text, font)
-        draw.text((page.size[0] - mm_to_px(RenderedText.delta) - size[0],
-                   page.size[1] - mm_to_px(RenderedText.delta) - size[1]),
+        size = draw.textbbox((0, 0), text, font)
+        draw.text((page.size[0] - mm_to_px(RenderedText.delta) - size[2],
+                   page.size[1] - mm_to_px(RenderedText.delta) - size[3]),
                   text, font=font, fill=(0, 0, 0))
 
 
 if __name__ == "__main__":
     _capo_settings = [
-        False,
-        # True,
+        'guitar',
+        'piano',
+        'ukulele',
     ]
     _sizes = [
         # 'A4',
@@ -219,8 +220,8 @@ if __name__ == "__main__":
         'A6',
     ]
     _categories = [
-        # "czech",
-        # "english",
+        "czech",
+        "english",
         "mine",
     ]
     for capo_setting in _capo_settings:

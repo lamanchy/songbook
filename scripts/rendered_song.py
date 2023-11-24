@@ -15,8 +15,8 @@ class RenderedSong(object):
     author_font_size = RenderedText.author_font_size
     delta = RenderedText.delta
 
-    def __init__(self, song: Song, no_capo=False):
-        self.no_capo = no_capo
+    def __init__(self, song: Song, capo_setting):
+        self.capo_setting = capo_setting
         self.song = song
 
         self.font_size, self.texts = self.get_best_configuration()
@@ -27,7 +27,7 @@ class RenderedSong(object):
                 f"{self.font_size}/{RenderedText.text_font_size}.")
 
     def get_best_configuration(self):
-        self.song.text.process_capo(self.no_capo)
+        self.song.text.process_capo(self.capo_setting)
 
         parts = self.song.text.text.split("\n\n")
         variations = []
