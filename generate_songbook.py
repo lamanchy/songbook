@@ -11,10 +11,9 @@ from scripts.song import Song
 
 
 class SongbookGenerator:
-    def __init__(self, capo_setting: str, size, category):
+    def __init__(self, capo_setting: str, category):
         self.keep_order = category == 'mine'
         self.capo_setting = capo_setting
-        self.size = size
         self.category = category
         self.pdf_writer = None
 
@@ -163,8 +162,6 @@ class SongbookGenerator:
     def get_songbook_name(self):
         songbook_name = "en" if category == "english" else "cz" if category == "czech" else "mine"
         songbook_name += f"_for_{self.capo_setting}"
-        songbook_name += "_print" if RESOLUTION_DPI == 300 else ""
-        songbook_name += f"_{self.size}"
         return f"songbook_{songbook_name}"
 
     def get_songs(self):
@@ -179,9 +176,6 @@ class SongbookGenerator:
         return songs
 
     def write_page(self, img):
-        if self.size == 'A5': img = img.resize(mm_to_px((297 / 2, 210)), resample=ANTIALIASING)
-        if self.size == 'A6': img = img.resize(mm_to_px((210 / 2, 297 / 2)), resample=ANTIALIASING)
-
         self.pdf_writer.write(img)
 
     def write_song(self, rendered, current_page, written_songs, force_two=False):
@@ -214,18 +208,12 @@ if __name__ == "__main__":
         'piano',
         'ukulele',
     ]
-    _sizes = [
-        # 'A4',
-        # 'A5',
-        'A6',
-    ]
     _categories = [
         "czech",
         "english",
         "mine",
     ]
     for capo_setting in _capo_settings:
-        for size in _sizes:
-            for category in _categories:
-                generator = SongbookGenerator(capo_setting, size, category)
-                generator.generate()
+        for category in _categories:
+            generator = SongbookGenerator(capo_setting, category)
+            generator.generate()
