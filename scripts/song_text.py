@@ -13,7 +13,8 @@ class SongText(object):
             with open(path, "r", encoding="UTF-8") as f:
                 self.text = f.read()
 
-        self.parse()
+            if "poems" not in self.path:
+                self.parse()
 
     def get_lines(self):
         return [Line(line) for line in self.text.split("\n")]

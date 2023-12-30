@@ -47,7 +47,8 @@ class Song(object):
         self.validate_file_name()
 
         self.validate_name(self.title, "title")
-        self.validate_name(self.author, "author")
+        if self.author:
+            self.validate_name(self.author, "author")
 
     def validate_file_name(self):
         if not os.path.isfile(self.path):
@@ -56,10 +57,10 @@ class Song(object):
         if not self.file_name.endswith(self.extension):
             raise ValueError(f"{self.file_name} does not end with extension {self.extension}")
 
-        name = self.remove_extension()
-        if name.count(self.separator) != 1:
-            raise ValueError(f"{self.file_name} contains {name.count(self.separator)} separators, "
-                             f"there should be only one '{self.separator}'")
+        # name = self.remove_extension()
+        # if name.count(self.separator) != 1:
+        #     raise ValueError(f"{self.file_name} contains {name.count(self.separator)} separators, "
+        #                      f"there should be only one '{self.separator}'")
 
     def set_file_name(self, title, author):
         self.file_name = title + self.separator + author + self.extension
@@ -85,7 +86,10 @@ class Song(object):
         return os.path.join(self.SONGS_DIR, self.file_name)
 
     def parse_title_and_author(self):
-        return self.remove_extension().split(self.separator)
+        name = self.remove_extension()
+        if self.separator not in name:
+            return [name, '']
+        return name.split(self.separator)
 
     def remove_extension(self):
         return os.path.basename(self.file_name)[:-len(self.extension)]

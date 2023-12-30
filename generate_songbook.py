@@ -62,8 +62,8 @@ class SongbookGenerator:
 
     @staticmethod
     def remove_index(title):
-        if title[0].isdigit() and title[1].isdigit() and title[2] == ' ':
-            title = title[3:]
+        if title[0].isdigit() and title[1].isdigit():
+            title = title[2:].strip()
         return title
 
     def get_songs_list(self, written_songs):
@@ -160,7 +160,7 @@ class SongbookGenerator:
         return list_font_size, num_of_pages
 
     def get_songbook_name(self):
-        songbook_name = "en" if category == "english" else "cz" if category == "czech" else "mine"
+        songbook_name = "en" if category == "english" else "cz" if category == "czech" else category
         songbook_name += f"_for_{self.capo_setting}"
         return f"songbook_{songbook_name}"
 
@@ -205,13 +205,15 @@ class SongbookGenerator:
 if __name__ == "__main__":
     _capo_settings = [
         'guitar',
-        'piano',
-        'ukulele',
+        # 'piano',
+        # 'ukulele',
     ]
     _categories = [
-        "czech",
-        "english",
-        "mine",
+        # "czech",
+        # "english",
+        # "mine",
+        # "carols",
+        "poems",
     ]
     for capo_setting in _capo_settings:
         for category in _categories:

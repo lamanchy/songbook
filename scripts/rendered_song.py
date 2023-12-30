@@ -63,8 +63,9 @@ class RenderedSong(object):
         pages = [text.get_page() for text in self.texts]
         draw = ImageDraw.Draw(pages[0])
         title = self.song.title
-        if title[0].isdigit() and title[1].isdigit() and title[2] == ' ':
-            title = title[3:]
+        if title[0].isdigit() and title[1].isdigit():
+            title = title[2:].strip()
+
         title_size = get_max_font_size(draw, title, self.max_width, None, self.title_font_size)[0]
         draw.text(mm_to_px(self.delta, 1 * self.delta), title, font=get_font(title_size), fill=(0, 0, 0))
         author_size = get_max_font_size(draw, self.song.author, self.max_width, None, self.author_font_size)[0]
