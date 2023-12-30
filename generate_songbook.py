@@ -62,8 +62,8 @@ class SongbookGenerator:
 
     @staticmethod
     def remove_index(title):
-        if title[0].isdigit() and title[1].isdigit():
-            title = title[2:].strip()
+        if title[0].isdigit() and title[1].isdigit() and title[2] == ' ':
+            title = title[3:]
         return title
 
     def get_songs_list(self, written_songs):
