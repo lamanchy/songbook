@@ -106,9 +106,6 @@ class Song(object):
 
     def transpose(self, steps=1):
         self.text.transpose(steps)
-        self.save()
-
-    def save(self):
         self.text.save()
 
     def __str__(self):

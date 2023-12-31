@@ -13,8 +13,10 @@ class SongText(object):
             with open(path, "r", encoding="UTF-8") as f:
                 self.text = f.read()
 
-            if "poems" not in self.path:
-                self.parse()
+            self.parse()
+
+    def is_poem(self):
+        return "/poems/" in self.path
 
     def get_lines(self):
         return [Line(line) for line in self.text.split("\n")]
@@ -37,8 +39,9 @@ class SongText(object):
             self.clear_lines(lines)
             self.basic_formatting(lines)
 
-        self.format_chords(lines)
-        self.basic_formatting(lines)
+        if not self.is_poem():
+            self.format_chords(lines)
+            self.basic_formatting(lines)
 
         return self.join_lines(lines)
 
@@ -62,20 +65,22 @@ class SongText(object):
 
         self.text = self.join_lines(lines)
 
-    @staticmethod
-    def basic_formatting(lines):
+    def basic_formatting(self, lines):
         for i, line in enumerate(lines):
             line.rstrip()
 
             if line.is_text_line():
                 line.replace("  ", " ")
-                line.remove_funny_ending()
+                if not self.is_poem():
+                    line.remove_funny_ending()
                 line.remove_funny_beginning()
-                line.fix_interpunction()
+                if not self.is_poem():
+                    line.fix_interpunction()
                 if i > 0 and not lines[i - 1].justifies_next_spaced():
                     line.lstrip()
 
-                line.upper_first_letter()
+                if not self.is_poem():
+                    line.upper_first_letter()
 
     @staticmethod
     def clear_lines(lines):
