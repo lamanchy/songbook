@@ -69,6 +69,14 @@ class Song(object):
     def title(self):
         return self.parse_title_and_author()[0]
 
+    @property
+    def nice_title(self):
+        title = self.title
+        if title[0].isdigit() and title[1].isdigit():
+            title = title[2:].strip()
+
+        return title
+
     @title.setter
     def title(self, value):
         self.set_file_name(value, self.author)

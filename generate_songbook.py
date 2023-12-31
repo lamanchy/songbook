@@ -60,15 +60,9 @@ class SongbookGenerator:
 
                 self.write_page(page)
 
-    @staticmethod
-    def remove_index(title):
-        if title[0].isdigit() and title[1].isdigit() and title[2] == ' ':
-            title = title[3:]
-        return title
-
     def get_songs_list(self, written_songs):
         written_songs.sort(key=lambda w: w[0].get_sort_key())
-        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].title, str(w[1])), written_songs))
+        written_songs = list(map(lambda w: (" - ".join(w[0].categories), w[0].nice_title, str(w[1])), written_songs))
         category = None
         list_songs = []
         for written in written_songs:
@@ -77,7 +71,7 @@ class SongbookGenerator:
                 if len(list_songs) > 0:
                     list_songs.append(("", ""))
                 list_songs.append(("   " + category.upper(), ""))
-            list_songs.append(("   " + self.remove_index(written[1]), written[2]))
+            list_songs.append(("   " + written[1], written[2]))
         return list_songs
 
     def write_first_page(self):
