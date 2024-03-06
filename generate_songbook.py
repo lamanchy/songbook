@@ -77,17 +77,18 @@ class SongbookGenerator:
     def write_first_page(self):
         page = Image.new("RGB", mm_to_px(RenderedText.page_size), (255, 255, 255))
         draw = ImageDraw.Draw(page)
-        text = "Blonďákův"
+        text = "Blonďákův" if self.category != "poems" else "Blonďákovy"
         font = get_font(RenderedText.title_font_size * 1.5)
         size = draw.textbbox((0, 0), text, font)
         draw.text((page.size[0] // 2 - size[2] // 2, page.size[1] // 2 - size[3] * 1.1),
                   text, font=font, fill=(0, 0, 0))
-        text = "zpěvník"
+        text = "zpěvník" if self.category != "poems" else "básně"
         size = draw.textbbox((0, 0), text, font)
         draw.text((page.size[0] // 2 - size[2] // 2, page.size[1] // 2),
                   text, font=font, fill=(0, 0, 0))
         text = [self.category.lower()]
-        text += [self.capo_setting]
+        if self.category != "poems":
+            text += [self.capo_setting]
         if RESOLUTION_DPI != 300:
             text += ["web"]
         text = "[" + ",".join(text) + "]"
@@ -154,6 +155,9 @@ class SongbookGenerator:
         return list_font_size, num_of_pages
 
     def get_songbook_name(self):
+        if self.category == "poems":
+            return "poems"
+
         songbook_name = "en" if category == "english" else "cz" if category == "czech" else category
         songbook_name += f"_for_{self.capo_setting}"
         return f"songbook_{songbook_name}"
@@ -209,7 +213,9 @@ if __name__ == "__main__":
         # "carols",
         "poems",
     ]
-    for capo_setting in _capo_settings:
-        for category in _categories:
+    for category in _categories:
+        for capo_setting in _capo_settings:
             generator = SongbookGenerator(capo_setting, category)
             generator.generate()
+            if category == "poems":
+                break
