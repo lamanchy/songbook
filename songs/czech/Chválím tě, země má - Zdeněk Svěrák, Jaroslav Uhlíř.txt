@@ -1,15 +1,17 @@
-C           F        C          G
+[capo5]
+
+G           C        G          D
 Chválím tě, země má, tvůj žár i mráz
-C         F       C   G    C
+G         C       G   D    G
 Tvá tráva zelená, dál vábí nás
 
 Máš závoj z oblaků, bílých, jak sníh
 Hvězdo má, bárko zázraků, na nebesích
 
 [chorus]
-        F        C
+        C        G
 Ať před mou planetou
-        F         G
+        C         D
 Hvězdný prach zametou
 
 [verse2]
