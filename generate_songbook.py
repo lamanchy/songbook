@@ -203,15 +203,16 @@ class SongbookGenerator:
 if __name__ == "__main__":
     _capo_settings = [
         'guitar',
-        # 'piano',
-        # 'ukulele',
+        'piano',
+        'ukulele',
     ]
     _categories = [
-        # "czech",
-        # "english",
-        # "mine",
-        # "carols",
+        "czech",
+        "english",
+        "mine",
+        "carols",
         "poems",
+        "kiki",
     ]
     for category in _categories:
         for capo_setting in _capo_settings:
