@@ -56,7 +56,7 @@ class Line(object):
 
     def remove_funny_ending(self):
         while len(self.text) > 0 and self.text[-1] in ",.-!?:_":
-            if self.is_chord_line() and self.text[-1] == "_": break
+            if self.is_chord_line() and self.text[-1] in "_.": break
             self.text = self.text[:-1]
             self.rstrip()
 

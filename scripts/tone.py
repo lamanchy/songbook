@@ -1,5 +1,5 @@
 class Tone(object):
-    tones = "CDEFGABH"
+    tones = "CDEFGABH."
     tone_lowerers = ["b", "es", "s"]
     tone_raisers = ["#", "is"]
     tone_modifiers = tone_lowerers + tone_raisers
